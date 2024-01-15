@@ -28,7 +28,7 @@ political_decisions = {
 		effect = {
 				set_global_flag = checkmate
 				add_accepted_culture = polish
-				prestige = 50
+				prestige = 25
 			}
 		}
 		ChekoHungarian_Empire = {
@@ -58,7 +58,7 @@ political_decisions = {
 			
 				set_global_flag = checkmate
 				add_accepted_culture = hungarian
-				prestige = 50
+				prestige = 25
 						
 			}
 		}
