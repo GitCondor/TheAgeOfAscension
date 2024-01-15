@@ -1,0 +1,9 @@
+owner = UKR
+controller = UKR add_core = PLC
+add_core = UKR
+add_core = UKR
+add_core = CZH add_core = POL
+add_core = RUT
+add_core = PLC
+trade_goods = grain
+life_rating = 10

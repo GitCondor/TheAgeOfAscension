@@ -1,0 +1,27 @@
+owner = PAP
+controller = PAP
+add_core = PAP
+add_core = ITA 
+trade_goods = fruit
+life_rating = 10
+fort = 5
+state_building = {
+		level = 2
+		building = canned_food_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 3
+		building = steel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 4
+		building = machine_parts_factory
+		upgrade = yes
+	}
+		state_building = {
+		level = 2
+		building = artillery_factory
+		upgrade = yes
+	}

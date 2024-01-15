@@ -1,0 +1,8 @@
+
+add_core = CHI
+add_core = GXI
+trade_goods = cotton
+life_ratNET = 32
+
+owner = GXI
+controller = GXI

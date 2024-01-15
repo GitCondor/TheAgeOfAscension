@@ -1,0 +1,8 @@
+
+
+
+controller = JAN
+owner = JAN
+add_core = JAN trade_goods = grain
+life_rating = 10
+colonial = 2

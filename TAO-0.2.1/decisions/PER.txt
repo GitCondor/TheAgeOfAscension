@@ -1,0 +1,206 @@
+political_decisions = {
+	form_persianempire = {
+    picture = persian_empire
+	    potential = {
+		    tag = PER
+			NOT = {
+				exists = PSB
+			}
+		}
+		allow = {
+			war = no
+			KAL = {
+			    all_core = {
+				    owner = {
+					    OR = {
+						    in_sphere = THIS
+						    vassal_of = THIS
+						    tag = THIS
+						}
+					}
+				}
+			}
+			AFG = {
+			    all_core = {
+				    owner = {
+					    OR = {
+						    in_sphere = THIS
+						    vassal_of = THIS
+						    tag = THIS
+						}
+					}
+				}
+			}
+			MAK = {
+			    all_core = {
+				    owner = {
+					    OR = {
+						    in_sphere = THIS
+						    vassal_of = THIS
+						    tag = THIS
+						}
+					}
+				}
+			}
+			AZB = {
+			    all_core = {
+				    owner = {
+					    OR = {
+						    in_sphere = THIS
+						    vassal_of = THIS
+						    tag = THIS
+						}
+					}
+				}
+			}
+			SIN = {
+			    all_core = {
+				    owner = {
+					    OR = {
+						    in_sphere = THIS
+						    vassal_of = THIS
+						    tag = THIS
+						}
+					}
+				}
+			}
+		    #
+		}
+		effect = {
+		    #
+			any_country = {
+				limit = {
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			prestige = 35
+			add_accepted_culture = turkmen
+            add_accepted_culture = baluchi
+            add_accepted_culture = hazara
+            add_accepted_culture = tajik
+            add_accepted_culture = uzbek
+            PER = {
+			    all_core = {
+				    remove_core = PER
+				    add_core = PSB
+				}
+			}			
+			any_owned = {
+			    add_core = PSB
+			}
+			change_tag = PSB
+		}
+	}
+	persian_manifest_destinity = {
+    picture = batalla_epica
+	    potential = {
+		    tag = PSB
+			NOT = {
+				has_country_flag = persian_manifest_destinity
+			}
+		}
+		allow = {
+			war = no
+			romanticism = 1
+			prestige = 50
+			PSB = {all_core={owner={tag=THIS}}}
+		    #
+		}
+		effect = {
+		    #
+            add_accepted_culture = kurdish
+            add_accepted_culture = bedouin
+			GEO = {all_core={add_core=THIS}}
+			IRQ = {all_core={add_core=THIS}}
+			ARM = {all_core={add_core=THIS}}
+			NEJ = {all_core={add_core=THIS}}
+			ABU = {all_core={add_core=THIS}}
+			PON = {all_core={add_core=THIS}}
+			PAN = {all_core={add_core=THIS}}
+			
+			set_country_flag = persian_manifest_destinity
+		}
+	}
+	persian_pax = {
+    picture = enemies
+	    potential = {
+		    tag = PSB
+			NOT = {
+				has_country_flag = persian_pax
+			}
+			has_country_flag = persian_manifest_destinity
+		}
+		allow = {
+			war = no
+			is_greater_power = yes
+			PSB = {all_core={owner={tag=THIS}}}
+		    #
+		}
+		effect = {
+		    prestige = 34
+            add_accepted_culture = armenian
+            add_accepted_culture = turkish
+            add_accepted_culture = north_caucasian
+            add_accepted_culture = georgian
+            add_accepted_culture = misri
+			set_country_flag = persian_pax
+		}
+	}
+	the_big_boys_in_our_borders = {
+    picture = medic_wars
+	    potential = {
+		    tag = PSB
+			NOT = {
+				has_country_flag = the_fourth_medic_war
+			}
+			
+			has_country_flag = persian_pax
+		}
+		allow = {
+			war = no
+			is_greater_power = yes
+			prestige = 30
+			PSB = {all_core={owner={tag=THIS}}}
+		    #
+		}
+		effect = {
+		    prestige = 34
+			TUR = {all_core = {add_core = THIS}}
+			NOG = {all_core = {add_core = THIS}}
+			EGY = {all_core = {add_core = THIS}}
+			set_country_flag = the_fourth_medic_war
+		}
+	}
+the_last_push = {
+    picture = batalla_epica
+	    potential = {
+		    tag = PSB
+			NOT = {
+				has_country_flag = gg_per
+			}
+			
+			has_country_flag = the_fourth_medic_war
+		}
+		allow = {
+			war = no
+			is_greater_power = yes
+			prestige = 30
+			PSB = {all_core={owner={tag=THIS}}}
+		    #
+		}
+		effect = {
+		    prestige = 34
+			YEM = {all_core = {add_core = THIS}}
+			HDJ = {all_core = {add_core = THIS}}
+			GRE = {all_core = {add_core = THIS}}
+			OMA = {all_core = {add_core = THIS}}
+			ETH = {all_core = {add_core = THIS}}
+			CRI = {all_core = {add_core = THIS}}
+			set_country_flag = gg_per
+		}
+	}	
+}

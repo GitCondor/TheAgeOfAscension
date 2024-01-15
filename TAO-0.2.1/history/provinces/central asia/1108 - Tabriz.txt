@@ -1,0 +1,6 @@
+owner = PER
+controller = PER
+add_core = PER
+add_core = AZB add_core = PSB add_core = SIB
+trade_goods = coal
+life_rating = 35

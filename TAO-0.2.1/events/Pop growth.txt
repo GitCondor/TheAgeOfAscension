@@ -1,0 +1,116 @@
+country_event = { 
+       id = 6004
+       title = "pipipipop" 
+       desc = "sexooooo" 
+       picture = "Nile"
+	   trigger = {
+		       OR = { tag = PON tag = PER tag = CAL }
+			   year = 1836
+			   NOT = { has_country_flag = populationamericangrowth }
+	   }
+	   
+	mean_time_to_happen = {
+		days = 1
+	}
+    immediate = {
+		set_country_flag = populationamericangrowth
+    }
+
+option = {
+     name = "dupliquenle el sexo"
+     any_pop = {
+            reduce_pop = 2.2
+     }
+	 add_country_modifier = {
+			name = ponto_growth
+			duration = 2000
+		}
+	 set_country_flag = populationamericangrowth
+}}
+country_event = { 
+       id = 6005
+       title = "pipipipop" 
+       desc = "sexooooo" 
+       picture = "Nile"
+	   trigger = {
+		       tag = TUR
+			   year = 1836
+			   NOT = { has_country_flag = populationamericangrowth }
+	   }
+	   
+	mean_time_to_happen = {
+		days = 1
+	}
+    immediate = {
+		set_country_flag = populationamericangrowth
+    }
+
+option = {
+     name = "dupliquenle el sexo"
+     any_pop = {
+            reduce_pop = 1.3
+     }
+	 add_country_modifier = {
+			name = Kar_growth
+			duration = 1800
+		}
+	 set_country_flag = populationamericangrowth
+}}
+country_event = { 
+       id = 6006
+       title = "pipipipop" 
+       desc = "sexooooo" 
+       picture = "Nile"
+	   trigger = {
+		       tag = NPE
+			   year = 1836
+			   NOT = { has_country_flag = populationamericangrowth }
+	   }
+	   
+	mean_time_to_happen = {
+		days = 1
+	}
+    immediate = {
+		set_country_flag = populationamericangrowth
+    }
+
+option = {
+     name = "dupliquenle el sexo"
+     any_pop = {
+            reduce_pop = 1.8
+     }
+	 add_country_modifier = {
+			name = npe_growth
+			duration = 1800
+		}
+	 set_country_flag = populationamericangrowth
+}}
+country_event = { 
+       id = 6006
+       title = "pipipipop" 
+       desc = "sexooooo" 
+       picture = "Nile"
+	   trigger = {
+		       tag = CAT
+			   year = 1836
+			   NOT = { has_country_flag = populationamericangrowth }
+	   }
+	   
+	mean_time_to_happen = {
+		days = 1
+	}
+    immediate = {
+		set_country_flag = populationamericangrowth
+    }
+
+option = {
+     name = "dupliquenle el sexo"
+     any_pop = {
+            reduce_pop = 1.8
+     }
+	 add_country_modifier = {
+			name = npe_growth
+			duration = 1800
+		}
+	 set_country_flag = populationamericangrowth
+}}

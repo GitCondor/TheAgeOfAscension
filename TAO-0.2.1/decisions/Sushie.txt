@@ -1,0 +1,40 @@
+political_decisions = {	
+	annex_the_dongs = {
+	picture = abandon_faction
+		potential = {
+			OR = {
+				tag = JAP
+				tag = USA
+				tag = MEX
+				}
+			exists = DNG
+			NOT = {has_country_flag = dongs}
+		}
+		allow = {
+			war = no
+			inorganic_chemistry = 1
+			nationalism_n_imperialism = 1
+			colonial_negotiations = yes
+			DNG = { 
+				all_core = {
+					vassal_of = JAP
+					}
+				}
+				prestige = 30
+			}
+		effect = {
+			set_country_flag = dongs
+			DNG	= {				
+				any_province = {
+					limit = { 
+						owned_by = this
+					}
+					add_core = JAP
+					annex_to = THIS
+				}
+			}	
+			prestige = 10			
+		}
+	}
+}
+		

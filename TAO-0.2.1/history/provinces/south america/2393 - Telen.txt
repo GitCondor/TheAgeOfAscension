@@ -1,0 +1,1 @@
+owner = MAPcontroller = MAPadd_core = MAPtrade_goods = woollife_rating = 35

@@ -1,0 +1,31 @@
+political_decisions = {
+	a_british_king_for_portugal = {
+		potential = {
+			tag = ENG
+			NOT = { has_global_flag = portuano }
+			exist = POR
+		}
+		allow = {
+		ENG = {
+		 all_core = {
+			    owner = {
+					    OR = {
+						    tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+							tag = POR
+						}
+					}
+				}
+			}
+			POR = {
+					IRE = { all_core = {owner = {tag = POR}}}
+					any_province = { limit = {is_core = POR} sphere_of = THIS }
+			}
+		}
+		effect = {
+			POR = {any_owned = {limit = {is_core = IRE} secede_province = THIS}
+					}
+			set_global_flag = portuano
+			}
+	}

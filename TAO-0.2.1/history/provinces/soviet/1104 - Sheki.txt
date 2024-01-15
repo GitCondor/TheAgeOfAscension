@@ -1,0 +1,6 @@
+owner = AZB
+controller = AZB
+add_core = AZB add_core = PSB
+add_core = AZB add_core = PSB
+trade_goods = grain
+life_rating = 10

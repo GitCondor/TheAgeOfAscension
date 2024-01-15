@@ -1,0 +1,16 @@
+
+
+
+controller = JAN
+owner = JAN
+add_core = JAN trade_goods = wool
+life_rating = 10colonial = 2
+1861.1.1 = {
+	colonial = 2
+	state_building = {
+		level = 1
+		building = fabric_factory
+		upgrade = yes
+	}
+}
+1861.1.1 = { railroad = 1 }

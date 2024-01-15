@@ -1,0 +1,6 @@
+owner = TRI
+controller = LBI
+add_core = TRI
+add_core = LBI
+trade_goods = fruit
+life_rating = 10

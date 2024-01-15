@@ -1,0 +1,6 @@
+owner = MAP
+controller = MAP
+add_core = MAP
+add_core = PBC
+trade_goods = wool
+life_rating = 30

@@ -1,0 +1,6 @@
+trade_goods = coal
+life_rating = 15
+owner = ARO
+controller = ARO
+add_core = ARO
+add_core = WRI

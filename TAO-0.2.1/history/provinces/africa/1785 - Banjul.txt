@@ -1,0 +1,4 @@
+owner = ING
+controller = ING
+trade_goods = fruit
+life_rating = 10colonial = 2

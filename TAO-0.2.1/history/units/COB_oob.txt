@@ -1,0 +1,9 @@
+army = {
+	name = "Coburgische Landwehr"
+	location = 562
+	regiment = {
+		name= "1. Lienfanteriebrigade"
+		type = infantry
+		home = 562
+	}
+}

@@ -1,0 +1,40 @@
+province_event = {
+	id = 19370
+	title = "EVTNAME19370"
+	desc = "EVTDESC19370"
+	is_triggered_only=yes
+	
+	option = {
+		name = "EVTOPTA19370"
+		FROM = { create_vassal = THIS }
+	}
+}
+country_event = {
+	id = 800025
+	title = "EVTNAME800025"
+	desc = "EVTDESC800025"
+	trigger = {
+		is_vassal = yes
+		NOT = { has_country_flag = vassal_nation_cb }
+	}
+	mean_time_to_happen = { days = 1 }
+	option = {
+		name = "EVTOPTA800025"
+		set_country_flag = vassal_nation_cb
+	}
+}
+
+country_event = {
+	id = 800026
+	title = "EVTNAME800026"
+	desc = "EVTDESC800026"
+	trigger = {
+		has_country_flag = vassal_nation_cb
+		is_vassal = no
+	}
+	mean_time_to_happen = { days = 1 }
+	option = {
+		name = "EVTOPTA800026"
+		clr_country_flag = vassal_nation_cb
+	}
+}

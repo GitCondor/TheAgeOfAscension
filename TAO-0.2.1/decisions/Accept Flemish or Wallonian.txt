@@ -1,0 +1,64 @@
+political_decisions = {
+	accept_wallonian = {
+	    picture = wallonia
+	    potential = {
+		    OR={
+		    primary_culture = french
+			}
+			NOT = {
+			    primary_culture = wallonian
+		        accepted_culture = wallonian
+			}
+		}
+		allow = {
+            NOT={badboy = 6}
+			prestige = 25
+			OR = {
+			    owns = 393
+			    owns = 394
+			    owns = 395
+			    owns = 392
+			    owns = 396
+			    owns = 398
+			}
+			war = no
+		    #
+		}
+		effect = {
+		    #
+			prestige = 35
+            add_accepted_culture = wallonian
+		}
+	}
+	accept_flemish = {
+	    picture = flemish
+	    potential = {
+		    OR={
+		    primary_culture = dutch
+		    accepted_culture = dutch}
+			NOT = {
+			    OR={
+			    primary_culture = flemish
+		        accepted_culture = flemish}
+			}
+		}
+		allow = {
+            NOT={badboy = 6}
+			prestige = 25
+			OR = {
+			    owns = 388
+			    owns = 389
+			    owns = 390
+			    owns = 391
+			    owns = 387
+			}
+			war = no
+		    #
+		}
+		effect = {
+		    #
+			prestige = 35
+            add_accepted_culture = flemish
+		}
+	}	
+}

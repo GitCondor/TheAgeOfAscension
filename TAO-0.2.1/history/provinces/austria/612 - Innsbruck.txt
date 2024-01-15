@@ -1,0 +1,11 @@
+owner = SGF
+controller = SGF
+add_core = SGF add_core = HRM
+add_core = SGF add_core = HRM
+trade_goods = timber
+life_rating = 10
+#state_building = {
+#	level = 1
+#	building = lumber_mill
+#	upgrade = yes
+#}

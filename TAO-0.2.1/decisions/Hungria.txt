@@ -1,0 +1,105 @@
+political_decisions = {
+	kill_the_croats = {
+		potential = {
+			tag = HUN
+			NOT = { has_global_flag = escroto }
+		}
+		allow = {
+		HUN = {
+		 all_core = {
+			    owner = {
+					    OR = {
+						    tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+							tag = CRO
+						}
+					}
+				}
+			}
+		}
+		effect = {
+		set_global_flag = escroto
+			HUN = { war = {
+            target = CRO
+            attacker_goal = {
+                casus_belli = conquest
+				}
+			 }
+			}
+			}
+	}
+	The_hungarian_empire = {
+		potential = {
+			tag = HUN
+			NOT = { has_global_flag = hungritruco }
+		}
+		allow = {
+		HUN = {
+		 all_core = {
+			    owner = {
+					    OR = {
+						    tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			infamy = 8
+			set_global_flag = hungritruco
+			ROM = {
+			all_core = {
+			    add_core = HUN
+				}
+			}
+		SER = {
+			all_core = {
+			    add_core = HUN
+				}
+			}
+			
+		}
+	}
+	
+supress_the_romanians = {
+		potential = {
+			tag = HUN
+			NOT = {has_global_flag = rumanos}
+			has_global_flag = rumanos_kill
+		}
+		allow = {
+		HUN = {
+		 all_core = {
+			    owner = {
+					    OR = {
+						    tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			infamy = 4
+			set_global_flag = rumanos
+			any_pop = {
+				limit = {
+				is_primary_culture = no
+				is_accepted_culture = no
+						}
+				consciousness = 8.0
+				militancy = 8.0		
+					}
+			any_pop = {
+				limit = {
+				culture = romanian
+						}
+				reduce_pop = 0.8
+					}
+		}
+	}
+}

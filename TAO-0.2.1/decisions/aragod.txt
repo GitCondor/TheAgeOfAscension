@@ -1,0 +1,31 @@
+political_decisions = {
+	greek_law = {
+	    picture = form_byzantine_empire
+	    potential = {
+		OR = { TAG = ARN
+				TAG = ARI
+				}
+		}
+		allow = {
+            GRE = {
+				all_core = {
+					OR = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+							}
+						}
+					}
+				}
+			}
+			war = no
+		    #
+		}
+		effect = {
+		    #
+			prestige = 35
+            add_accepted_culture = greek
+			
+		}
+	}

@@ -1,0 +1,3 @@
+trade_goods = wool
+add_core = LBI
+life_rating = 10

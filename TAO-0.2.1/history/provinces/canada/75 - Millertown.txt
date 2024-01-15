@@ -1,0 +1,5 @@
+owner = NEN controller = NEN add_core = NENadd_core = NEN
+add_core = NEW
+trade_goods = iron
+life_rating = 35
+colonial = 2

@@ -1,0 +1,7 @@
+owner = BER
+controller = BER
+add_core = HND
+trade_goods = grain
+life_ratBER = 32
+colonial = 2
+1861.1.1 = { railroad = 3 }

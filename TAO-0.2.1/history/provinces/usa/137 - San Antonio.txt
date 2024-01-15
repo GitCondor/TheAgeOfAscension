@@ -1,0 +1,15 @@
+owner = SPC
+controller = SPC
+add_core = SPC add_core = USA add_core = SPC add_core = USA add_core = SPC add_core = CAL add_core = MEX
+trade_goods = cattle
+life_rating = 10
+fort = 1 #Remember the Alamo!
+1861.1.1 = {
+
+
+
+}1861.1.1 = {
+
+
+
+}

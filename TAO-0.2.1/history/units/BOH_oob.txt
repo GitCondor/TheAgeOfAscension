@@ -1,0 +1,69 @@
+leader = {
+	name = "§R Bohemian Rapsody"
+	date = 1820.1.1
+	type = land
+	personality = defence_4.1
+	background = attack_5.1
+	prestige = 0.2
+}
+
+army = {
+	name = "Armia Krakówiej"
+	location = 703
+	
+	regiment = {
+		name = "1. Brygada"
+		type = infantry
+		home = 703
+	}
+	regiment = {
+		name = "1. Brygada"
+		type = infantry
+		home = 625
+	}
+	regiment = {
+		name = "1. Brygada"
+		type = infantry
+		home = 626
+	}
+	regiment = {
+		name = "1. Brygada"
+		type = hussar
+		home = 627
+	}
+	regiment = {
+		name = "1. Brygada"
+		type = hussar
+		home = 628
+	}
+}
+army = {
+	name = "er artillero"
+	location = 703
+	
+	regiment = {
+		name = "1. Brygada"
+		type = artillery
+		home = 703
+	}
+	regiment = {
+		name = "1. Brygada"
+		type = artillery
+		home = 625
+	}
+	regiment = {
+		name = "1. Brygada"
+		type = artillery
+		home = 626
+	}
+	regiment = {
+		name = "1. Brygada"
+		type = artillery
+		home = 627
+	}
+	regiment = {
+		name = "1. Brygada"
+		type = artillery
+		home = 628
+	}
+}

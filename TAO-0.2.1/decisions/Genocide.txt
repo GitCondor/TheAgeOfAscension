@@ -1,0 +1,110 @@
+political_decisions = {
+
+genocide = {
+		picture = genocide_act
+		potential = {
+		    OR = {
+				government = fascist_dictatorship
+				government = absolute_monarchy
+				government = presidential_dictatorship
+				government = proletarian_dictatorship
+				government = empire
+				government = absolute_monarchy_roman
+				government = carlist_goverment
+			}
+			ai = no
+				
+			
+			NOT = { has_country_modifier = limpieza }
+				}
+			effect = {
+					badboy = 12
+		add_country_modifier = {
+			name = limpieza
+			duration = 1825
+		}
+
+			any_owned = {
+				limit = { is_colonial = no }
+		        add_province_modifier = {
+			        name = limpieza2
+			        duration = 1825
+		        }
+				any_pop = {
+				limit = {
+				is_primary_culture = no
+				is_accepted_culture = no
+						}
+				reduce_pop = 0.4
+				consciousness = 8.0
+				militancy = 8.0		
+					}
+				}
+			
+			any_pop = {
+				limit = {
+				is_primary_culture = yes
+				is_accepted_culture = yes
+				pop_majority_ideology = conservative
+				}
+				consciousness = -2.0
+				militancy = -1.0	
+					}
+			any_pop = {
+				limit = {
+				is_primary_culture = yes
+				is_accepted_culture = yes
+				pop_majority_ideology = reactionary
+				}
+				consciousness = -4.0
+				militancy = -3.0	
+					}
+			any_pop = {
+				limit = {
+				is_primary_culture = yes
+				is_accepted_culture = yes
+				pop_majority_ideology = fascist
+				}
+				consciousness = -5.0
+				militancy = -4.0	
+					}
+			any_pop = {
+				limit = {
+				is_primary_culture = yes
+				is_accepted_culture = yes
+				pop_majority_ideology = liberal
+						}
+				consciousness = 2.0
+				militancy = 1.0	
+					}
+			any_pop = {
+				limit = {
+				is_primary_culture = yes
+				is_accepted_culture = yes
+				pop_majority_ideology = socialist
+						}
+				consciousness = 2.0
+				militancy = 1.0	
+					}
+			any_pop = {
+				limit = {
+				is_primary_culture = yes
+				is_accepted_culture = yes
+				pop_majority_ideology = anarcho_liberal
+						}
+				consciousness = 2.0
+				militancy = 1.0	
+					}
+			any_pop = {
+				limit = {
+				is_primary_culture = yes
+				is_accepted_culture = yes
+				pop_majority_ideology = communist
+						}
+				consciousness = 2.0
+				militancy = 1.0	
+					}
+			}	
+		
+	}
+	}

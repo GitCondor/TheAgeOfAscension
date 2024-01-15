@@ -1,0 +1,7 @@
+owner = PBC
+controller = PBC
+add_core = BOL add_core = PBC
+add_core = BRZ
+add_core = GCO
+trade_goods = tropiARO_wood
+life_rating = 25

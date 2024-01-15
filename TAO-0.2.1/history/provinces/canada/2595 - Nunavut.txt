@@ -1,0 +1,4 @@
+owner = NEN controller = NEN add_core = NENadd_core = NEN
+trade_goods = fish
+life_rating = 35
+colonial = 2

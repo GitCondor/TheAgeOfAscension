@@ -1,0 +1,117 @@
+political_decisions = {
+	form_rin_confederation = {
+	    picture = rin_conf
+	    potential = {
+		    OR = {
+			    tag = NET
+				tag = LUX
+				tag = SGF
+			}
+			NOT = {
+				exists = RIN
+			}
+		}
+		allow = {
+			war = no
+			owns = 572
+			owns = 574
+			owns = 573
+			owns = 570
+			owns = 564
+			owns = 2560
+			owns = 567
+			owns = 565
+			owns = 566
+			owns = 568
+			owns = 582
+			owns = 585
+			owns = 584
+			owns = 580
+			owns = 583
+			owns = 581
+			owns = 577
+			owns = 578
+			owns = 576
+			owns = 575
+			owns = 579
+			owns = 2561
+			owns = 412
+			owns = 409
+			owns = 410
+			NET = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		}
+		effect = {
+		    #
+			prestige = 15
+            add_accepted_culture = german add_accepted_culture = swiss_german
+            add_accepted_culture = german add_accepted_culture = swiss_german
+            add_accepted_culture = dutch
+            add_accepted_culture = wallonian
+            add_accepted_culture = flemish
+            add_accepted_culture = boer
+            add_accepted_culture = french add_accepted_culture = swiss_french
+			change_tag = RIN
+			any_country = {
+			    limit = {
+					 OR = {
+					     vassal_of = THIS
+						 in_sphere = THIS
+					 }
+					 OR = {
+					     primary_culture = german
+					     primary_culture = german
+					     primary_culture = dutch
+					     primary_culture = wallonian
+					     primary_culture = flemish
+					     primary_culture = french
+					     accepted_culture = german
+					     accepted_culture = german
+					     accepted_culture = dutch
+					     accepted_culture = wallonian
+					     accepted_culture = flemish
+					     accepted_culture = french
+					 }
+				}
+				annex_to = THIS
+			}
+			any_owned = {
+				limit = {
+					is_colonial = no
+					OR = {
+						culture = german
+						culture = german
+						culture = dutch
+						culture = wallonian
+						culture = flemish
+						culture = french
+					}
+				}
+				add_core = RIN
+			}
+			any_country = {
+				limit = {
+					OR = {
+					    vassal_of = THIS
+					    in_sphere = THIS
+					}
+				}
+				any_owned = {
+					limit = {
+						is_core = BEN
+					}
+					secede_province = THIS
+				}
+			}
+		}
+	}	
+}

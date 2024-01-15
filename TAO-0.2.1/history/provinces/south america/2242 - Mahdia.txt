@@ -1,0 +1,6 @@
+owner = ING
+controller = ING
+add_core = GCO
+trade_goods = tropiARO_wood
+life_rating = 30
+colonial = 2

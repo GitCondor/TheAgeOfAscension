@@ -1,0 +1,5 @@
+owner = FIN
+
+add_core = SWE add_core = FIN add_core = RUS
+trade_goods = grain
+life_rating = 10

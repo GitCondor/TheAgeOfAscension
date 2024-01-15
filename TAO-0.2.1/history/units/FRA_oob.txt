@@ -1,0 +1,348 @@
+#Sphere of fluence
+BEL = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	fluence_value = 25
+}
+LUX = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	fluence_value = 25
+}
+NET = {
+	value = -100
+		#relation
+
+	level = 3
+		#3=cordial, 4 = friendly, 5 sphere
+
+}
+PAP = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	fluence_value = 25
+}
+SIC = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	fluence_value = 25
+}
+SWI = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	fluence_value = 25
+}
+SAR = {
+	value = 125		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	fluence_value = 25
+}
+GRE = {
+	value = 75	#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	fluence_value = 10
+}
+ENG = {
+	value = 0
+}
+RUS = {
+	value = -75
+}
+AUS = {
+	value = 0
+}
+USA = {
+	value = 50
+}
+PRU = {
+	value = -25
+}
+TUR = {
+	value = 0
+}
+SPA = {
+	value = 55
+}
+
+leader = {
+	name = "de la Piconnerie"
+	date = 1836.1.1
+	type = land
+	personality = confident
+	background = attack_4.1
+	prestige = 0.1
+}
+
+leader = {
+	name = "Jean-Isidore Harispe"
+	date = 1830.1.1
+	type = land
+	personality = defence_2.1
+	background = attack_3.2
+	prestige = 0.3
+}
+
+leader = {
+	name = "Guy-Victor Duperré"
+	date = 1811.1.1
+	type = sea
+	personality = defence_2.4
+	background = attack_3.2
+	prestige = 0.3
+}
+
+leader = {
+	name = "Comte de Castelanne"
+	date = 1823.1.1
+	type = land
+	personality = defenece_2.43
+	background = attack_2.58
+	prestige = 0.2
+}
+
+leader = {
+	name = "Jacques Achard"
+	date = 1823.1.1
+	type = land
+	personality = defence_1.104
+	background = attack_1.1
+	prestige = 0.2
+}
+
+leader = {
+	name = "Jean-Baptiste Vaillant"
+	date = 1832.1.1
+	type = land
+	personality = defence_1.104
+	background = attack_2.37
+	prestige = 0.1
+}
+
+leader = {
+	name = "Bernand Pierre Magnan"
+	date = 1835.1.1
+	type = land
+	personality = defence_1.104
+	background = attack_2.1
+	prestige = 0.1
+}
+
+leader = {
+	name = "Baraguey d'Hilliers"
+	date = 1836.1.1
+	type = land
+	personality = defence_2.4
+	background = attack_5.1
+	prestige = 0.1
+}
+
+leader = {
+	name = "Comte de Randon"
+	date = 1835.1.1
+	type = land
+	personality = different
+	background = attack_4.2
+	prestige = 0.1
+}
+
+leader = {
+	name = "Charles Baud"
+	date = 1836.1.1
+	type = sea
+	personality = defence_1.3
+	background = attack_2.1
+	prestige = 0.1
+}
+
+leader = {
+	name = "Reille"
+	date = 1836.1.1
+	type = land
+	personality = defense_-2
+	background = attack_2.71
+	prestige = 0.0
+}
+
+leader = {
+	name = "de la Brunerie"
+	date = 1836.1.1
+	type = land
+	personality = defence_1.3
+	background = attack_2.1
+	prestige = 0.0
+}
+army = {
+	name = "Garnison de Côte d'Ivoire"
+	location = 453
+	regiment = {
+		name= "1.11ème Division d'fanterie"
+		type = infantry
+		home = 467
+	}
+
+	regiment = {
+		name= "2.11ème Division d'fanterie"
+		type = infantry
+		home = 454
+	}
+
+	regiment = {
+		name= "3.11ème Division d'fanterie"
+		type = infantry
+		home = 428
+	}
+
+}
+army = {
+	name = "Garnison de Côte d'Ivoire"
+	location = 454
+	regiment = {
+		name= "1.11ème Division d'fanterie"
+		type = infantry
+		home = 467
+	}
+
+	regiment = {
+		name= "2.11ème Division d'fanterie"
+		type = infantry
+		home = 454
+	}
+
+	regiment = {
+		name= "3.11ème Division d'fanterie"
+		type = infantry
+		home = 428
+	}
+
+}
+
+navy = {
+	name = "Escadre de Méditerranée"
+	location = 442
+	ship = {
+		name= "Généreux"
+		type = manowar
+	}
+
+	ship = {
+		name= "Diadème"
+		type = manowar
+	}
+
+	ship = {
+		name= "Couronne"
+		type = manowar
+	}
+
+	ship = {
+		name= "Suffren"
+		type = manowar
+	}
+
+	ship = {
+		name= "Trident"
+		type = manowar
+	}
+
+	ship = {
+		name= "Royal Louis "
+		type = manowar
+	}
+
+	ship = {
+		name= "Commerces de Paris"
+		type = manowar
+	}
+
+	ship = {
+		name= "Terpsichore"
+		type = frigate
+	}
+
+	ship = {
+		name= "Arthémise"
+		type = frigate
+	}
+
+	ship = {
+		name= "Belle Gabrielle"
+		type = frigate
+	}
+
+	ship = {
+		name= "Didon"
+		type = frigate
+	}
+
+	ship = {
+		name= "Carole"
+		type = frigate
+	}
+
+	ship = {
+		name= "Hermie"
+		type = frigate
+	}
+
+	ship = {
+		name= "Melpomène"
+		type = frigate
+	}
+
+	ship = {
+		name= "Uranie"
+		type = frigate
+	}
+
+	ship = {
+		name= "Andromède"
+		type = frigate
+	}
+
+	ship = {
+		name= "Jeanne d’Arc"
+		type = frigate
+	}
+
+	ship = {
+		name= "Belle Poule"
+		type = frigate
+	}
+
+	ship = {
+		name= "Erigone"
+		type = frigate
+	}
+
+	ship = {
+		name= "Nereide"
+		type = frigate
+	}
+
+	ship = {
+		name= "Gloire"
+		type = frigate
+	}
+
+	ship = {
+		name= "Ree Blanche"
+		type = frigate
+	}
+
+	ship = {
+		name= "4ème Flotille de Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "5ème Flotille de Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "6ème Flotille de Transport"
+		type = clipper_transport
+	}
+
+}
+

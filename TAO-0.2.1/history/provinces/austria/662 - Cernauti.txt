@@ -1,0 +1,9 @@
+owner = MOÑ
+controller = ROM
+add_core = ROM
+#add_core = UKR
+add_core = ROM
+add_core = RUT
+add_core = ROM
+trade_goods = fruit
+life_rating = 10

@@ -1,0 +1,21 @@
+country_event = { 
+       id = 6007
+       title = "pipipipop" 
+       desc = "dinero causas" 
+       picture = "Nile"
+	   trigger = {
+			   year = 1836
+			   NOT = { has_country_flag = money }
+	   }
+	   
+	mean_time_to_happen = {
+		days = 1
+	}
+    immediate = {
+		set_country_flag = money
+    }
+
+option = {
+     name = "dupliquenle el sexo"
+     money = 500015
+}}

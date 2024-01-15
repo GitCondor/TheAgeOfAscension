@@ -1,0 +1,34 @@
+political_decisions = {
+	Nederhanover = {
+	picture = raise_the_bonnie_blue_flag
+		potential = {
+			has_country_flag = mate
+			NOT = {has_global_flag = checkmate}
+		}
+		allow = {
+			war = no
+			ideological_thought = 1
+			POL = {
+			    all_core = {
+				    owner = {
+					    OR = {
+						    in_sphere = THIS
+							vassal_of = THIS
+							tag = THIS
+							tag = GER
+							tag = NGF
+							tag = PRU
+							tag = HAN
+						}
+					}
+				}
+			}
+			exists = POL
+		}
+		effect = {
+				set_global_flag = checkmate
+				add_accepted_culture = polish
+				prestige = 50
+			}
+		}
+	}

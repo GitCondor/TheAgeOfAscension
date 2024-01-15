@@ -1,0 +1,10 @@
+owner = NOG
+add_core = NOG add_core = MUS add_core = RUS
+controller = NOG
+trade_goods = opium
+life_rating = 10
+1861.1.1 = {
+	owner = NOG
+	controller = NOG
+	colonial = 2
+}

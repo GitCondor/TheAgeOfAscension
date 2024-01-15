@@ -1,0 +1,6 @@
+owner = NEN controller = NEN add_core = NENadd_core = QUE
+add_core = NEN
+trade_goods = grain
+naval_base = 1
+life_rating = 35
+colonial = 2

@@ -1,0 +1,3 @@
+add_core = NEN
+trade_goods = fish
+life_rating = 15

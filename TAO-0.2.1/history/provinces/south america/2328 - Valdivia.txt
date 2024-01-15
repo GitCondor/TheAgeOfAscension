@@ -1,0 +1,5 @@
+owner = MAP
+controller = MAP
+add_core = MAP
+trade_goods = grain
+life_rating = 35

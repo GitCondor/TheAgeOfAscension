@@ -1,0 +1,6 @@
+owner = ING
+controller = ING
+add_core = SAF
+trade_goods = grain
+life_rating = 10
+colonial = 2

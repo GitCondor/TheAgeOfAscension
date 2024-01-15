@@ -1,0 +1,1 @@
+add_core = SPC add_core = USA add_core = SPC add_core = USA add_core = SPC add_core = CAL add_core = MEX controller = SPC owner = SPC trade_goods = fruitlife_rating = 10colony = 2is_slave = yesnaval_base = 11861.1.1 = {	colony = 0}

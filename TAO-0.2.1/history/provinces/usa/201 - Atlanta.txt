@@ -1,0 +1,9 @@
+
+
+add_core = SPC add_core = USA add_core = SPC add_core = USA add_core = SPC add_core = CAL add_core = MEX controller = SPC owner = SPC trade_goods = cotton
+life_rating = 10party_loyalty = {	ideology = conservative	loyalty_value = 10}
+1861.1.1 = {	party_loyalty = {	ideology = conservative	loyalty_value = 25}
+
+
+	state_building = {		level = 1		building = clipper_shipyard		upgrade = yes	}	state_building = {		level = 1		building = small_arms_factory		upgrade = yes	}}
+1861.1.1 = { railroad = 1 }

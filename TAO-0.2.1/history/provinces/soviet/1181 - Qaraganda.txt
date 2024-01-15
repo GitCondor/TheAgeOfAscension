@@ -1,0 +1,10 @@
+trade_goods = coal
+owner = NOG
+controller = NOG
+add_core = RUS add_core = RUS add_core = NOG add_core = MUS add_core = RUS add_core = RUS
+life_rating = 10
+1861.1.1 = {
+	owner = MUS
+	controller = MUS
+	colonial = 2
+}

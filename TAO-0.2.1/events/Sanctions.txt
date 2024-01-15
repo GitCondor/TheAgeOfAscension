@@ -1,0 +1,37 @@
+country_event = {
+	id = 18547
+	title = "INFAMIA??"
+	desc = "Nos pasamos un poquito :c"
+	
+	trigger = {
+	    badboy = 1.65
+		NOT = {has_country_modifier = over_infamy_limit}
+	}
+	
+	mean_time_to_happen = {days=0}
+	immediate = {
+		add_country_modifier = {
+			name = over_infamy_limit
+			duration = -1
+		}}
+	option = {
+		name = "Hay que aceptar las consecuencias"
+	}
+}
+
+country_event = {
+	id = 18548
+	title = "Adios a las sanciones"
+	desc = "PORFIN SE ACABAN LAS SANCIONES DE MIERDA"
+	
+	trigger = {
+	    NOT={badboy = 1.65}
+		has_country_modifier = over_infamy_limit
+	}
+	
+	mean_time_to_happen = {days=0}
+	option = {
+		name = "happy happy happy pipipi"
+		remove_country_modifier = over_infamy_limit
+	}
+}

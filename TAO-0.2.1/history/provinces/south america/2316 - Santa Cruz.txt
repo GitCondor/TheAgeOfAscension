@@ -1,0 +1,5 @@
+owner = PBC
+controller = PBC
+add_core = BOL add_core = PBC
+trade_goods = fruit
+life_rating = 30

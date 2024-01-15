@@ -1,0 +1,9 @@
+owner = SWI
+controller = SWI
+add_core = SWI add_core = HRM
+trade_goods = coal
+life_rating = 40
+
+1857.1.1 = {
+	remove_core = PRU
+}
