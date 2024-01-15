@@ -15,5 +15,5 @@ zoom_speed=50.000000
 mouse_speed=50.000000
 master_volume=100.000000
 ambient_volume=50.000000
-lastplayer="KitiGey"
+lastplayer="Name"
 lasthost="26.107.5.104"
