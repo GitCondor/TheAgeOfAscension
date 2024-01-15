@@ -76,6 +76,7 @@ install_communist_gov_cb
 uninstall_communist_gov_cb
 great_war_penalty_cb 
 take_parts_mandates
+negotiated_transfer 
 }
 
 # Acquire all cores

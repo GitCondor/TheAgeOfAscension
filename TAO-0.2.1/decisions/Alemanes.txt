@@ -29,10 +29,12 @@ the_north_german_project = {
 				NET = { OR = {vassal_of = THIS
 						in_sphere = THIS}}
 						}
+						war = no
 		OR = {tag = HAN
 				HAN = {OR = {vassal_of = THIS
 						in_sphere = THIS}}
 						}
+						HAN = {war = no}
 					}
 		effect = {
 		set_global_flag = nederbf

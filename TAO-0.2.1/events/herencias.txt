@@ -156,3 +156,36 @@ option = {
      name = "Como buenos griegos, asi seguiremos"
 	set_country_flag = byzantium_bros
 }}
+country_event = { 
+       id = 199996
+       title = "El Destino Polaco" 
+       desc = "Es hora de decidir nuestro destino" 
+	   is_triggered_only = yes
+	   
+	mean_time_to_happen = {
+		days = 1
+	}
+	imediate = {set_country_flag = polska_stronk}
+
+option = {
+     name = "Debemos buscar hermandad en el este"
+	 PLC	 = {
+			all_core = {
+			    add_core = POL
+				}
+			}
+		add_accepted_culture = lithuanian
+	set_country_flag = lituana
+	 prestige = 10
+}
+option = {
+     name = "Somos eslavos, como los checos y los slovacos"
+	 CZE = {
+			all_core = {
+			    add_core = POL
+				}
+			}
+	set_country_flag = chequia	
+	add_accepted_culture = czech
+	 prestige = 10
+}}

@@ -1,0 +1,32 @@
+political_decisions = {
+	the_destiny_of_the_poles = {
+	    potential = {
+         tag = POL
+
+			NOT = {
+				exists = PLC
+			}
+		}
+		allow = {
+			war = no
+			POL = {
+			    all_core = { OR = { owned_by = THIS
+									sphere_of = THIS
+									vassal_of = THIS} }
+			}
+			
+		}
+		effect = {
+            country_event = { id=199996 days=0 }
+		    #
+            set_country_flag = polska_stronk
+			prestige = 10
+			any_country = {
+				limit = {
+					is_culture_group = THIS
+					in_sphere = THIS
+				}
+			}
+			}
+		}
+	}

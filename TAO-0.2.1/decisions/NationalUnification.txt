@@ -1,11 +1,12 @@
  political_decisions = {
 	form_north_german_confederation = {
 		potential = {
+			or = {
 			primary_culture = north_german
+			tag = NED}
 			NOT = {
 				exists = GER
 				exists = NGF
-				tag = HAN
 			}
 		}	
 		allow = {
@@ -69,7 +70,7 @@
 					is_culture_group = aragonense
 					is_culture_group = byzanzium
 					is_culture_group = british
-          is_culture_group = polish_culture_group
+          			is_culture_group = polish_culture_group
 					tag = ECU
 					tag = CLM
 					tag = VNZ

@@ -13,7 +13,6 @@ political_decisions = {
 						    tag = THIS
 							in_sphere = THIS
 							vassal_of = THIS
-							tag = POR
 						}
 					}
 				}
@@ -27,5 +26,7 @@ political_decisions = {
 			POR = {any_owned = {limit = {is_core = IRE} secede_province = THIS}
 					}
 			set_global_flag = portuano
+			ENG = {release_vassal = POR}
 			}
 	}
+}
