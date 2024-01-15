@@ -44,7 +44,7 @@ political_decisions = {
 	}
 	all_ways_lead_to_rome = {
 		potential = {
-			tag = ITA
+			tag = SAR
 			NOT = {
 				has_country_flag = rome_way
 			}
