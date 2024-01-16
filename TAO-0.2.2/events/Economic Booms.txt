@@ -17,5 +17,5 @@ country_event = {
 
 option = {
      name = "dupliquenle el sexo"
-     money = 500015
+     money = 100015
 }}
