@@ -518,14 +518,6 @@ negotiated_transfer = {
 	po_demand_state = yes
 	
 	war_name = WAR_TAKE_CORE_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
 }
 
 # Acquire Core State
