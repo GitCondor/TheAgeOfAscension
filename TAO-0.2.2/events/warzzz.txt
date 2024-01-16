@@ -6,6 +6,7 @@ country_event = {
 	trigger = {
 	war_exhaustion = 75
 	ai = no
+	NOT = {has_country_modifier = war_exhaustiozzz}
 	}
 	
 	mean_time_to_happen = {

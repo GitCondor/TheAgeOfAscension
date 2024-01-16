@@ -481,15 +481,14 @@ take_puppet = {
 
 # Gain control of a Negotiated Transfer
 negotiated_transfer = {
-	sprite_index = 6
 	is_triggered_only = yes
 	months = 0
-	crisis = yes
 	constructing_cb = no
+	always=yes
 
 	badboy_factor = 0
 	prestige_factor = 0
-	peace_cost_factor = 100
+	peace_cost_factor = 0
 	penalty_factor = 0
 
 	break_truce_prestige_factor = 0
@@ -502,13 +501,39 @@ negotiated_transfer = {
 	good_relation_militancy_factor = 0
 
 	can_use = {
-	    THIS = {ai=no}
+		THIS = { ai = no }
+		ai = no
+		number_of_states = 2 # annex if you want their last stateç
+		THIS = { civilized = yes }
 	}
 	
+	allowed_countries = {
+		OR = {
+			FROM = { vassal_of = THIS }
+			FROM = { substate_of = THIS }
+			FROM = { tag = THIS } 
+			AND = { 
+				FROM = { ai = no } 
+				THIS = { alliance_with = FROM }
+			} 
+		}
+		FROM = {
+			exists = yes
+		}
+		FROM={civilized=yes}
+		civilized=yes
+	}
+
 	allowed_states = {
-	    OR = {
-		    is_colonial = no
-		    is_colonial = yes
+		OR = {
+			is_colonial = yes
+			is_colonial = no
+		}
+		any_owned_province = {
+                     		OR = {
+				is_colonial = yes
+				is_colonial = no
+                     		}
 		}
 	}
 	
@@ -517,8 +542,10 @@ negotiated_transfer = {
 
 	po_demand_state = yes
 	
-	war_name = WAR_TAKE_CORE_NAME
+	war_name = WAR_NEGOTIATED_TRANSFER
+
 }
+
 
 # Acquire Core State
 acquire_core_state = {

@@ -1,14 +1,14 @@
 leader = {
-	name = "§R Bohemian Rapsody"
+	name = "ï¿½R Bohemian Rapsody"
 	date = 1820.1.1
 	type = land
 	personality = defence_4.1
-	background = attack_5.1
+	background = attack_3.1
 	prestige = 0.2
 }
 
 army = {
-	name = "Armia Krakówiej"
+	name = "Armia Krakï¿½wiej"
 	location = 703
 	
 	regiment = {

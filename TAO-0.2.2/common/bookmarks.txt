@@ -1,7 +1,7 @@
 bookmark =
 {
-	name = "GC_NAME"
-	desc = "GC_DESC"
+	name = "The Age Of Ascension"
+	desc = "{[introducir texto]}"
 	date = 1836.1.1
 	cameraX = 2950 
 	cameraY = 1550
