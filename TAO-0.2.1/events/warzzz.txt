@@ -27,6 +27,7 @@ country_event = {
 	
 	trigger = {
 	    NOT={war_exhaustion = 75}
+			has_country_modifier = war_exhaustiozzz
 	}
 	
 	mean_time_to_happen = {days=0}
