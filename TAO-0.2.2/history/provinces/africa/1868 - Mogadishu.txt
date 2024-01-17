@@ -1,11 +1,6 @@
-owner = ZAN
-controller = ZAN
-add_core = ZAN
+owner = SPA
+controller = SPA
 trade_goods = cattle
 life_rating = 35
-1861.1.1 = {
-	owner = ZAN
-	controller = ZAN
-	add_core = ZAN
-}
+
 
