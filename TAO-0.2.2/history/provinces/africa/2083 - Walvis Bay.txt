@@ -1,5 +1,5 @@
-owner = AZA
-controller = AZA
+owner = RGS
+controller = RGS
 add_core = AZA
 trade_goods = wool
 life_rating = 15
