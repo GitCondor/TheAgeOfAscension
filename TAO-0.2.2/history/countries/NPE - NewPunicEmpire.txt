@@ -1,7 +1,5 @@
 capital = 1725
 primary_culture = magHRMbi
-culture = greek
-culture = south_italian
 religion = orthodox
 government = absolute_monarchy
 plurality = 0.05
