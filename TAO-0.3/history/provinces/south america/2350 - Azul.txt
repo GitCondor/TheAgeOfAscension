@@ -1,0 +1,5 @@
+owner = MAP
+controller = MAP
+add_core = MAP add_core = ARG
+trade_goods = cattle
+life_rating = 35

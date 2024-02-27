@@ -1,0 +1,5 @@
+owner = LBI
+controller = LBI
+add_core = LBI
+trade_goods = sulphur
+life_rating = 32

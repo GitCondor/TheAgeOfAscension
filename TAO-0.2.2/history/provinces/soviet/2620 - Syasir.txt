@@ -1,3 +1,0 @@
-add_core = JAP add_core = JAP
-trade_goods = cattle
-life_rating = 10

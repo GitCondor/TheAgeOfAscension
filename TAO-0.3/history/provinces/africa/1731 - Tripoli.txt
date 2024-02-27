@@ -1,0 +1,7 @@
+owner = LBI
+controller = LBI
+add_core = TRI
+add_core = LBI
+trade_goods = sulphur
+life_rating = 32
+colonial = 0

@@ -1,0 +1,6 @@
+owner = MAP
+controller = MAP
+add_core = MAP add_core = ARG
+add_core = ECU
+trade_goods = timber
+life_rating = 30

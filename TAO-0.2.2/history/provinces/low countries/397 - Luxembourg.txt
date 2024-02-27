@@ -1,7 +1,0 @@
-owner = BEL
-controller = NET
-add_core = LUX add_core = BEN add_core = NET add_core = BEL
-add_core = GER add_core = NGF
-trade_goods = iron
-life_rating = 10
-1861.1.1 = { railroad = 3 }

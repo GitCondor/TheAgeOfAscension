@@ -1,6 +1,0 @@
-owner = PBC
-controller = PBC
-add_core = PEU add_core = PBC
-add_core = MAP
-trade_goods = cattle
-life_rating = 35

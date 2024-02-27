@@ -1,5 +1,0 @@
-owner = LBI
-controller = LBI
-add_core = LBI
-trade_goods = iron
-life_rating = 10

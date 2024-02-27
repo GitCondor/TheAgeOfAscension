@@ -1,5 +1,0 @@
-owner = SHO
-controller = SHO
-add_core = SHO
-trade_goods = fish
-life_rating = 10

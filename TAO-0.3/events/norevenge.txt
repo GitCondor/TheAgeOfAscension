@@ -1,0 +1,40 @@
+country_event = {
+	id = 1224575
+	title = "no more revenge bro"
+	desc = "we los the mob modifier"
+	trigger = {
+		has_country_flag = vengador
+		war = no
+
+	}
+	
+	option = {
+		name = "oh"
+		FROM = { remove_country_modifier = vengador }
+		FROM = { remove_country_flag = vengador }
+	}
+}
+
+country_event = {
+	id = 1224576
+	title = "the french duty"
+	desc = "we mob"
+	trigger = {
+		year = 1836
+		tag = FRA
+		war = yes
+		not = {has_country_flag = vengador}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "oh"
+		add_country_modifier = {
+			name = vengador
+			duration = 500
+		}
+		set_country_flag = vengador
+	}
+}

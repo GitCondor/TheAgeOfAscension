@@ -1,8 +1,0 @@
-owner = UBD
-controller = UBD
-
-add_core = SWE add_core = FIN add_core = RUS
-add_core = SWE
-trade_goods = fish
-life_rating = 10
-fort = 1

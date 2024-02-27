@@ -1,0 +1,6 @@
+owner = ING
+controller = ING
+add_core = SAF
+trade_goods = wool
+life_rating = 32
+colonial = 2

@@ -1,0 +1,42 @@
+political_decisions = {
+	form_rus = {
+	    potential = {
+		    OR = { tag = MUS
+					tag = NOG }
+			NOT = {
+				exists = RUS
+			}
+		}
+		allow = {
+			war = no
+			RUS = {
+			    all_core = {
+				    owner = {
+					    OR = {
+						    in_sphere = THIS
+							vassal_of = THIS
+							tag = THIS
+						}
+					}
+				}
+			}
+			
+		}
+		effect = {
+		    #
+			prestige = 40
+			change_tag = RUS
+			SIB = {all_core = {add_core = THIS}}
+			GEO = {all_core = {add_core = THIS}}
+			add_accepted_culture = north_caucasian
+			any_country = {
+				limit = {
+					is_culture_group = THIS
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+			add_accepted_culture = union
+			}
+		}
+	}

@@ -1,0 +1,5 @@
+owner = SIA controller SIA
+add_core = HND
+trade_goods = grain
+life_ratBUR = 32
+colonial = 2

@@ -1,0 +1,6 @@
+owner = NPE
+controller = NPE
+add_core = NPE  
+trade_goods = iron
+life_rating = 32
+

@@ -1,7 +1,0 @@
-add_core = UCA controller = UCA owner = UCA
-
-
-
-
-trade_goods = coffee
-life_rating = 10

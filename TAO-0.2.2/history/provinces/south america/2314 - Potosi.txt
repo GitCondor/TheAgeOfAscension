@@ -1,5 +1,0 @@
-owner = PBC
-controller = PBC
-add_core = BOL add_core = PBC add_core = MAP add_core = MAP
-trade_goods = grain
-life_rating = 30

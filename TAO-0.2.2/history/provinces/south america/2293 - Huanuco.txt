@@ -1,5 +1,0 @@
-owner = PBC
-controller = PBC
-add_core = PEU add_core = PBC
-trade_goods = wool
-life_rating = 30

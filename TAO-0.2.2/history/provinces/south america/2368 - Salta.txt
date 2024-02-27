@@ -1,6 +1,0 @@
-owner = MAP
-controller = MAP
-add_core = BOL add_core = PBC
-add_core = MAP
-trade_goods = wool
-life_rating = 35

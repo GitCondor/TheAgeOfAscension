@@ -1,5 +1,0 @@
-owner = DAI
-controller = DAI
-add_core = DAI
-trade_goods = tropiARO_wood
-life_rating = 30
