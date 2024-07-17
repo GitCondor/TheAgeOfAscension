@@ -3,5 +3,5 @@ controller = SIA
 add_core = SIA
 add_core = WIA
 add_core = DAI add_core = SIA
-trade_goods = tropiARO_wood
+trade_goods = tropical_wood
 life_rating = 35

@@ -2,5 +2,5 @@ owner = MYS
 controller = MYS
 add_core = HND
 trade_goods = fruit
-life_ratMYS = 32
+life_rating = 32
 
