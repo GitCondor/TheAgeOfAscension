@@ -1,4 +1,0 @@
-owner = TUR controller = TUR
-add_core = PON add_core = TUR
-trade_goods = coal
-life_rating = 10

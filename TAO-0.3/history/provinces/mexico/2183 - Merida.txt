@@ -1,5 +1,0 @@
-add_core = UCAowner = UCAcontroller = UCA
-
-
-trade_goods = grain
-life_rating = 10

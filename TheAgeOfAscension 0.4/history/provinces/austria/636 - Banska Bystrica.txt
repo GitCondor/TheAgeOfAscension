@@ -1,0 +1,11 @@
+owner = BOH controller = BOH
+add_core = SLV
+add_core = HUN
+add_core = CZH
+state_building = {
+		level = 1
+		building = ammunition_factory
+		upgrade = yes
+	}
+trade_goods = grain
+life_rating = 35

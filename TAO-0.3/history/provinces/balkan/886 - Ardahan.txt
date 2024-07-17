@@ -1,6 +1,0 @@
-owner = ARM
-controller = ARM
-add_core = ARM
-add_core = PON add_core = TUR
-trade_goods = wool
-life_rating = 10

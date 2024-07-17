@@ -1,0 +1,5 @@
+owner = NET
+controller = NET
+add_core = MAD
+trade_goods = tropiARO_wood
+life_rating = 35

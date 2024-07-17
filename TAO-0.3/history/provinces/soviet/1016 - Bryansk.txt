@@ -1,6 +1,0 @@
-owner = MUS
-
-add_core = RUS add_core = RUS add_core = NOG add_core = MUS add_core = RUS add_core = RUS
-#add_core = PLC
-trade_goods = cattle
-life_rating = 10

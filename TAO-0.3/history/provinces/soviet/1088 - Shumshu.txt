@@ -1,6 +1,0 @@
-owner = JAP
-controller = JAP
-add_core = JAP add_core = ALD
-add_core = JAP add_core = ALD
-trade_goods = coal
-life_rating = 10

@@ -1,6 +1,0 @@
-owner = MYS
-controller = MYS
-add_core = HND
-trade_goods = tea
-life_ratMYS = 32
-colonial = 2

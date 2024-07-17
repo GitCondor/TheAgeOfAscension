@@ -1,0 +1,5 @@
+owner = NPE
+controller = NPE
+add_core = FRA
+trade_goods = fruit
+life_rating = 35

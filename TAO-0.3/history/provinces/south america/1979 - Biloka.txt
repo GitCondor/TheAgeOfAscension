@@ -1,5 +1,0 @@
-owner = ING
-controller = ING
-trade_goods = tropiARO_wood
-life_rating = 30
-colonial = 2

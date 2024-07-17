@@ -1,6 +1,0 @@
-owner = 
-controller = 
-add_core = HND
-trade_goods = tea
-life_rat = 32
-colonial = 2

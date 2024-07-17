@@ -1,0 +1,132 @@
+political_decisions = {
+mughalistan_rules = {
+	picture = india
+		potential = {
+			tag = MUG
+			NOT = {has_country_flag = mog}
+		}
+		allow = {
+			war = no
+		MUG = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			
+			}
+		effect = {
+		add_country_modifier = {
+				name = research_boost
+				duration = 1000
+			}
+			1267 ={add_core = THIS}
+			1264 ={add_core = THIS}
+			1268 ={add_core = THIS}
+			1272 ={add_core = THIS}
+			1269 ={add_core = THIS}
+			1266 ={add_core = THIS}
+			1265 ={add_core = THIS}
+			1270 ={add_core = THIS}
+			1275 ={add_core = THIS}
+			1276 ={add_core = THIS}
+			1271 ={add_core = THIS}
+			1284 ={add_core = THIS}
+			1285 ={add_core = THIS}
+			1277 ={add_core = THIS}
+			1278 ={add_core = THIS}
+			1281 ={add_core = THIS}
+			1280 ={add_core = THIS}
+			1282 ={add_core = THIS}
+			1274 ={add_core = THIS}
+			1273 ={add_core = THIS}
+			set_country_flag = mog	
+			prestige = 10			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_india = {
+		news = yes
+		news_desc_long = "form_india_NEWS_LONG"
+		news_desc_medium = "form_india_NEWS_MEDIUM"
+		news_desc_short = "form_india_NEWS_SHORT"
+		potential = {
+			or = {
+				is_culture_group = south_asian
+				tag = SIA
+				}
+			NOT = {
+				exists = HND
+			}
+		}
+		
+		allow = {
+			war = no
+			HND = {
+				all_core = {
+						owned_by = THIS
+					
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			change_tag = HND
+			capital = 1236
+			add_accepted_culture = union
+			add_accepted_culture = burmese
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+south_indian_hegemony = {
+potential = {
+NOT = {has_country_flag = sourindio}
+or = {tag = HYD tag = MYS}}
+allow = {HYD = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			MYS = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}}
+effect = {MYS = {all_core={add_core = THIS}}
+		HYD = {all_core={add_core = THIS}}
+		set_country_flag = sourindio
+		add_accepted_culture = kannada
+		add_accepted_culture = malayalam
+		add_accepted_culture = tamil
+		add_accepted_culture = telegu}
+		
+		ai_will_do = {
+			factor = 1
+		}
+}
+
+
+
+}

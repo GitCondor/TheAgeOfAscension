@@ -1,9 +1,0 @@
-owner = SIA controller SIA
-add_core = BUR add_core = SIA
-trade_goods = fish
-life_rating = 30
-1861.1.1 = {
-	owner = ING
-	controller = ING
-	colonial = 2
-}

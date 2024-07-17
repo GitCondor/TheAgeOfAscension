@@ -1,0 +1,11 @@
+owner = MUG
+controller = MUG
+add_core = MUG
+add_core = HND
+trade_goods = timber
+life_rating = 35
+1861.1.1 = {
+	owner = NEP
+	controller = NEP
+	
+}

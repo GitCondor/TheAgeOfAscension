@@ -1,0 +1,62 @@
+political_decisions = {
+
+	The_hungarian_empire = {
+		potential = {
+			tag = HUN
+			NOT = { has_global_flag = hungritruco }
+		}
+		allow = {
+		HUN = {
+		 all_core = {
+			    owner = {
+					    OR = {
+						    tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			infamy = 8
+			set_global_flag = hungritruco
+			ROM = {
+			all_core = {
+			    add_core = HUN
+				}
+			}
+		SER = {
+			all_core = {
+			    add_core = HUN
+				}
+			}
+			add_accepted_culture = slovak
+			add_accepted_culture = croat
+		}
+	}
+	
+privileges_to_the_illyrians = {
+		potential = {
+			tag = HUN
+			NOT = {has_global_flag = rumanos}
+			has_global_flag = rumanos_kill
+		}
+		allow = {
+		CRO = {
+		 all_core = {
+			    owner = {
+					    OR = {
+						    tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			add_accepted_culture = croat
+		}
+	}
+}
