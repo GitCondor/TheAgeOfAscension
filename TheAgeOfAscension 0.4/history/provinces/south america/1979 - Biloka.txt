@@ -1,5 +1,5 @@
 owner = ING
 controller = ING
-trade_goods = tropical_wood
+trade_goods = tropiARO_wood
 life_rating = 35
 colonial = 2

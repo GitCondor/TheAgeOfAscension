@@ -8,12 +8,12 @@ political_decisions = {
 		potential = {
 			NOT = { is_canal_enabled = 1 }
 			owns = 369
-			weapon_platforms = 1
+			mechanical_production = 1
 		}
 		allow = {
 			invention = machine_tools
 			invention = nitroglycerin
-			high_n_low_pressure_steam_engines = 1
+			iron_steamers = 1
 		}
 		effect = {
 			enable_canal = 1
@@ -38,7 +38,7 @@ political_decisions = {
 		picture = suezcanal
 		potential = {
 			NOT = { is_canal_enabled = 2 }
-			weapon_platforms = 1
+			mechanical_production = 1
 		}
 		allow = {
 			OR = {
@@ -48,7 +48,7 @@ political_decisions = {
 			}
 			invention = machine_tools
 			invention = nitroglycerin		
-			high_n_low_pressure_steam_engines = 1
+			iron_steamers = 1
 		}
 		effect = {
 			1755 = { secede_province = THIS }
@@ -75,11 +75,11 @@ political_decisions = {
 		picture = suezcanal
 		potential = {
 			NOT = { is_canal_enabled = 6 }
-			weapon_platforms = 1
+			mechanical_production = 1
 		}
 		allow = {
 			owns = 453		
-			high_n_low_pressure_steam_engines = 1
+			iron_steamers = 1
 		}
 		effect = {
 			enable_canal = 6
@@ -105,11 +105,11 @@ political_decisions = {
 		picture = suezcanal
 		potential = {
 			NOT = { is_canal_enabled = 8 }
-			weapon_platforms = 1
+			mechanical_production = 1
 		}
 		allow = {
 			owns = 492		
-			high_n_low_pressure_steam_engines = 1
+			iron_steamers = 1
 		}
 		effect = {
 			enable_canal = 8
@@ -136,11 +136,11 @@ political_decisions = {
 		picture = suezcanal
 		potential = {
 			NOT = { is_canal_enabled = 7 }
-			weapon_platforms = 1
+			mechanical_production = 1
 		}
 		allow = {
 				owns = 588		
-			high_n_low_pressure_steam_engines = 1
+			iron_steamers = 1
 			
 		}
 		effect = {
@@ -166,7 +166,7 @@ political_decisions = {
 		news_desc_short = "panama_canal_NEWS_SHORT"
 		potential = {
 			NOT = { is_canal_enabled = 3 }
-			weapon_platforms = 1
+			mechanical_production = 1
 		}
 		allow = {
 			OR = {
@@ -176,7 +176,7 @@ political_decisions = {
 			}
 			invention = machine_tools
 			invention = nitroglycerin
-			high_n_low_pressure_steam_engines = 1
+			iron_steamers = 1
 			invention = prophylaxis_against_malaria
 		}
 		effect = {

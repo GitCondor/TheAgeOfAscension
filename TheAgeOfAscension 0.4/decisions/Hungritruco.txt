@@ -1,5 +1,5 @@
 political_decisions = {
-	unify_with_the_danish = {
+	Unify With the Danish = {
 		potential = {
 			NOT = { has_global_flag = dinaviola }
 			tag = HAN
