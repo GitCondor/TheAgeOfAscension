@@ -35,7 +35,7 @@ leader = {
 	name = "Ettore Gerbaix"
 	date = 1834.1.1
 	type = land
-	personality = scared
+	personality = defence_2.43
 	background = attack_2.58
 	prestige = 0.0
 }

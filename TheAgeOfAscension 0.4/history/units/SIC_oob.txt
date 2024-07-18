@@ -45,7 +45,7 @@ leader = {
 	name = "Ferdando II"
 	date = 1820.1.1
 	type = land
-	personality = bigoted
+	personality = defence_2.43
 	background = attack_1.61
 	prestige = 0.5
 }

@@ -20,7 +20,7 @@ leader = {
 	name = "Sher Sgh"
 	type = land
 	date = 1836.1.1
-	personality = soft
+	personality = defence_2.43
 	background = no_background
 }
 

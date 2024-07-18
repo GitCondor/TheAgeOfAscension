@@ -75,7 +75,7 @@ political_decisions = {
 			877 = { add_core = TUR }
 			879 = { add_core = TUR }
 			888 = { add_core = TUR }
-			TUR_869 = {add_core = THIS}
+			TUR_863 = {add_core = THIS}
 			AZB = {all_core = {add_core = THIS}}
 			
 			set_global_flag = analgod

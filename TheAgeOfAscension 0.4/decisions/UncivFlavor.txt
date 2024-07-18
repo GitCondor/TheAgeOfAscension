@@ -206,13 +206,13 @@ political_decisions = {
 			}
 			prestige = 2
 			years_of_research = 0.02
-			ETH_1867 = {
+			ETH_1859 = {
 				add_core = ETH
 			}
 			ETH_1864 = {
 				add_core = ETH
 			}
-			ENG_1848 = {
+			ITA_1848 = {
 				add_core = ETH
 			}
 		}

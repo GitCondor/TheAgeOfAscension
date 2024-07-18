@@ -343,11 +343,10 @@ primary_culture = portuguese
 		}
 		
 		effect = {
-			GEO_336 = {
-				remove_core = SWE
-			}
-			GEO_340 = {
-				remove_core = SWE
+			FIN = {
+				all_core = {
+					remove_core = SWE
+				}
 			}
 			prestige = 10
 			any_pop = {

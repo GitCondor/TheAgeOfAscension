@@ -35,7 +35,7 @@ leader = {
 	date = 1807.1.1
 	type = land
 	personality = defence_3.1
-	background = defence_5.1
+	background = attack_2.50
 	prestige = 0.3
 }
 
@@ -79,7 +79,7 @@ leader = {
 	name = "Charles Nepveu"
 	date = 1831.1.1
 	type = land
-	personality = bigoted
+	personality = defence_2.43
 	background = attack_1.104
 	prestige = 0.0
 }
