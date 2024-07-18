@@ -78,7 +78,7 @@ country_event = {
 	
 	trigger = {
 		tag = GHO
-		in_sphere = yes
+		part_of_sphere = yes
 	}
 	
 	mean_time_to_happen = {
