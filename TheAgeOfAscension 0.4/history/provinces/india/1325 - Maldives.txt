@@ -1,5 +1,6 @@
 owner = JAN
-controller = JAN
+controller = 
+
 trade_goods = fish
 life_rating = 15
 

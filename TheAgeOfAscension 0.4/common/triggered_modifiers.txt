@@ -16,3 +16,23 @@ moooooobos  = {
 	tax_efficiency = 0.20 #20% boost
 	icon = 6
 }
+
+small_nation  = {
+	trigger = { #1.25 million POPs/5 Million population
+		NOT = { 
+				#is_culture_group = germanic
+				#is_culture_group = scandinavian
+				total_pops = 1750000 #3.75 million POPs/15 million population
+		}
+	}
+	mobilisation_size = 0.04
+	icon = 6
+}
+
+only_state_nation  = {
+	trigger = {
+		number_of_states = 1
+	}
+	mobilisation_size = 0.2
+	icon = 6
+}

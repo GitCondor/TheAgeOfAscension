@@ -78,8 +78,8 @@ country_event = {
 		tag = PRU
 	}
 	OR = {
-		NOT = {exists = PRU}
-		NOT = {exists = HAN}
+		NOT = {exist = PRU}
+		NOT = {exist = HAN}
 		}
 	NOT = { has_global_flag = elpapu }
 	}

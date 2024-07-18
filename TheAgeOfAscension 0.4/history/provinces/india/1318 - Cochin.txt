@@ -3,4 +3,4 @@ owner = MYS
 controller = MYS
 add_core = MYS
 trade_goods = grain
-life_rating = 32
+life_rattra = 32

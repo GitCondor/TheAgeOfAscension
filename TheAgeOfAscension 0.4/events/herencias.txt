@@ -14,7 +14,7 @@ country_event = {
 		days = 1
 	}
 	
-	immediate = {set_country_flag = herencia_CZH}
+	imediate = {set_country_flag = herencia_CZH}
 
 option = {
      name = "Los checos somos polacos!."
@@ -156,7 +156,7 @@ country_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	immediate = {set_country_flag = herencia_CZH}
+	imediate = {set_country_flag = herencia_CZH}
 
 option = {
     name = "Las Confederaciones son la moda"
@@ -178,7 +178,7 @@ country_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	immediate = {set_country_flag = polska_stronk}
+	imediate = {set_country_flag = polska_stronk}
 
 option = {
      name = "Debemos buscar hermandad en el este"
