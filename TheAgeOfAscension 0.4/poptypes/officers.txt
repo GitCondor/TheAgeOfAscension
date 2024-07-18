@@ -77,18 +77,6 @@ country_migration_target =
 		has_country_flag = ghostland
 	}
 	modifier = {
-		factor = 0.5
-		unemployment = 0.25
-	}
-	modifier = {
-		factor = 0.25
-		unemployment = 0.5
-	}
-	modifier = {
-		factor = -25.0
-		NOT = { has_country_flag = new_world_nation }
-	}
-	modifier = {
 		factor = 4.0
 		THIS = { religion = jewish }
 		any_owned_province = { is_core = ISR }
@@ -98,69 +86,14 @@ country_migration_target =
 #		has_country_flag = new_world_nation
 #		nationalvalue = nv_liberty
 #	}
-	modifier = {
-		factor = 10.0
-		OR = {
-			has_country_flag = north_american_immigrant_nation
-			has_country_flag = south_american_immigrant_nation
-		}
-		OR = {
-			AND = {
-				year = 1836
-				month = 1
-				NOT = { month = 2 }
-			}
-			AND = {
-				year = 1836
-				month = 3
-				NOT = { month = 4 }
-			}
-			AND = {
-				year = 1836
-				month = 5
-				NOT = { month = 6 }
-			}
-			AND = {
-				year = 1836
-				month = 7
-				NOT = { month = 8 }
-			}
-			AND = {
-				year = 1836
-				month = 9
-				NOT = { month = 10 }
-			}
-		}
-	}
 }
 
 migration_target =
 {
 	factor = 0.01
-	
-
-	modifier = {
-		factor = 1.2
-		total_pops = 150000
-	}	
-	modifier = {
-		factor = 1.2
-		total_pops = 250000
-	}
-	modifier = {
-		factor = 1.2
-		total_pops = 500000
-	}
-	modifier = {
-		factor = 1.2
-		total_pops = 750000
-	}	
 	modifier = {
 		factor = 0
-				state_scope = {
-					has_factories = no
-				}
-				can_build_factory = no
+		can_build_factory = no
 		OR = { 
 			unemployment_by_type = { type = farmers value = 0.1  }
 			unemployment_by_type = { type = labourers value = 0.1  }
@@ -172,27 +105,8 @@ migration_target =
 			has_culture_core = yes
 			has_pop_culture = THIS
 			has_pop_religion = THIS
+			is_coastal = yes
 		}
-	}
-	modifier = {
-		factor = 2
-		state_scope = {
-					has_factories = yes
-				}
-	}
-	modifier = {
-		factor = 1.5
-		any_core = { is_primary_culture = THIS }
-	}
-	modifier = {
-		factor = 0.75
-		state_scope = {
-			is_slave = yes
-		}
-	}
-	modifier = {
-		factor = 1.05
-		is_coastal = yes
 	}
 }
 
