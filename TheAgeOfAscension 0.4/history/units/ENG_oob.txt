@@ -2,13 +2,13 @@
 GRE = {
 	value = 125		#relation
 	level = 5		#3=cordial, 4 = friendly, 5 sphere
-	fluence_value = 50
+	influence_value = 50
 }
 
 SIA = {				#Columbia if released
 	value = 150		#relation
 	level = 4		#3=cordial, 4 = friendly, 5 sphere
-	fluence_value = 5
+	influence_value = 5
 }
 
 leader = {

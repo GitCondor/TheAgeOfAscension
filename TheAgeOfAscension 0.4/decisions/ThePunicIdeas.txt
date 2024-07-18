@@ -44,12 +44,10 @@ political_decisions = {
 		effect = {
 			set_country_flag = libia_idea
 			LBI	= {				
-				any_province = {
-					limit = { 
-						owned_by = this
-					}
+				all_core = {
+					limit = { owned_by = this }
 					add_core = NPE
-					annex_to = THIS
+					secede_province = THIS
 				}
 			}	
 			prestige = 10			

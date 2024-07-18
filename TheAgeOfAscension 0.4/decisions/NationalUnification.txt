@@ -319,10 +319,9 @@ primary_culture = portuguese
 				}
 				country_event = { id=11101 days=0 }
 			}
-			any_province = { limit = { is_core = FIN } add_core = SCA }
-			any_province = { limit = { is_core = DEN } add_core = SCA }
-			any_province = { limit = { is_core = DEN } add_core = SCA }
-			any_province = { limit = { is_core = EST } add_core = SCA }
+			FIN = { all_core = { add_core = SCA } }
+			DEN = { all_core = { add_core = SCA } }
+			EST = { all_core = { add_core = SCA } }
 		}
 		ai_will_do = {
 			factor = 1
@@ -600,24 +599,24 @@ unite_moldavia_wallachia = {
                     }
 					
                 }
-                any_owned = {
-                    limit = {
-						OR _ {
-                        is_core = ARN
-						is_core = NPE
-						is_core = GRE
-							}
-                    }
-                    secede_province = ARN
+				any_owned = {
+					limit = {
+						OR = {
+							is_core = ARN
+							is_core = NPE
+							is_core = GRE
+						}
+					}
+					secede_province = ARN
 					add_core = ARN
-                }
-            }
-			any_province = {
-                    limit = {
-                        culture = occitan
-                    }
-                    add_core = ARN
 				}
+				any_owned = {
+					limit = {
+						culture = occitan
+					}
+					add_core = ARN
+				}
+            }
 			
 			PAP = {all_core={add_core=THIS}}
 			

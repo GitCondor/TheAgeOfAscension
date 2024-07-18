@@ -1,7 +1,7 @@
 PAP = {
 	value = 75		#relation
 	level = 5		#3=cordial, 4 = friendly, 5 sphere
-	fluence_value = 25
+	influence_value = 25
 }
 leader = {
 	name = "von Heideck"

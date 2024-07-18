@@ -91,7 +91,7 @@ oob = "MOL_oob.txt"
 #Inventions
 	hussey_n_mccormicks_reaping_machine = yes
 	mechanical_precision_saw = yes
-	pitts_tHRMshing_machine = yes
+	pitts_threshing_machine = yes
 	jacquard_power_loom = yes
 	northrop_power_loom = yes
 	mechanized_slaughtering_block = yes

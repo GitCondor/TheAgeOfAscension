@@ -131,14 +131,12 @@ political_decisions = {
 		}
 		effect = {
 			SPC	= {				
-				any_province = {
+				all_core = {
 					limit = { 
 						owned_by = this
 					}
-
-					annex_to = THIS
+					secede_province = THIS
 				}
-				
 			}
 			add_accepted_culture = dixie
 		}

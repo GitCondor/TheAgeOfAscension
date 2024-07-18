@@ -11,7 +11,7 @@ is_releasable_vassal = no
 prestige = 65
 
 # Political reforms
-slavery = no_slavery mili = mili_no
+slavery = no_slavery #mili = mili_no
 upper_house_composition = appointed
 vote_franschise = wealth_voting
 public_meetings = yes_meeting

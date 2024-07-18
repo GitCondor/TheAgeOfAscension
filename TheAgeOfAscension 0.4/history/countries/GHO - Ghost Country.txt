@@ -1,7 +1,7 @@
 capital = 1128
 primary_culture = polar_bears
 civlized = yes
-
+government = absolute_monarchy
 ruling_party = GHO_exclusive
 
 set_country_flag = world_bank_off

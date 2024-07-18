@@ -117,22 +117,19 @@ political_decisions = {
 	get_the_danube_river = {
 		potential = {
 			tag = TUR
-		NOT = { has_global_flag = division }
-		has_global_flag = medito
+			NOT = { has_global_flag = division }
+			has_global_flag = medito
 		}
 		allow = {
 			war = no
-			
-		TUR = {all_core={owned_by = THIS}}
-		
-			
+			TUR = { all_core = { owned_by = THIS } }
 		}
 		effect = {
-		GRE	= {all_core = {add_core = THIS}}
-		BUL = {all_core = {add_core = THIS}}
-		SER = = {all_core = {add_core = THIS}}
+			GRE	= { all_core = { add_core = THIS } }
+			BUL = { all_core = { add_core = THIS } }
+			SER = { all_core = { add_core = THIS } }
 		}
-				ai_will_do = {
+		ai_will_do = {
 			factor = 1
 		}
 	}

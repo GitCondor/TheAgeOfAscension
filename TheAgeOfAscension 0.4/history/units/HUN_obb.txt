@@ -3,55 +3,55 @@
 BAD = {	
 	value = 125
 	level = 5
-	fluence_value = 25
+	influence_value = 25
 }
 
 BAV = {
 	value = 125
 	level = 5
-	fluence_value = 25
+	influence_value = 25
 }
 
 WUR = {
 	value = 125
 	level = 5
-	fluence_value = 25
+	influence_value = 25
 }
 
 SAX = {
 	value = 125
 	level = 5
-	fluence_value = 25
+	influence_value = 25
 }
 
 KRA = {
 	value = 125
 	level = 5
-	fluence_value = 25
+	influence_value = 25
 }
 
 SER = {
 	value = 75
 	level = 2
-	fluence_value = 25
+	influence_value = 25
 }
 
 SAR = {
 	value = 50
 	level = 2
-	fluence_value = 25
+	influence_value = 25
 }
 
 PAP = {
 	value = 125
 	level = 3
-	fluence_value = 25
+	influence_value = 25
 }
 
 SWI = {
 	value = 125
 	level = 3
-	fluence_value = 25
+	influence_value = 25
 }
 
 PAR = {
@@ -62,19 +62,19 @@ PAR = {
 MOD = {
 	value = 100
 	level = 5
-	fluence_value = 25
+	influence_value = 25
 }
 
 TUS = {
 	value = 75
 	level = 5
-	fluence_value = 25
+	influence_value = 25
 }
 
 LUC = {
 	value = 75
 	level = 5
-	fluence_value = 25
+	influence_value = 25
 }
 
 DEN = {
