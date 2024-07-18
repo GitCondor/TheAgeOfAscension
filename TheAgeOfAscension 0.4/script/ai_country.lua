@@ -354,15 +354,7 @@ function CountryAI_HandleCrisis(country, crisis)
 end
 
 function CountryAI_ResearchTechnology(country)
-    -- Prioridades de investigación
-    local researchPriorities = {
-        "chemistry_and_electricity", -- Química y Electricidad
-        "military", -- Tecnologías militares
-        "political_thought", -- Estado y Gobierno (Línea de Political Thought)
-        "industry", -- Industria
-        "random" -- Si todas las categorías anteriores están llenas, investiga una tecnología aleatoria
-    }
-
+    -- No es necesario ya que prioridad en rushear de ai factor
     -- Si el país es incivilizado, prioriza las reformas que otorgan puntos por conquistar estados
     if country:IsUncivilized() then
         local availableReforms = country:GetAvailableReforms()
@@ -372,16 +364,6 @@ function CountryAI_ResearchTechnology(country)
                 country:PassReform(reform)
                 return
             end
-        end
-    end
-
-    -- Busca la próxima tecnología disponible según las prioridades definidas
-    for i = 1, #researchPriorities do
-        local priority = researchPriorities[i]
-        local nextTech = country:GetNextAvailableTechnology(priority)
-        if nextTech then
-            country:ResearchTechnology(nextTech)
-            return
         end
     end
 end
