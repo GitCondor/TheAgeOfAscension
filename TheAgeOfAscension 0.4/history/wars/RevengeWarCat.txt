@@ -16,7 +16,7 @@ name = "French Revenge War"
 		receiver = CAT
 	}
 	war_goal = {
-		casus_belli = acquire_core_state
+		casus_belli = acquire_core_state_medium
 		actor = FRA
 		receiver = SGF
 		state_province_id = 412

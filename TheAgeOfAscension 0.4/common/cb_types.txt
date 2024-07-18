@@ -968,21 +968,15 @@ acquire_state_medium = {
 		OR = {
 			AND = {
 				civilized = yes
-				THIS = {
-					civilized = yes
-				}
+				THIS = { civilized = yes }
 			}
 			AND = {
 				civilized = yes
-				THIS = {
-					civilized = no
-				}
+				THIS = { civilized = no }
 			}
 			AND = {
 				civilized = no
-				THIS = {
-					civilized = no
-				}
+				THIS = { civilized = no }
 			}
 		}
 	}
@@ -1528,7 +1522,7 @@ free_peoples_small = {
 			NOT = { OR = { tag = TIN tag = SMA tag = MED tag = LRG tag = HUG } }
 			OR = {
 				exists = yes
-				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = AIT tag = YUG tag = ROM tag = CZH tag = PLC } }
+				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = YUG tag = ROM tag = CZH tag = PLC } }
 			}
 		}
 		
@@ -1603,7 +1597,7 @@ free_peoples_medium = {
 			NOT = { OR = { tag = TIN tag = SMA tag = MED tag = LRG tag = HUG } }
 			OR = {
 				exists = yes
-				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = AIT tag = YUG tag = ROM tag = CZH tag = PLC } }
+				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = YUG tag = ROM tag = CZH tag = PLC } }
 			}
 		}
 		
@@ -1678,7 +1672,7 @@ free_peoples_large = {
 			NOT = { OR = { tag = TIN tag = SMA tag = MED tag = LRG tag = HUG } }
 			OR = {
 				exists = yes
-				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = AIT tag = YUG tag = ROM tag = CZH tag = PLC } }
+				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = YUG tag = ROM tag = CZH tag = PLC } }
 			}
 		}
 		
@@ -1753,7 +1747,7 @@ free_peoples_huge = {
 			NOT = { OR = { tag = TIN tag = SMA tag = MED tag = LRG tag = HUG } }
 			OR = {
 				exists = yes
-				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = AIT tag = YUG tag = ROM tag = CZH tag = PLC } }
+				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = YUG tag = ROM tag = CZH tag = PLC } }
 			}
 		}
 		

@@ -15,13 +15,13 @@ name = "Swedian War of Unification"
 		receiver = NOR
 	}
 	war_goal = {
-		casus_belli = acquire_core_state 
+		casus_belli = acquire_core_state_medium 
 		actor = NOR
 		receiver = SWE
 		state_province_id = 306
 	}
 	war_goal = {
-		casus_belli = acquire_core_state 
+		casus_belli = acquire_core_state_medium 
 		actor = NOR
 		receiver = SWE
 		state_province_id = 315
