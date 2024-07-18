@@ -2254,7 +2254,6 @@ demand_concession_casus_belli_small = {
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
 		this = { NOT = { badboy = 1 } }
-		0
 		THIS = {
 			civilized = yes
 		}
@@ -2313,7 +2312,6 @@ demand_concession_casus_belli_medium = {
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
 		this = { NOT = { badboy = 1 } }
-		0
 		THIS = {
 			civilized = yes
 		}
@@ -2372,7 +2370,6 @@ demand_concession_casus_belli_large = {
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
 		this = { NOT = { badboy = 1 } }
-		0
 		THIS = {
 			civilized = yes
 		}
@@ -2431,7 +2428,6 @@ demand_concession_casus_belli_huge = {
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
 		this = { NOT = { badboy = 1 } }
-		0
 		THIS = {
 			civilized = yes
 		}
