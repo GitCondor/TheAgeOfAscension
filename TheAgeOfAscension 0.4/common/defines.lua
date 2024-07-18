@@ -612,10 +612,7 @@ diplomacy = {
 	TWS_BATTLE_MAX_ASPECT = 8.0, -- Max allowed battle wins aspect for TWS
 	LARGE_POPULATION_INFLUENCE_PENALTY = -0.4,
 	LONE_BACKER_PRESTIGE_FACTOR = 0.05 -- prestige boost for being only defender backer in crisis
-},  
-
-
-
+}, 
 
 pops = {
 	BASE_CLERGY_FOR_LITERACY = 0.005,
