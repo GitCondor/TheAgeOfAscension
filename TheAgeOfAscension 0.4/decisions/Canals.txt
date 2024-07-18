@@ -13,7 +13,7 @@ political_decisions = {
 		allow = {
 			invention = machine_tools
 			invention = nitroglycerin
-			iron_steamers = 1
+			high_n_low_pressure_steam_engines = 1
 		}
 		effect = {
 			enable_canal = 1
@@ -48,7 +48,7 @@ political_decisions = {
 			}
 			invention = machine_tools
 			invention = nitroglycerin		
-			iron_steamers = 1
+			high_n_low_pressure_steam_engines = 1
 		}
 		effect = {
 			1755 = { secede_province = THIS }
@@ -79,7 +79,7 @@ political_decisions = {
 		}
 		allow = {
 			owns = 453		
-			iron_steamers = 1
+			high_n_low_pressure_steam_engines = 1
 		}
 		effect = {
 			enable_canal = 6
@@ -109,7 +109,7 @@ political_decisions = {
 		}
 		allow = {
 			owns = 492		
-			iron_steamers = 1
+			high_n_low_pressure_steam_engines = 1
 		}
 		effect = {
 			enable_canal = 8
@@ -140,7 +140,7 @@ political_decisions = {
 		}
 		allow = {
 				owns = 588		
-			iron_steamers = 1
+			high_n_low_pressure_steam_engines = 1
 			
 		}
 		effect = {
@@ -176,7 +176,7 @@ political_decisions = {
 			}
 			invention = machine_tools
 			invention = nitroglycerin
-			iron_steamers = 1
+			high_n_low_pressure_steam_engines = 1
 			invention = prophylaxis_against_malaria
 		}
 		effect = {
