@@ -1,8 +1,6 @@
 owner = PHI
 controller = PHI
-add_core = PHI trade_goods
-owner = PHI
-controller = PHI
-add_core = PHI trade_goods = dye
+add_core = PHI
+trade_goods = dye
 life_rating = 35
 colonial = 2

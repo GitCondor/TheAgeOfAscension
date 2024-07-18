@@ -27,3 +27,10 @@ nv_diplomacy = {
 	badboy = -0.1
 	cb_generation_speed_modifier = 0.5
 }
+
+nv_liberty = {
+	diplomatic_points_modifier = 2
+	influence_modifier = 0.5
+	badboy = -0.1
+	cb_generation_speed_modifier = 0.5
+}
