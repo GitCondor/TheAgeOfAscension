@@ -42,7 +42,7 @@ on_election_tick = {
 	#Main big ones.. most common.
 	100 = 14000
 	100 = 14010
-	100 = 14020
+	#100 = 14020
 	100 = 14030
 	100 = 14040
 	

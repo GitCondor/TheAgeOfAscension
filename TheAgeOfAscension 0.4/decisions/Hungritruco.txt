@@ -42,7 +42,7 @@ the_celtic_path = {
 		}
 		effect = {
 			badboy = 2
-			country_event = { id=50006 days=0 }
+			#country_event = { id=50006 days=0 }
 		}
 	}
 the_new_members_of_the_union = {
@@ -75,7 +75,7 @@ the_new_members_of_the_union = {
 		}
 		effect = {
 			badboy = 8
-			country_event = { id=50006 days=0 }
+			#country_event = { id=50006 days=0 }
 		}
 	}
 }

@@ -547,7 +547,8 @@ unite_moldavia_wallachia = {
 						relation = { who = THIS value = 50 }
 					}
 				}
-				country_event = 11108
+				relation = { who = THIS value = 50 }
+				#country_event = 11108
 			}
 		}
 
@@ -627,7 +628,8 @@ unite_moldavia_wallachia = {
 						relation = { who = THIS value = 50 }
 					}
 				}
-				country_event = 11108
+				relation = { who = THIS value = 50 }
+				#country_event = 11108
 			}	
 			add_accepted_culture = union
 			}

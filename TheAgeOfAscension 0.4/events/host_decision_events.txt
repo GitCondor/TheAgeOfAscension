@@ -240,20 +240,6 @@ country_event = {
 }
 
 country_event = {
-	id = 1000001123
-	title = "Crisies Disabled!"
-	desc = "The host, $FROMCOUNTRY$, has disabled crisies!"
-	major = yes
-	picture = "greatpowers"
-	is_triggered_only = yes
-
-
-	option = {
-		name = "Okay"
-	}
-}
-
-country_event = {
 	id = 1000002123
 	title = "Host swap"
 	desc = "Host's bout to swap yo ur nation"

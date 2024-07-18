@@ -71,12 +71,13 @@ political_decisions = {
 					OR = {
 					    in_sphere = THIS
 					    vassal_of = THIS
-						}
+					}
 					NOT = {
 						tag = THIS
 					}				
 				}
-				country_event = 333458
+				annex_to = THIS
+				#country_event = 333458
 			}		
 			any_country = { 
 			   any_owned = { 
