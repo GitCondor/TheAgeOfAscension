@@ -1,5 +1,5 @@
-owner = ING
-controller = ING
-add_core = ING add_core = ENG 
+owner = SCO
+controller = SCO
+add_core = SCO add_core = ENG 
 trade_goods = fish
 life_rating = 35

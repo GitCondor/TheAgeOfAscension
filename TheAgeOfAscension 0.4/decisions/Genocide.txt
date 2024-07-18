@@ -116,6 +116,7 @@ genocide = {
 				}
 				country_event = 60168151
 			}
+			GHO = {country_event = 700700}
 			set_global_flag = creditsfired
 		}
 		 ai_will_do = {

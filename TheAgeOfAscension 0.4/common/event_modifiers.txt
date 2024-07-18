@@ -160,19 +160,19 @@ academic_confusion = {
 	icon = 6
 }
 ponto_growth = {
-	population_growth = 0.5
+	population_growth = 0.05
 	icon = 20
 }
 Kar_growth = {
-	population_growth = 0.2
+	population_growth = 0.02
 	icon = 20
 }
 npe_growth = {
-	population_growth = 0.4
+	population_growth = 0.04
 	icon = 20
 }
 german_growth = {
-	population_growth = 0.6
+	population_growth = 0.06
 	icon = 20
 }
 rip_kiti = {
@@ -213,9 +213,8 @@ global_liberal_agitation = {
 }
 
 limpieza = {
-	badboy = 0.35
-	prestige = -0.1
-	global_assimilation_rate = 1.5
+	badboy = 0.01
+	global_assimilation_rate = 2.5
 	icon = 18
 }
 

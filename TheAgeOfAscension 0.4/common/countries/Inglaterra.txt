@@ -1,4 +1,4 @@
-color = { 230  50  50 }
+color = { 50  150  50 }
 graphical_culture = BritishGC
 
 

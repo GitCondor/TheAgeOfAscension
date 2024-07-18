@@ -1466,9 +1466,9 @@ PAP_752 = { 749 754 2567 755 3258 } #Lazio-Compania
 
 #SIC_754 = { 754 2567 755 } #Campania
 
-SIC_756 = { 756 759 761 760 758 3259 } #Apulia-Calabria
+SIC_756 = { 756 759 761 760 758 3259 757} #Apulia-Calabria
 
-ITA_753 = { 752 753 751 757 3260 750 } #Abruzzo-Marche
+ITA_753 = { 752 753 751 3260 750 } #Abruzzo-Marche
 
 #PAP_752 = { 749 752 750 751 } #Lazio
 
