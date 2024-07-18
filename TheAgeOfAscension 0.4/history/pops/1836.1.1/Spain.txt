@@ -596,7 +596,7 @@
 	craftsmen = {
 		culture = spanish
 		religion = catholic
-		size = 32100
+		size = 112100
 	}
 }
 #Siguenza (204000/51000 POPS)

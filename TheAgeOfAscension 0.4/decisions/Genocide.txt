@@ -114,7 +114,10 @@ genocide = {
 				limit = {
 					ai = no
 				}
-				country_event = 60168151
+				country_event = 60168151				
+			} 
+			any_country = {				
+				country_event = 6007453
 			} 
 			any_country = {
 			limit = {civilized = yes}

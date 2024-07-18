@@ -1,10 +1,9 @@
 country_event = { 
-       id = 6007
+       id = 6007453
        title = "pipipipop" 
        desc = "dinero causas" 
        picture = "Nile"
 	   trigger = {
-			   year = 1836
 			   NOT = { has_country_flag = money }
 	   }
 	   
@@ -17,5 +16,5 @@ country_event = {
 
 option = {
      name = "dupliquenle el sexo"
-     money = 100015
+     money = 300015
 }}

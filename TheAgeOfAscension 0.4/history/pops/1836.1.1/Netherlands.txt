@@ -81,7 +81,7 @@
 	craftsmen = {
 		culture = dutch
 		religion = protestant
-		size = 5850
+		size = 125850
 	}
 	soldiers = {
 		culture = dutch
