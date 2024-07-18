@@ -77,11 +77,8 @@ country_event = {
 	picture = "dixie"
 	
 	trigger = {
-		any_greater_power = {
-			is_sphere_leader_of = {
-				tag = GHO
-			}
-		}
+		tag = GHO
+		in_sphere = yes
 	}
 	
 	mean_time_to_happen = {
@@ -89,13 +86,15 @@ country_event = {
 	}
 	
 	immediate = {
-		diplomatic_influence = {
-			who = GHO
-			value = -400
-		}
-		relation = {
-			who = GHO
-			value = -200
+		any_greater_power = {
+			diplomatic_influence = {
+				who = GHO
+				value = -400
+			}
+			relation = {
+				who = GHO
+				value = -200
+			}
 		}
 	}
 	
