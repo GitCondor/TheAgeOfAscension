@@ -354,13 +354,6 @@ country_event = {
 		random_country = {
 			limit = {
 				tag = FROM
-				tag = CLN
-			}
-			THIS = { change_tag_no_core_switch = CLN }
-		}
-		random_country = {
-			limit = {
-				tag = FROM
 				tag = ENG
 			}
 			THIS = { change_tag_no_core_switch = ENG }
@@ -1806,13 +1799,6 @@ country_event = {
 				tag = VNZ
 			}
 			THIS = { change_tag_no_core_switch = VNZ }
-		}
-		random_country = {
-			limit = {
-				tag = FROM
-				tag = SAC
-			}
-			THIS = { change_tag_no_core_switch = SAC }
 		}
 		random_country = {
 			limit = {

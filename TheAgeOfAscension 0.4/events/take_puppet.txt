@@ -1,4 +1,4 @@
-province_event = {
+country_event = {
 	id = 19370
 	title = "EVTNAME19370"
 	desc = "EVTDESC19370"
