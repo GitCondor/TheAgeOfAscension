@@ -568,7 +568,7 @@ diplomacy = {
 	GW_WARGOAL_JINGOISM_REQUIREMENT_MOD = 0, -- % deduction of required jingoists in country
 	GW_WARSCORE_COST_MOD = 0.65, -- cost reduction factor on warscore needed to fulfill goal if great war
 	GW_WARSCORE_COST_MOD_2 = 0.3, -- cost reduction factor on warscore needed to fulfill goal if late game great war
-	GW_WARSCORE_2_THRMSHOLD = 50, -- warscore tHRMshold where a GW turns into a world war for winner side
+	GW_WARSCORE_2_THRESHOLD = 50, -- warscore tHRMshold where a GW turns into a world war for winner side
 	TENSION_DECAY = -10000,
 	TENSION_FROM_CB = 0.04,
 	TENSION_FROM_MOVEMENT = 0.02, -- tension per 1000 in nationalist movement
@@ -634,7 +634,7 @@ pops = {
 
 	PROMOTION_SCALE = 0.002,
 	PROMOTION_ASSIMILATION_CHANCE = 1.0,
-	LUXURY_THRMSHOLD = 500,
+	LUXURY_THRESHOLD = 500,
 	BASE_GOODS_DEMAND = 0.8,
 	BASE_POPGROWTH = 0.0001,
 	MIN_LIFE_RATING_FOR_GROWTH = 30,

@@ -1378,11 +1378,11 @@ demand_concession_casus_belli = {
 	always = no
 
 	can_use = {
-		NOT = { is_our_vassal = THIS tag = LCT tag = GHO
-			or = {tag = CHI year = 1855}
-		THIS = {
-			civilized = yes
+		NOT = {
+			is_our_vassal = THIS tag = LCT tag = GHO
+			OR = { tag = CHI year = 1855 }
 		}
+		THIS = { civilized = yes }
 		civilized = no
 		number_of_states = 2
 	}
@@ -1390,7 +1390,8 @@ demand_concession_casus_belli = {
 	allowed_states = {
 		any_owned_province = {
 			is_colonial = no
-		}}
+		}
+	}
 	
 	po_demand_state = yes
 	

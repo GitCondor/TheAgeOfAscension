@@ -1,5 +1,5 @@
 owner = BRZ
 controller = BRZ
-add_core = BRZtropical_wood
-trade_goods = tropiARO_wood
+add_core = BRZ
+trade_goods = tropical_wood
 life_rating = 25

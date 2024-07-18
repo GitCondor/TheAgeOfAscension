@@ -1876,19 +1876,19 @@ conversion_chance =
 #
 #	modifier = {
 #		factor = 3
-#		country = { religious_policy = moralism }
+#		country = {  }
 #	}
 #	modifier = {
 #		factor = 1.01
-#		country = { religious_policy = pluralism }
+#		country = {  }
 #	}
 #	modifier = {
 #		factor = -3
-#		country = { religious_policy = pro_atheism }
+#		country = {  }
 #	}
 #	modifier = {
 #		factor = -1
-#		country = { religious_policy = secularized }
+#		country = {  }
 #	}
 #
 #	group = {
