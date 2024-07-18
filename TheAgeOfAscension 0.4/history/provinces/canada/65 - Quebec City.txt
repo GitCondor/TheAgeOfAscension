@@ -1,4 +1,4 @@
-owner = NEN controller = NEN add_core = NENadd_core = QUE
+owner = NEN controller = NEN add_core = QUE
 add_core = NEN
 trade_goods = grain
 naval_base = 1

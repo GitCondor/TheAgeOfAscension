@@ -1,4 +1,4 @@
-owner = NEN controller = NEN add_core = NENadd_core = NEW
+owner = NEN controller = NEN add_core = NEW
 add_core = NEN
 trade_goods = fish
 life_rating = 35

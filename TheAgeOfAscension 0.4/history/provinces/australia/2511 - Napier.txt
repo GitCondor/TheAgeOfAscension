@@ -2,8 +2,7 @@
 controller = JAN
 owner = JAN
 add_core = JAN trade_goods = cattle
-life_rating = 351861.1.1 = { 
-	
-	
+life_rating = 35
+1861.1.1 = {
 	colonial = 2
 }
