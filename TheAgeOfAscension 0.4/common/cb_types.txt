@@ -1528,7 +1528,7 @@ free_peoples_small = {
 			NOT = { OR = { tag = TIN tag = SMA tag = MED tag = LRG tag = HUG } }
 			OR = {
 				exists = yes
-				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = AIT tag = YUG tag = ROM tag = CZH tag = PLC } }
+				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = YUG tag = ROM tag = CZH tag = PLC } }
 			}
 		}
 		
@@ -1603,7 +1603,7 @@ free_peoples_medium = {
 			NOT = { OR = { tag = TIN tag = SMA tag = MED tag = LRG tag = HUG } }
 			OR = {
 				exists = yes
-				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = AIT tag = YUG tag = ROM tag = CZH tag = PLC } }
+				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = YUG tag = ROM tag = CZH tag = PLC } }
 			}
 		}
 		
@@ -1678,7 +1678,7 @@ free_peoples_large = {
 			NOT = { OR = { tag = TIN tag = SMA tag = MED tag = LRG tag = HUG } }
 			OR = {
 				exists = yes
-				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = AIT tag = YUG tag = ROM tag = CZH tag = PLC } }
+				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = YUG tag = ROM tag = CZH tag = PLC } }
 			}
 		}
 		
@@ -1753,7 +1753,7 @@ free_peoples_huge = {
 			NOT = { OR = { tag = TIN tag = SMA tag = MED tag = LRG tag = HUG } }
 			OR = {
 				exists = yes
-				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = AIT tag = YUG tag = ROM tag = CZH tag = PLC } }
+				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = YUG tag = ROM tag = CZH tag = PLC } }
 			}
 		}
 		
@@ -2254,7 +2254,6 @@ demand_concession_casus_belli_small = {
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
 		this = { NOT = { badboy = 1 } }
-		0
 		THIS = {
 			civilized = yes
 		}
@@ -2313,7 +2312,6 @@ demand_concession_casus_belli_medium = {
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
 		this = { NOT = { badboy = 1 } }
-		0
 		THIS = {
 			civilized = yes
 		}
@@ -2372,7 +2370,6 @@ demand_concession_casus_belli_large = {
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
 		this = { NOT = { badboy = 1 } }
-		0
 		THIS = {
 			civilized = yes
 		}
@@ -2431,7 +2428,6 @@ demand_concession_casus_belli_huge = {
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
 		this = { NOT = { badboy = 1 } }
-		0
 		THIS = {
 			civilized = yes
 		}
