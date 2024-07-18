@@ -180,7 +180,7 @@ country_event = {
 	picture = "Demonstration"
 	
 	trigger = {
-		or = {tag = CHI tag = GXI tag = HEA}
+		or = {tag = CHI tag = GXI tag = TPG}
 		not = {has_country_flag = finalz}
 		CHI = {war = no}
 		year = 1841

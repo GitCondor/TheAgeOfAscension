@@ -1,5 +1,5 @@
 capital = 1369
-primary_culture = vietnamese
+primary_culture = khmer
 religion = mahayana
 government = absolute_monarchy
 plurality = 0.0

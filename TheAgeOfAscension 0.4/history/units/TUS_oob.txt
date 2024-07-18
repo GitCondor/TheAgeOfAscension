@@ -5,7 +5,7 @@ army = {
 		name = "Leopoldo II"
 		date = 1824.1.1
 		type = land
-		personality = soft
+		personality = defence_2.43
 		background = attack_1.61
 		prestige = 0.5
 	}

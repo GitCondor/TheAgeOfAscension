@@ -76,22 +76,10 @@ country_migration_target =
 		has_country_flag = ghostland
 	}
 	modifier = {
-		factor = 0.5
-		unemployment = 0.25
-	}
-	modifier = {
-		factor = 0.25
-		unemployment = 0.5
-	}
-	modifier = {
 		factor = -10000
 		soldiers = 0.06
 	}
 	
-	modifier = {
-		factor = -25.0
-		NOT = { has_country_flag = new_world_nation }
-	}
 	modifier = {
 		factor = 4.0
 		THIS = { religion = jewish }
@@ -101,41 +89,7 @@ country_migration_target =
 #		factor = 10.0
 #		has_country_flag = new_world_nation
 #		nationalvalue = nv_liberty
-#	}
-	modifier = {
-		factor = 10.0
-		OR = {
-			has_country_flag = north_american_immigrant_nation
-			has_country_flag = south_american_immigrant_nation
-		}
-		OR = {
-			AND = {
-				year = 1836
-				month = 1
-				NOT = { month = 2 }
-			}
-			AND = {
-				year = 1836
-				month = 3
-				NOT = { month = 4 }
-			}
-			AND = {
-				year = 1836
-				month = 5
-				NOT = { month = 6 }
-			}
-			AND = {
-				year = 1836
-				month = 7
-				NOT = { month = 8 }
-			}
-			AND = {
-				year = 1836
-				month = 9
-				NOT = { month = 10 }
-			}
-		}
-	}#	modifier = {
+#	}#	modifier = {
 #		factor = 0.1
 #		has_country_flag = new_world_nation
 #		nationalvalue = nv_liberty
@@ -163,61 +117,22 @@ country_migration_target =
 migration_target =
 {
 	factor = 0.01
-	
 	modifier = {
 		factor = 0
-		state_scope = {
-			soldiers = 0.05
+		can_build_factory = no
+		OR = { 
+			unemployment_by_type = { type = farmers value = 0.1  }
+			unemployment_by_type = { type = labourers value = 0.1  }
 		}
 	}
-	
-	modifier = {
-		factor = 1.2
-		total_pops = 150000
-	}
-		modifier = {
-		factor = 1.2
-		total_pops = 250000
-	}
-	modifier = {
-		factor = 1.2
-		total_pops = 500000
-	}
-	modifier = {
-		factor = 1.2
-		total_pops = 750000
-	}
-
-	modifier = {
-    		factor = 4
-    		has_culture_core = yes
-	}
-
 	modifier = {
 		factor = 4
-		has_pop_culture = THIS
-	}
-	modifier = {
-		factor = 1.5
-		any_core = { is_primary_culture = THIS }
-	}
-	modifier = {
-		factor = 0.75
-		state_scope = {
-			is_slave = yes
+		OR = {
+			has_culture_core = yes
+			has_pop_culture = THIS
+			has_pop_religion = THIS
+			is_coastal = yes
 		}
-	}
-	modifier = {
-		factor = 20000
-		is_state_capital = yes
-	}		
-	modifier = {
-		factor = 1.5
-		is_capital = yes
-	}
-	modifier = {
-		factor = 1.05
-		is_coastal = yes
 	}
 }
 
@@ -1475,136 +1390,7 @@ issues =
 			}
 		}
 	}
-	pro_atheism = {
-		factor = 1
-		modifier = {
-			factor = 1.1
-			consciousness = 8
-			NOT = { is_state_religion = yes }
-		}
-		modifier = {
-			factor = 1.1
-			consciousness = 6
-			NOT = { is_state_religion = yes }
-			country = {
-				religious_policy = moralism
-			}
-		}
-		modifier = {
-			factor = 0.5
-			not = { consciousness = 6 }
-		}
-		modifier = {
-			factor = 0.5
-			not = { consciousness = 7 }
-		}
-		modifier = {
-			factor = 0.5
-			not = { consciousness = 8 }
-		}
-		modifier = {
-			factor = 0.5
-			not = { consciousness = 9 }
-		}	
-	}
-	secularized = {
-		factor = 1
-		modifier = {
-			factor = 1.1
-			consciousness = 6
-			NOT = { consciousness = 8 }
-			NOT = { is_state_religion = yes }
-		}
-		modifier = {
-			factor = 1.1
-			consciousness = 6
-			NOT = { is_state_religion = yes }
-			country = {
-				religious_policy = pluralism
-			}
-		}
-		modifier = {
-			factor = 1.1
-			consciousness = 6
-		}
-		modifier = {
-			factor = 1.1
-			consciousness = 7
-		}
-		modifier = {
-			factor = 1.1
-			consciousness = 8
-		}
-		modifier = {
-			factor = 1.1
-			consciousness = 9
-		}
-	}
-	pluralism = {
-		factor = 1
-		modifier = {
-			factor = 1.1
-			consciousness = 2
-			NOT = { consciousness = 4 }
-			is_state_religion = yes
-		}
-		modifier = {
-			factor = 0.9
-			consciousness = 6
-		}
-		modifier = {
-			factor = 0.9
-			consciousness = 7
-		}
-		modifier = {
-			factor = 0.9
-			consciousness = 8
-		}
-		modifier = {
-			factor = 0.9
-			consciousness = 9
-		}	
-	}
-	moralism = {
-		factor = 1
-		modifier = {
-			factor = 1.2
-			NOT = { consciousness = 4 }
-			is_state_religion = yes
-		}
-		modifier = {
-			factor = 1.1
-			not = { consciousness = 4 }
-		}	
-		modifier = {
-			factor = 1.1
-			not = { consciousness = 3 }
-		}	
-		modifier = {
-			factor = 1.1
-			not = { consciousness = 2 }
-		}	
-		modifier = {
-			factor = 1.1
-			not = { consciousness = 1 }
-		}			
-		modifier = {
-			factor = 0.9
-			consciousness = 6
-		}
-		modifier = {
-			factor = 0.9
-			consciousness = 7
-		}
-		modifier = {
-			factor = 0.9
-			consciousness = 8
-		}
-		modifier = {
-			factor = 0.9
-			consciousness = 9
-		}
-	}
+
 	residency = {
 		factor = 1
 		modifier = {

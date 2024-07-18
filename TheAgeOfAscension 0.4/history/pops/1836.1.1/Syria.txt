@@ -147,13 +147,13 @@
 	}
 
 	clergymen = {
-		culture = sephardic
+		culture = mashriqi
 		religion = jewish
 		size = 50
 	}
 
 	artisans = {
-		culture = sephardic
+		culture = mashriqi
 		religion = jewish
 		size = 1450
 	}
@@ -351,13 +351,13 @@
 	}
 
 	clergymen = {
-		culture = sephardic
+		culture = mashriqi
 		religion = jewish
 		size = 50
 	}
 
 	artisans = {
-		culture = sephardic
+		culture = mashriqi
 		religion = jewish
 		size = 1950
 	}

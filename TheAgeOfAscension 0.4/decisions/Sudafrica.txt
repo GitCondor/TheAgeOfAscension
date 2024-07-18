@@ -41,8 +41,8 @@ political_decisions = {
 			change_tag = SAF
 			add_accepted_culture = boer
 			add_accepted_culture = zulu
-			add_accepted_culture = nguni
-			add_accepted_culture = sotho
+			add_accepted_culture = zulu
+			add_accepted_culture = african_minor
 			TRN = {
 			    all_core = {
 				    add_core = SAF
@@ -93,20 +93,11 @@ political_decisions = {
 		effect = {
 		    #
 			prestige = 20
-			add_accepted_culture = xhosa
-			add_accepted_culture = makua
-			add_accepted_culture = malagasy
+			add_accepted_culture = west_african
+			add_accepted_culture = yoruba
+			add_accepted_culture = zulu
+			add_accepted_culture = unyamwezi
 			add_accepted_culture = african_minor
-			add_accepted_culture = tonga
-			add_accepted_culture = sena
-			add_accepted_culture = nguni
-			add_accepted_culture = khoisan
-			add_accepted_culture = tswana
-			add_accepted_culture = herero
-			add_accepted_culture = lomwe
-			add_accepted_culture = lunda
-			add_accepted_culture = shona
-			add_accepted_culture = herero
 			set_global_flag=acceptnatives3
 		}
 		ai_will_do = {
@@ -141,7 +132,7 @@ political_decisions = {
 
     		effect = {
 			prestige = 15
-			add_accepted_culture = xhosa
+			add_accepted_culture = african_minor
 			SAF = {all_core={add_core = THIS}}
 			set_global_flag = safed
 			
@@ -272,14 +263,14 @@ BELGIOTIAN_EMPIRE = {
 		effect = {
 		    #
 			prestige = 20
-			add_accepted_culture = mande
 			add_accepted_culture = african_minor
-			add_accepted_culture = akan
-			add_accepted_culture = mossi
-			add_accepted_culture = tonga
-			add_accepted_culture = fulbe
-			add_accepted_culture = songhai
-			add_accepted_culture = bambara
+			add_accepted_culture = african_minor
+			add_accepted_culture = african_minor
+			add_accepted_culture = african_minor
+			add_accepted_culture = asian_minor
+			add_accepted_culture = african_minor
+			add_accepted_culture = asian_minor
+			add_accepted_culture = african_minor
 			add_country_modifier = {
 				name = research_boost
 				duration = -1

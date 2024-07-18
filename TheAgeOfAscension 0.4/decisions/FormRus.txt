@@ -28,7 +28,7 @@ political_decisions = {
 			change_tag = RUS
 			SIB = {all_core = {add_core = THIS}}
 			GEO = {all_core = {add_core = THIS}}
-			add_accepted_culture = north_caucasian
+			add_accepted_culture = georgian
 			any_country = {
 				limit = {
 					is_culture_group = THIS

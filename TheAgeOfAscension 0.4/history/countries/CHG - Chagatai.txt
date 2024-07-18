@@ -1,13 +1,13 @@
 capital = 1600
-primary_culture = oirat
+primary_culture = turkish
 culture = mongol
-culture = uzbek
-culture = uighur
+culture = turkish
+culture = turkish
 culture = kazak
-culture = tajik
+culture = turkish
 culture = tatar
 religion = sunni
-government = feudal_monarchy
+government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.02
@@ -38,7 +38,7 @@ school_reforms = no_schools
 #citizens_rights = primary_culture_only
 #border_policy = closed_borders
 
-ruling_party = AAA_reactionary
+ruling_party = AAA_reactionary_1
 upper_house = {
 	fascist = 0
 	liberal = 13

@@ -1,9 +1,9 @@
 capital = 1775
-primary_culture = maures
+primary_culture = aborigine
 culture = berber
 culture = bedouin
-culture = fulbe
-culture = wolof
+culture = african_minor
+culture = african_minor
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0

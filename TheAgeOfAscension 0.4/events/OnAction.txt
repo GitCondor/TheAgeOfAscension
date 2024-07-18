@@ -234,24 +234,3 @@ country_event = {
 		}
 	}
 }
-
-
-# Nation that owns your debt goes bankrupt, but the amount is small
-country_event = {
-	id = 70004
-	title = "EVTNAME70002"
-	desc = "EVTDESC70002"
-	picture = "Bankruptcy"
-	trigger = {
-
-	}
-
-	is_triggered_only = yes
-	option = {
-		name = "EVTOPTA70002"
-		casus_belli = {
-			type = gunboat
-			target = FROM
-		}
-	}
-}

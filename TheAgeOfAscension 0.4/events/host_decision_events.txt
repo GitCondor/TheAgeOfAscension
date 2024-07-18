@@ -37,16 +37,13 @@ country_event = {
 	desc = "ur kicked"
 	picture = "greatpowers"
 	is_triggered_only = yes
-	
-	immediate = {
-		add_country_modifier = {
-		name = youre_kicked_mate
-		duration = -1
-}
-	}
 
 	option = {
 		name = "rip"
+		#add_country_modifier = {
+		#	name = youre_kicked_mate
+		#	duration = -1
+		#}
 	}
 }
 country_event = {
@@ -239,20 +236,6 @@ country_event = {
 
 	option = {
 		name = "Nooo :("
-	}
-}
-
-country_event = {
-	id = 1000001123
-	title = "Crisies Disabled!"
-	desc = "The host, $FROMCOUNTRY$, has disabled crisies!"
-	major = yes
-	picture = "greatpowers"
-	is_triggered_only = yes
-
-
-	option = {
-		name = "Okay"
 	}
 }
 
@@ -1925,26 +1908,6 @@ country_event = {
 			THIS = {
 				clr_country_flag = host_nation
 				change_tag_no_core_switch = LCT
-			}
-		}
-		random_country = {
-			limit = {
-				tag = FROM
-				tag = CLN
-				NOT = { has_global_flag = host_flag_tagmove }
-			}
-			THIS = { change_tag_no_core_switch = CLN }
-		}
-		random_country = {
-			limit = {
-				tag = FROM
-				tag = CLN
-				has_global_flag = host_flag_tagmove
-			}
-			FROM = { set_country_flag = host_nation }
-			THIS = {
-				clr_country_flag = host_nation
-				change_tag_no_core_switch = CLN
 			}
 		}
 		random_country = {
@@ -6085,26 +6048,6 @@ country_event = {
 			THIS = {
 				clr_country_flag = host_nation
 				change_tag_no_core_switch = VNZ
-			}
-		}
-		random_country = {
-			limit = {
-				tag = FROM
-				tag = SAC
-				NOT = { has_global_flag = host_flag_tagmove }
-			}
-			THIS = { change_tag_no_core_switch = SAC }
-		}
-		random_country = {
-			limit = {
-				tag = FROM
-				tag = SAC
-				has_global_flag = host_flag_tagmove
-			}
-			FROM = { set_country_flag = host_nation }
-			THIS = {
-				clr_country_flag = host_nation
-				change_tag_no_core_switch = SAC
 			}
 		}
 		random_country = {

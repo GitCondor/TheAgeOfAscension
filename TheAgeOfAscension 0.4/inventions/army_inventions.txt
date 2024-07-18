@@ -9,11 +9,11 @@ post_napoleonic_army_doctrine = {
 			#attack = 0.75
 			defence = 1.5
 		}
-		infantry_defensive = {
+		infantry = {
 			#attack = 0.6
 			defence = 1.7
 		}
-		infantry_offensive = {
+		infantry = {
 			#attack = 0.85
 			defence = 1.2
 		}
@@ -33,11 +33,11 @@ post_napoleonic_army_doctrine = {
 			#attack = 0.20
 			defence = 0.40
 		}
-		artillery_defensive = {
+		artillery = {
 			#attack = 0.17
 			defence = 0.45
 		}
-		artillery_offensive = {
+		artillery = {
 			#attack = 0.225
 			defence = 0.34
 		}
@@ -78,11 +78,11 @@ field_fortifications = {
 			#attack = 0.75
 			defence = 1.5
 		}
-		infantry_defensive = {
+		infantry = {
 			#attack = 0.6
 			defence = 1.7
 		}
-		infantry_offensive = {
+		infantry = {
 			#attack = 0.85
 			defence = 1.2
 		}
@@ -102,11 +102,11 @@ field_fortifications = {
 			#attack = 0.20
 			defence = 0.40
 		}
-		artillery_defensive = {
+		artillery = {
 			#attack = 0.17
 			defence = 0.45
 		}
-		artillery_offensive = {
+		artillery = {
 			#attack = 0.225
 			defence = 0.34
 		}
@@ -192,11 +192,11 @@ flexible_firepower = {
 			#attack = 0.75
 			defence = 1.5
 		}
-		infantry_defensive = {
+		infantry = {
 			#attack = 0.6
 			defence = 1.7
 		}
-		infantry_offensive = {
+		infantry = {
 			#attack = 0.85
 			defence = 1.2
 		}
@@ -216,11 +216,11 @@ flexible_firepower = {
 			#attack = 0.20
 			defence = 0.40
 		}
-		artillery_defensive = {
+		artillery = {
 			#attack = 0.17
 			defence = 0.45
 		}
-		artillery_offensive = {
+		artillery = {
 			#attack = 0.225
 			defence = 0.34
 		}
@@ -263,11 +263,11 @@ synchronized_heavy_support = {
 			#attack = 0.75
 			defence = 1.5
 		}
-		infantry_defensive = {
+		infantry = {
 			#attack = 0.6
 			defence = 1.7
 		}
-		infantry_offensive = {
+		infantry = {
 			#attack = 0.85
 			defence = 1.2
 		}
@@ -287,11 +287,11 @@ synchronized_heavy_support = {
 			#attack = 0.20
 			defence = 0.40
 		}
-		artillery_defensive = {
+		artillery = {
 			#attack = 0.17
 			defence = 0.45
 		}
-		artillery_offensive = {
+		artillery = {
 			#attack = 0.225
 			defence = 0.34
 		}
@@ -352,11 +352,11 @@ trench_systems = {
 			#attack = 0.75
 			defence = 4
 		}
-		infantry_defensive = {
+		infantry = {
 			#attack = 0.6
 			defence = 4
 		}
-		infantry_offensive = {
+		infantry = {
 			#attack = 0.85
 			defence = 4
 		}
@@ -376,11 +376,11 @@ trench_systems = {
 			#attack = 0.20
 			defence = 0.40
 		}
-		artillery_defensive = {
+		artillery = {
 			#attack = 0.17
 			defence = 0.45
 		}
-		artillery_offensive = {
+		artillery = {
 			#attack = 0.225
 			defence = 0.34
 		}
@@ -466,11 +466,11 @@ elastic_defense_system = {
 			#attack = 0.75
 			defence = 1.5
 		}
-		infantry_defensive = {
+		infantry = {
 			#attack = 0.6
 			defence = 1.7
 		}
-		infantry_offensive = {
+		infantry = {
 			#attack = 0.85
 			defence = 1.2
 		}
@@ -490,11 +490,11 @@ elastic_defense_system = {
 			#attack = 0.20
 			defence = 0.40
 		}
-		artillery_defensive = {
+		artillery = {
 			#attack = 0.17
 			defence = 0.45
 		}
-		artillery_offensive = {
+		artillery = {
 			#attack = 0.225
 			defence = 0.34
 		}
@@ -538,11 +538,11 @@ flexible_counterattacks = {
 			attack = 1.5
 			#defence = 0.75
 		}
-		infantry_defensive = {
+		infantry = {
 			attack = 1.2
 			#defence = 0.85
 		}
-		infantry_offensive = {
+		infantry = {
 			attack = 1.7
 			#defence = 0.6
 		}
@@ -562,11 +562,11 @@ flexible_counterattacks = {
 			attack = 0.40
 			#defence = 0.20
 		}
-		artillery_defensive = {
+		artillery = {
 			attack = 0.34
 			#defence = 0.225
 		}
-		artillery_offensive = {
+		artillery = {
 			attack = 0.45
 			#defence = 0.17
 		}
@@ -618,11 +618,11 @@ low_echelon_fire_support = {
 			#attack = 0.75
 			defence = 1.5
 		}
-		infantry_defensive = {
+		infantry = {
 			#attack = 0.6
 			defence = 1.7
 		}
-		infantry_offensive = {
+		infantry = {
 			#attack = 0.85
 			defence = 1.2
 		}
@@ -642,11 +642,11 @@ low_echelon_fire_support = {
 			#attack = 0.20
 			defence = 0.40
 		}
-		artillery_defensive = {
+		artillery = {
 			#attack = 0.17
 			defence = 0.45
 		}
-		artillery_offensive = {
+		artillery = {
 			#attack = 0.225
 			defence = 0.34
 		}
@@ -685,11 +685,11 @@ stormtrooper_training = {
 			attack = 1.5
 			#defence = 0.75
 		}
-		infantry_defensive = {
+		infantry = {
 			attack = 1.2
 			#defence = 0.85
 		}
-		infantry_offensive = {
+		infantry = {
 			attack = 1.7
 			#defence = 0.6
 		}
@@ -709,11 +709,11 @@ stormtrooper_training = {
 			attack = 0.40
 			#defence = 0.20
 		}
-		artillery_defensive = {
+		artillery = {
 			attack = 0.34
 			#defence = 0.225
 		}
-		artillery_offensive = {
+		artillery = {
 			attack = 0.45
 			#defence = 0.17
 		}
@@ -806,11 +806,11 @@ firepower_vs_mobility = {
 			#attack = 0.75
 			defence = 1.5
 		}
-		infantry_defensive = {
+		infantry = {
 			#attack = 0.6
 			defence = 1.7
 		}
-		infantry_offensive = {
+		infantry = {
 			#attack = 0.85
 			defence = 1.2
 		}
@@ -830,11 +830,11 @@ firepower_vs_mobility = {
 			#attack = 0.20
 			defence = 0.40
 		}
-		artillery_defensive = {
+		artillery = {
 			#attack = 0.17
 			defence = 0.45
 		}
-		artillery_offensive = {
+		artillery = {
 			#attack = 0.225
 			defence = 0.34
 		}
@@ -899,11 +899,11 @@ human_wave_vs_spearhead = {
 			#attack = 0.75
 			defence = 1.5
 		}
-		infantry_defensive = {
+		infantry = {
 			#attack = 0.6
 			defence = 1.7
 		}
-		infantry_offensive = {
+		infantry = {
 			#attack = 0.85
 			defence = 1.2
 		}
@@ -923,11 +923,11 @@ human_wave_vs_spearhead = {
 			#attack = 0.20
 			defence = 0.40
 		}
-		artillery_defensive = {
+		artillery = {
 			#attack = 0.17
 			defence = 0.45
 		}
-		artillery_offensive = {
+		artillery = {
 			#attack = 0.225
 			defence = 0.34
 		}
@@ -972,11 +972,11 @@ flintlock_rifle_armament = {
 			attack = 1.5
 			#defence = 0.75
 		}
-		infantry_defensive = {
+		infantry = {
 			attack = 1.2
 			#defence = 0.85
 		}
-		infantry_offensive = {
+		infantry = {
 			attack = 1.7
 			#defence = 0.6
 		}
@@ -996,11 +996,11 @@ flintlock_rifle_armament = {
 			attack = 0.40
 			#defence = 0.20
 		}
-		artillery_defensive = {
+		artillery = {
 			attack = 0.34
 			#defence = 0.225
 		}
-		artillery_offensive = {
+		artillery = {
 			attack = 0.45
 			#defence = 0.17
 		}
@@ -1042,11 +1042,11 @@ muzzle_loaded_rifle_armament = {
 			attack = 1.5
 			#defence = 0.75
 		}
-		infantry_defensive = {
+		infantry = {
 			attack = 1.2
 			#defence = 0.85
 		}
-		infantry_offensive = {
+		infantry = {
 			attack = 1.7
 			#defence = 0.6
 		}
@@ -1066,11 +1066,11 @@ muzzle_loaded_rifle_armament = {
 			attack = 0.40
 			#defence = 0.20
 		}
-		artillery_defensive = {
+		artillery = {
 			attack = 0.34
 			#defence = 0.225
 		}
-		artillery_offensive = {
+		artillery = {
 			attack = 0.45
 			#defence = 0.17
 		}
@@ -1112,11 +1112,11 @@ breech_loaded_rifle_armament = {
 			attack = 1.5
 			#defence = 0.75
 		}
-		infantry_defensive = {
+		infantry = {
 			attack = 1.2
 			#defence = 0.85
 		}
-		infantry_offensive = {
+		infantry = {
 			attack = 1.7
 			#defence = 0.6
 		}
@@ -1136,11 +1136,11 @@ breech_loaded_rifle_armament = {
 			attack = 0.40
 			#defence = 0.20
 		}
-		artillery_defensive = {
+		artillery = {
 			attack = 0.34
 			#defence = 0.225
 		}
-		artillery_offensive = {
+		artillery = {
 			attack = 0.45
 			#defence = 0.17
 		}
@@ -1182,11 +1182,11 @@ machine_gun_armament = {
 			attack = 1.5
 			#defence = 0.75
 		}
-		infantry_defensive = {
+		infantry = {
 			attack = 1.2
 			#defence = 0.85
 		}
-		infantry_offensive = {
+		infantry = {
 			attack = 1.7
 			#defence = 0.6
 		}
@@ -1206,11 +1206,11 @@ machine_gun_armament = {
 			attack = 0.40
 			#defence = 0.20
 		}
-		artillery_defensive = {
+		artillery = {
 			attack = 0.34
 			#defence = 0.225
 		}
-		artillery_offensive = {
+		artillery = {
 			attack = 0.45
 			#defence = 0.17
 		}
@@ -1292,11 +1292,11 @@ bolt_action_rifle_armament = {
 			attack = 4
 			#defence = 0.75
 		}
-		infantry_defensive = {
+		infantry = {
 			attack = 4
 			#defence = 0.85
 		}
-		infantry_offensive = {
+		infantry = {
 			attack = 4
 			#defence = 0.6
 		}
@@ -1316,11 +1316,11 @@ bolt_action_rifle_armament = {
 			attack = 0.40
 			#defence = 0.20
 		}
-		artillery_defensive = {
+		artillery = {
 			attack = 0.34
 			#defence = 0.225
 		}
-		artillery_offensive = {
+		artillery = {
 			attack = 0.45
 			#defence = 0.17
 		}
@@ -1364,11 +1364,11 @@ interwar_infantry = {
 			attack = 1.5
 			#defence = 0.75
 		}
-		infantry_defensive = {
+		infantry = {
 			attack = 1.2
 			#defence = 0.85
 		}
-		infantry_offensive = {
+		infantry = {
 			attack = 1.7
 			#defence = 0.6
 		}
@@ -1388,11 +1388,11 @@ interwar_infantry = {
 			attack = 0.40
 			#defence = 0.20
 		}
-		artillery_defensive = {
+		artillery = {
 			attack = 0.34
 			#defence = 0.225
 		}
-		artillery_offensive = {
+		artillery = {
 			attack = 0.45
 			#defence = 0.17
 		}
@@ -1476,11 +1476,11 @@ rear_area_dumps = {
 			attack = 1.5
 			#defence = 0.75
 		}
-		infantry_defensive = {
+		infantry = {
 			attack = 1.2
 			#defence = 0.85
 		}
-		infantry_offensive = {
+		infantry = {
 			attack = 1.7
 			#defence = 0.6
 		}
@@ -1500,11 +1500,11 @@ rear_area_dumps = {
 			attack = 0.40
 			#defence = 0.20
 		}
-		artillery_defensive = {
+		artillery = {
 			attack = 0.34
 			#defence = 0.225
 		}
-		artillery_offensive = {
+		artillery = {
 			attack = 0.45
 			#defence = 0.17
 		}
@@ -1619,12 +1619,12 @@ anti_aircraft_artillery = {
 			defence = 0.20
 			supply_consumption = 0.1
 		}
-		artillery_defensive = {
+		artillery = {
 			attack = 0.17
 			defence = 0.225
 			supply_consumption = 0.1
 		}
-		artillery_offensive = {
+		artillery = {
 			attack = 0.225
 			defence = 0.17
 			supply_consumption = 0.1
@@ -1650,12 +1650,12 @@ improved_anti_aircraft_artillery = {
 			defence = 0.20
 			supply_consumption = 0.1
 		}
-		artillery_defensive = {
+		artillery = {
 			attack = 0.17
 			defence = 0.225
 			supply_consumption = 0.1
 		}
-		artillery_offensive = {
+		artillery = {
 			attack = 0.225
 			defence = 0.17
 			supply_consumption = 0.1
@@ -1681,12 +1681,12 @@ light_artillery = {
 			defence = 0.20
 			supply_consumption = 0.05
 		}
-		artillery_defensive = {
+		artillery = {
 			attack = 0.17
 			defence = 0.225
 			supply_consumption = 0.05
 		}
-		artillery_offensive = {
+		artillery = {
 			attack = 0.225
 			defence = 0.17
 			supply_consumption = 0.05
@@ -1712,12 +1712,12 @@ medium_artillery = {
 			defence = 0.20
 			supply_consumption = 0.05
 		}
-		artillery_defensive = {
+		artillery = {
 			attack = 0.17
 			defence = 0.225
 			supply_consumption = 0.05
 		}
-		artillery_offensive = {
+		artillery = {
 			attack = 0.225
 			defence = 0.17
 			supply_consumption = 0.05
@@ -1743,12 +1743,12 @@ heavy_artillery = {
 			defence = 0.20
 			supply_consumption = 0.05
 		}
-		artillery_defensive = {
+		artillery = {
 			attack = 0.17
 			defence = 0.225
 			supply_consumption = 0.05
 		}
-		artillery_offensive = {
+		artillery = {
 			attack = 0.225
 			defence = 0.17
 			supply_consumption = 0.05
@@ -2507,10 +2507,10 @@ army_alternative_plans = {
 		infantry = {
 			maximum_speed = 1
 		}
-		infantry_defensive = {
+		infantry = {
 			maximum_speed = 1
 		}
-		infantry_offensive = {
+		infantry = {
 			maximum_speed = 1
 		}
 		hussar = {
@@ -2525,10 +2525,10 @@ army_alternative_plans = {
 		artillery = {
 			maximum_speed = 1
 		}
-		artillery_defensive = {
+		artillery = {
 			maximum_speed = 1
 		}
-		artillery_offensive = {
+		artillery = {
 			maximum_speed = 1
 		}
 		cavalry = {

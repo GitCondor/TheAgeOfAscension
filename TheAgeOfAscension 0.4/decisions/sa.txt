@@ -197,10 +197,10 @@ political_decisions = {
 			ATJ = {all_core={add_core = THIS}}
 			BRU = {all_core={add_core = THIS}}
 			PHI = {all_core={add_core = THIS}}
-			add_accepted_culture = lao
-			add_accepted_culture = vietnamese
 			add_accepted_culture = khmer
-			add_accepted_culture = shan
+			add_accepted_culture = khmer
+			add_accepted_culture = khmer
+			add_accepted_culture = khmer
 			add_accepted_culture = burmese
 			add_accepted_culture = malay
 			add_accepted_culture = javan
@@ -242,8 +242,8 @@ political_decisions = {
 				name = research_boost
 				duration = 2000
 			}
-			USC = {all_core={add_core = THIS}}
-			add_accepted_culture = texan
+			#USC = { all_core = { add_core = THIS } }
+			add_accepted_culture = yankee
 			add_accepted_culture = dixie
 			set_country_flag = grandioso
 			change_tag = CSA
@@ -323,7 +323,7 @@ political_decisions = {
 			GCO = {all_core={add_core = THIS}}
 			add_accepted_culture = guarani
 			add_accepted_culture = amazonian
-			add_accepted_culture = quechua
+			add_accepted_culture = native_american_minor
 			set_country_flag = grandioso
 			
 		}

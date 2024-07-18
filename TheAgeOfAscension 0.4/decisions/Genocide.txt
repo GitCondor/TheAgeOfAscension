@@ -101,7 +101,7 @@ genocide = {
 			}
 
 	}
-	
+
 	credits = {
 		potential = {
 			tag = GHO
@@ -122,5 +122,5 @@ genocide = {
             factor = 100
         }
 	}
-	
+
 	}

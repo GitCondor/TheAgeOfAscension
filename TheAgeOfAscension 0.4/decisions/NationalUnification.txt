@@ -60,8 +60,7 @@
 		potential = {
 			or = {
 			tag = POR
-			is_culture_group = breton
-			is_culture_group = irish
+			is_culture_group = celtic
 			tag = SCO
 			}
 		}	
@@ -307,7 +306,7 @@ primary_culture = portuguese
 			add_accepted_culture = danish
 			add_accepted_culture = norwegian
 			add_accepted_culture = finnish
-			add_accepted_culture = icelandic
+			add_accepted_culture = norwegian
 			add_accepted_culture = sami
 			any_country = {
 				limit = {
@@ -344,11 +343,10 @@ primary_culture = portuguese
 		}
 		
 		effect = {
-			GEO_336 = {
-				remove_core = SWE
-			}
-			GEO_340 = {
-				remove_core = SWE
+			FIN = {
+				all_core = {
+					remove_core = SWE
+				}
 			}
 			prestige = 10
 			any_pop = {
@@ -512,8 +510,6 @@ unite_moldavia_wallachia = {
 			CRO = { all_core = { add_core = CRO } }
 			BOS = { all_core = { add_core = CRO } }
 			SLO = { all_core = { add_core = CRO } }
-			add_accepted_culture = serb
-			add_accepted_culture = bosniak
 			add_accepted_culture = croat
 			add_accepted_culture = slovene
 			change_tag = CRO
@@ -551,7 +547,8 @@ unite_moldavia_wallachia = {
 						relation = { who = THIS value = 50 }
 					}
 				}
-				country_event = 11108
+				relation = { who = THIS value = 50 }
+				#country_event = 11108
 			}
 		}
 
@@ -631,7 +628,8 @@ unite_moldavia_wallachia = {
 						relation = { who = THIS value = 50 }
 					}
 				}
-				country_event = 11108
+				relation = { who = THIS value = 50 }
+				#country_event = 11108
 			}	
 			add_accepted_culture = union
 			}

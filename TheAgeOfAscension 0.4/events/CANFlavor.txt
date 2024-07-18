@@ -107,7 +107,7 @@ country_event = {
 		set_country_flag = RielRebellionIgnored
 		any_pop = {
 			limit = {
-				has_pop_culture = french_canadian
+				has_pop_culture = french
 			}
 			militancy = 1
 			consciousness = 1
@@ -126,17 +126,10 @@ country_event = {
 		set_country_flag = RielRebellion
 		any_pop = {
 			limit = {
-				has_pop_culture = french_canadian
+				has_pop_culture = french
 			}
 			militancy = 1
 			consciousness = 3
-		}
-		any_pop = {
-			limit = {
-				has_pop_culture = metis
-			}
-			militancy = 10
-			consciousness = 5
 		}
 		any_pop = {
 			limit = {
@@ -191,12 +184,5 @@ country_event = {
 	option = {
 		name = "EVTOPTA44302" 
 		set_country_flag = NorthwestRebellion
-		any_pop = {
-			limit = {
-				has_pop_culture = metis
-			}
-			militancy = 7
-			consciousness = 5
-		}
 	}
 }

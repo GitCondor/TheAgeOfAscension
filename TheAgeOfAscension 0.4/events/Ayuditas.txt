@@ -78,8 +78,8 @@ country_event = {
 		tag = PRU
 	}
 	OR = {
-		NOT = {exist = PRU}
-		NOT = {exist = HAN}
+		NOT = {exists = PRU}
+		NOT = {exists = HAN}
 		}
 	NOT = { has_global_flag = elpapu }
 	}
@@ -88,16 +88,16 @@ country_event = {
         days = 1
     }
 
-    option = {
-        name = "a formarse pipipi"
+	option = {
+		name = "a formarse pipipi"
 		prestige = 30
-			 add_country_modifier = {
+		add_country_modifier = {
 			name = german_growth
 			duration = 2000
 		}
 		set_global_flag = elpapu
+		ai_chance = {
+			factor = 1
 		}
-						ai_chance = {
-            factor = 1
-        }
-	}		
+	}
+}

@@ -506,31 +506,31 @@
 	}
 
 	aristocrats = {
-		culture = kanuri
+		culture = bedouin
 		religion = sunni
 		size = 50
 	}
 
 	clergymen = {
-		culture = kanuri
+		culture = bedouin
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = kanuri
+		culture = bedouin
 		religion = sunni
 		size = 200
 	}
 
 	soldiers = {
-		culture = kanuri
+		culture = bedouin
 		religion = sunni
 		size = 50
 	}
 
 	farmers = {
-		culture = kanuri
+		culture = bedouin
 		religion = sunni
 		size = 3650
 	}

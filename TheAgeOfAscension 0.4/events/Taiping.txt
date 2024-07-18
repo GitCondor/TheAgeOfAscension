@@ -58,7 +58,7 @@ country_event = {
 				OR = {
 					has_pop_religion = sunni
 					has_pop_culture = nanfaren
-					has_pop_culture = zhuang
+					has_pop_culture = asian_minor
 					has_pop_culture = yue
 				}
 			}
@@ -101,7 +101,7 @@ country_event = {
 				OR = {
 					has_pop_religion = sunni
 					has_pop_culture = nanfaren
-					has_pop_culture = zhuang
+					has_pop_culture = asian_minor
 					has_pop_culture = yue
 				}
 			}

@@ -1,7 +1,7 @@
 capital = 57
 primary_culture = anglo_canadian
 #culture = british
-culture = french_canadian
+culture = french
 religion = protestant
 government = hms_government
 plurality = 0.2
@@ -28,7 +28,7 @@ unemployment_subsidies = trinket_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
-ruling_party = can_conservative
+ruling_party = CAN_conservative
 upper_house = {
 	fascist = 0
 	liberal = 35

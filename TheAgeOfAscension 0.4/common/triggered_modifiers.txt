@@ -36,3 +36,25 @@ only_state_nation  = {
 	mobilisation_size = 0.2
 	icon = 6
 }
+
+## IMMIGRATION MODIFIERS!
+low_unemployment_nation = {
+	trigger = { NOT = { unemployment = 0.5 } }
+	immigrant_attract = 0.01
+	immigrant_push = -0.01
+	icon = 6
+}
+
+new_world_nation = {
+	trigger = { has_country_flag = new_world_nation }
+	immigrant_attract = 0.05
+	immigrant_push = -0.05
+	icon = 6
+}
+
+not_new_world_nation = {
+	trigger = { NOT = { has_country_flag = new_world_nation } }
+	immigrant_attract = -0.05
+	immigrant_push = 0.05
+	icon = 6
+}

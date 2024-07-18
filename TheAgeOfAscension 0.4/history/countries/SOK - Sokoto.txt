@@ -1,7 +1,5 @@
 capital = 1948
-primary_culture = hausa
-culture = tiv
-culture = fulbe
+primary_culture = african_minor
 culture = african_minor
 religion = sunni
 government = absolute_monarchy

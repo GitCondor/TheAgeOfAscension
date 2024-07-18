@@ -94,7 +94,7 @@ political_decisions = {
 			}
 			government = absolute_monarchy
 			owns = 958
-			phenomenalism = 1
+			#invention = phenomenalism
 			exists = GER
 			GER = {
 				owns = 570

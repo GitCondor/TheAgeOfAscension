@@ -1,8 +1,6 @@
 capital = 1808
-primary_culture = songhai
-culture = tuareg
-culture = gur
-culture = dyula
+primary_culture = asian_minor
+culture = african_minor
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0
@@ -37,7 +35,7 @@ school_reforms = no_schools
 #citizens_rights = primary_culture_only
 #border_policy = open_borders
 
-ruling_party = DND_conservative
+ruling_party = AAA_conservative_1
 upper_house = {
     fascist = 0
     liberal = 16

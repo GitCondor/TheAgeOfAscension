@@ -1,9 +1,9 @@
 capital = 1804
-primary_culture = fulbe
-culture = tuareg
-culture = mande
-culture = gur
-culture = senufo
+primary_culture = african_minor
+culture = african_minor
+culture = african_minor
+culture = african_minor
+culture = african_minor
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0

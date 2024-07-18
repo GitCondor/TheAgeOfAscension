@@ -23,9 +23,9 @@ country_event = {
 		}
 		add_accepted_culture = manchu
 		add_accepted_culture = azerbaijani
-		add_accepted_culture = uzbek
-		add_accepted_culture = turkmen
-		add_accepted_culture = tajik
+		add_accepted_culture = turkish
+		add_accepted_culture = turkish
+		add_accepted_culture = turkish
 		MCK = {all_core = {add_core = THIS}}
 		ALD = {all_core = {add_core = THIS}}
 		AZB = {all_core = {add_core = THIS}}

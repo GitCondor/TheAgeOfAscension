@@ -21,7 +21,7 @@ leader = {
 #	date = 1836.1.1
 #	type = land
 #	personality = defence_4.1
-#	background = school_of_firepower
+#	background = defence_5.1
 #	prestige = 0.0
 #}
 
@@ -74,7 +74,7 @@ leader = {
 	name = "Charles Nepveu"
 	date = 1831.1.1
 	type = land
-	personality = bigoted
+	personality = defence_2.43
 	background = attack_1.104
 	prestige = 0.0
 }

@@ -1,5 +1,5 @@
 capital = 1982
-primary_culture = bakongo
+primary_culture = african_minor
 culture = african_minor
 religion = catholic
 government = hms_government

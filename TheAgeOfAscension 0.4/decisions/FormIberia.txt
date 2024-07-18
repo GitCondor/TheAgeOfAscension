@@ -107,27 +107,24 @@ political_decisions = {
 	expropiate_the_company = {
 	    picture = csaespan
 	    potential = {
-		    #   
-			
-
 			or = {
-			tag = SPA
-			tag = IBE}
+				tag = SPA
+				tag = IBE
+			}
 			not = {has_country_flag = americanizado}
-			
-			
+			not = {has_country_flag = csaespan}
 		}
 		allow = {
-					war = no
-		SPC = {
+			war = no
+			SPC = {
 				relation = {
 					value = 200
 					who = THIS
 				}
 			}
-		SPC = {vassal_of = THIS}
-		is_greater_power = yes
-		state_n_government = 1
+			SPC = {vassal_of = THIS}
+			is_greater_power = yes
+			state_n_government = 1
 		}
 		effect = {
 			SPC	= {				
@@ -139,8 +136,8 @@ political_decisions = {
 				}
 			}
 			add_accepted_culture = dixie
+			set_country_flag = csaespan
 		}
-		set_country_flag = csaespan
 		
 		ai_will_do = {
 			factor = 1
@@ -161,11 +158,11 @@ political_decisions = {
 		}
 		effect = {
 			add_country_modifier = {
-			name = vengador
-			duration = 1800
+				name = vengador
+				duration = 1800
+			}
+			set_country_flag = vengador
 		}
-		}
-		set_country_flag = vengador
 		
 		ai_will_do = {
 			factor = 1

@@ -17,29 +17,23 @@ country_event = {
 }
 
 country_event = { 
-       id = 58019
-       title = "EVTNAME58019" 
-       desc = "EVTDESC58019" 
-	   trigger = {
-	       NOT = {
-			   has_country_flag = american_inmigration
-			   tag CAL
-		   }
-		   
-		   OR = {
-		       capital_scope = { continent = south_america }
-		       capital_scope = { continent = oceania }
-			   tag = MAP
-			   tag = BRZ
-			   tag = GCO
-			   tag = USC
-			   tag = MEX
-			   AND = {
-			       capital_scope = { continent = north_america }
-				   NOT = {tag = USA}
-			   }
-		   }
-	   }
+	id = 58019
+	title = "EVTNAME58019" 
+	desc = "EVTDESC58019" 
+	trigger = {
+		NOT = {
+			has_country_flag = american_inmigration
+			tag = CAL
+		}
+		
+		OR = {
+			capital_scope = { continent = south_america }
+			AND = {
+				capital_scope = { continent = north_america }
+				NOT = {tag = USA}
+			}
+		}
+	}
 	   
 	mean_time_to_happen = {
 		days = 1

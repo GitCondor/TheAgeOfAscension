@@ -1,5 +1,5 @@
 capital = 2583
-primary_culture = serb
+primary_culture = croat
 religion = orthodox
 government = absolute_monarchy
 plurality = 25.0

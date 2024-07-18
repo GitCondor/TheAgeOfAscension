@@ -1400,7 +1400,7 @@ bears = {
 	union = SCA
 }
 punic = {
-	leader = tunisian
+	leader = african
 	unit = EuropeanGC
 	magHRMbi = {
 		color = {24 103 22}
@@ -1425,7 +1425,7 @@ punic = {
 	union = NPE
 }
 byzanzium = {
-	leader = tunisian
+	leader = african
 	unit = EuropeanGC
 	greek = {
 		color = {200 50 100}
@@ -1465,7 +1465,7 @@ byzanzium = {
 }
 
 celtic = {
-	leader = tunisian
+	leader = african
 	unit = EuropeanGC
 	irish = { 
 		color = { 35 140 50}

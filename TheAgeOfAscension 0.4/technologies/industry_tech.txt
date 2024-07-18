@@ -1147,7 +1147,7 @@ synthetic_polymers = {
 	cost = 21600
 
 	supply_limit = 0.50
-	activate_building = synthetic_rubber_factory
+	#activate_building = synthetic_rubber_factory
 	ai_chance = {
 		factor = 100
 		modifier = {

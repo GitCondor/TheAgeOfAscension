@@ -1,8 +1,8 @@
 capital = 1935
-primary_culture = ibo
-culture = tiv
-culture = ibibio
-culture = edo
+primary_culture = african_minor
+culture = african_minor
+culture = african_minor
+culture = african_minor
 religion = animist
 government = absolute_monarchy
 plurality = 0.0
