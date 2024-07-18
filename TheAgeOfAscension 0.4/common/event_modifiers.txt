@@ -1053,3 +1053,8 @@ research_boost = {
 	research_points_modifier = 0.45
 	icon = 5
 }
+
+liberian_research_boost = {
+	research_points_modifier = 0.75
+	icon = 5
+}
