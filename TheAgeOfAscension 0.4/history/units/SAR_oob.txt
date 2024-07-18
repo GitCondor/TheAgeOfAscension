@@ -53,7 +53,7 @@ leader = {
 	name = "La Marmora-Masserano"
 	date = 1836.1.1
 	type = land
-	personality = defence_-2
+	personality = defence_0.2
 	background = attack_1.3
 	prestige = 0.0
 }

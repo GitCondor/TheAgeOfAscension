@@ -96,7 +96,7 @@ leader = {
 	name = "Raglan"
 	date = 1836.1.1
 	type = land
-	personality = defence_-2
+	personality = defence_0.2
 	background = attack_2.58
 	prestige = 0.0
 }

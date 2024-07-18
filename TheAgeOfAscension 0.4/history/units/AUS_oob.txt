@@ -144,7 +144,7 @@ leader = {
 	name = "Alfred von Wdischgraetz"
 	date = 1826.1.1
 	type = land
-	personality = defence_-2
+	personality = defence_0.2
 	background = attack_3.2
 	prestige = 0.3
 }

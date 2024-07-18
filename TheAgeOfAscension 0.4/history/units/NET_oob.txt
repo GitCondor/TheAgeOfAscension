@@ -61,7 +61,7 @@ leader = {
 	name = "Frederik List"
 	date = 1830.1.1
 	type = land
-	personality = defence_-2
+	personality = defence_0.2
 	background = attack_4.2
 	prestige = 0.1
 }
@@ -97,7 +97,7 @@ leader = {
 	name = "Hendrik Duycker"
 	date = 1827.1.1
 	type = land
-	personality = defence_-2
+	personality = defence_0.2
 	background = attack_4.2
 	prestige = 0.1
 }
