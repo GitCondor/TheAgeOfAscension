@@ -3,14 +3,8 @@ country_event = {
 	title = "Techs"
 	desc = "Techs"
 	
-	trigger = {
-	    civilized = yes
-		NOT={has_country_flag = techs_start_incivilized}
-	}
+	is_triggered_only = yes
 	
-	mean_time_to_happen = {
-		days = 1
-	}
 	
 	option = {
 		name = "Oh, techs-"

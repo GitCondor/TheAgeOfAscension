@@ -115,6 +115,10 @@ genocide = {
 					ai = no
 				}
 				country_event = 60168151
+			} 
+			any_country = {
+			limit = {civilized = yes}
+				country_event = 250220
 			}
 			GHO = {country_event = 700700}
 			set_global_flag = creditsfired
