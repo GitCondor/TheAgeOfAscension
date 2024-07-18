@@ -38,7 +38,7 @@ school_reforms = no_schools
 #border_policy = open_borders
 
 
-ruling_party = DNG_conservative
+ruling_party = DNG_conservative_1
 upper_house = {
 	fascist = 0
 	liberal = 18

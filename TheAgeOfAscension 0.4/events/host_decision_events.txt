@@ -37,16 +37,13 @@ country_event = {
 	desc = "ur kicked"
 	picture = "greatpowers"
 	is_triggered_only = yes
-	
-	immediate = {
-		add_country_modifier = {
-		name = youre_kicked_mate
-		duration = -1
-}
-	}
 
 	option = {
 		name = "rip"
+		#add_country_modifier = {
+		#	name = youre_kicked_mate
+		#	duration = -1
+		#}
 	}
 }
 country_event = {
