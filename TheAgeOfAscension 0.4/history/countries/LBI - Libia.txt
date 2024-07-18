@@ -1,7 +1,7 @@
 capital = 1737
 primary_culture = magHRMbi
 culture = bedouin
-culture = tuareg
+culture = african_minor
 culture = turkish
 religion = sunni
 government = absolute_monarchy

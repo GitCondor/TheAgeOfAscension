@@ -731,10 +731,6 @@ bruno_hildebrand = {
 			factor = 2
 			economic_policy = interventionism
 		}
-		modifier = {
-			factor = 1
-			religious_policy = pluralism
-		}
 	}
 	effect = {
 		permanent_prestige = 1 

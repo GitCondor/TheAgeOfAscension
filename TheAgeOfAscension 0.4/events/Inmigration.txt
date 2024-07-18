@@ -23,7 +23,7 @@ country_event = {
 	   trigger = {
 	       NOT = {
 			   has_country_flag = american_inmigration
-			   tag CAL
+			   tag = CAL
 		   }
 		   
 		   OR = {
@@ -32,7 +32,6 @@ country_event = {
 			   tag = MAP
 			   tag = BRZ
 			   tag = GCO
-			   tag = USC
 			   tag = MEX
 			   AND = {
 			       capital_scope = { continent = north_america }

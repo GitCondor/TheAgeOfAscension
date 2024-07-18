@@ -614,10 +614,6 @@ clipper_shipyard = {
 		trigger = { trade_goods_in_state = timber }
 		value = 0.05
 	}
-	bonus = {
-		trigger = { has_building = wool_fabric_factory }
-		value = 0.1
-	}
 }
 
 small_arms_factory = {       
@@ -680,14 +676,6 @@ regular_clothes_factory = {
 	value = 20			#87
 	bonus = {
 		trigger = { has_building = fabric_factory }
-		value = 0.15
-	}
-	bonus = {
-		trigger = { has_building = wool_fabric_factory }
-		value = 0.15
-	}
-	bonus = {
-		trigger = { has_building = leather_factory }
 		value = 0.15
 	}
 }

@@ -117,10 +117,10 @@ allow = {HYD = {
 effect = {MYS = {all_core={add_core = THIS}}
 		HYD = {all_core={add_core = THIS}}
 		set_country_flag = sourindio
-		add_accepted_culture = kannada
-		add_accepted_culture = malayalam
-		add_accepted_culture = tamil
-		add_accepted_culture = telegu}
+		add_accepted_culture = assamese
+		add_accepted_culture = assamese
+		add_accepted_culture = assamese
+		add_accepted_culture = assamese}
 		
 		ai_will_do = {
 			factor = 1

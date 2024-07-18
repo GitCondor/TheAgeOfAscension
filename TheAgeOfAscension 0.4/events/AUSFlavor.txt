@@ -208,7 +208,7 @@ country_event = {
 		set_country_flag = IlyaGarashinin
 		any_pop = {
 			limit = {
-				has_pop_culture = serb
+				has_pop_culture = croat
 			}
 			militancy = 1
 		}
@@ -216,7 +216,7 @@ country_event = {
 			limit = {
 				OR = {
 					has_pop_culture = croat
-					has_pop_culture = serb
+					has_pop_culture = croat
 					has_pop_culture = slovene
 				}
 			}

@@ -53,13 +53,13 @@ political_decisions = {
 		effect = {
 		    #
 			prestige = 15
-            add_accepted_culture = german add_accepted_culture = swiss_german
-            add_accepted_culture = german add_accepted_culture = swiss_german
+            add_accepted_culture = north_german add_accepted_culture = south_german
+            add_accepted_culture = north_german add_accepted_culture = south_german
             add_accepted_culture = dutch
             add_accepted_culture = wallonian
             add_accepted_culture = flemish
             add_accepted_culture = boer
-            add_accepted_culture = french add_accepted_culture = swiss_french
+            add_accepted_culture = french
 			change_tag = RIN
 			any_country = {
 			    limit = {
@@ -68,14 +68,14 @@ political_decisions = {
 						 in_sphere = THIS
 					 }
 					 OR = {
-					     primary_culture = german
-					     primary_culture = german
+					     primary_culture = north_german
+					     primary_culture = north_german
 					     primary_culture = dutch
 					     primary_culture = wallonian
 					     primary_culture = flemish
 					     primary_culture = french
-					     accepted_culture = german
-					     accepted_culture = german
+					     accepted_culture = north_german
+					     accepted_culture = north_german
 					     accepted_culture = dutch
 					     accepted_culture = wallonian
 					     accepted_culture = flemish
@@ -88,8 +88,8 @@ political_decisions = {
 				limit = {
 					is_colonial = no
 					OR = {
-						culture = german
-						culture = german
+						culture = north_german
+						culture = north_german
 						culture = dutch
 						culture = wallonian
 						culture = flemish

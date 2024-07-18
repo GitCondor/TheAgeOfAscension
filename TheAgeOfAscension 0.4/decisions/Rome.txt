@@ -111,7 +111,7 @@ political_decisions = {
 		    #
 			prestige = 100
 			badboy = 10
-			add_accepted_culture = french add_accepted_culture = swiss_french
+			add_accepted_culture = french
 			FRA_455 = {add_core = THIS}
 			460 = {add_core = THIS}
 			FRA_442 = {add_core = THIS}

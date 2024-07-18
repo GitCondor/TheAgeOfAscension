@@ -60,8 +60,7 @@
 		potential = {
 			or = {
 			tag = POR
-			is_culture_group = breton
-			is_culture_group = irish
+			is_culture_group = celtic
 			tag = SCO
 			}
 		}	
@@ -307,7 +306,7 @@ primary_culture = portuguese
 			add_accepted_culture = danish
 			add_accepted_culture = norwegian
 			add_accepted_culture = finnish
-			add_accepted_culture = icelandic
+			add_accepted_culture = norwegian
 			add_accepted_culture = sami
 			any_country = {
 				limit = {
@@ -512,8 +511,6 @@ unite_moldavia_wallachia = {
 			CRO = { all_core = { add_core = CRO } }
 			BOS = { all_core = { add_core = CRO } }
 			SLO = { all_core = { add_core = CRO } }
-			add_accepted_culture = serb
-			add_accepted_culture = bosniak
 			add_accepted_culture = croat
 			add_accepted_culture = slovene
 			change_tag = CRO

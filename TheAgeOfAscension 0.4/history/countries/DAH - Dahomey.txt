@@ -1,8 +1,8 @@
 capital = 1920
-primary_culture = fon
+primary_culture = african_minor
 culture = african_minor
 culture = yoruba
-culture = gur
+culture = african_minor
 religion = animist
 government = absolute_monarchy
 plurality = 0.0

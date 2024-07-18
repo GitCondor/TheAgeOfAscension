@@ -1,7 +1,7 @@
 capital = 57
 primary_culture = anglo_canadian
 #culture = british
-culture = french_canadian
+culture = french
 religion = protestant
 government = hms_government
 plurality = 0.2

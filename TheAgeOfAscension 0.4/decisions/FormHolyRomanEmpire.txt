@@ -43,39 +43,15 @@ political_decisions = {
 		    #
 			set_global_flag = holy_roman_empirealreadyexists
 			prestige = 25
+			
 			change_tag = HRM
 			add_accepted_culture = north_italian
 			add_accepted_culture = south_german
 			add_accepted_culture = north_german
 			add_accepted_culture = swiss
 			add_accepted_culture = czech
-			any_country = {
-				limit = {
-					in_sphere = THIS
-				}
-				any_owned = {
-					limit = {
-						is_core = HRM
-					}
-					secede_province = THIS
-				}
-			}
-				add_core = HRM	
-				any_country = {
-					limit = {
-						vassal_of = THIS
-					}	
-				annex_to = THIS
-				}
-			any_country = {
-				limit = {
-					is_culture_group = germanic
-					is_culture_group = south_germanic
-					is_culture_group = czecho_slovak_culture_group
-					in_sphere = THIS
-				}
-				country_event = { id=11101 days=0 }
-			}
+
+			all_core = { add_core = HRM	}
 			721 = { add_core = HRM }
 			722 = { add_core = HRM }
 			723 = { add_core = HRM }
@@ -153,6 +129,30 @@ political_decisions = {
 			769 = { add_core = HRM }
 			768 = { add_core = HRM }
 			767 = { add_core = HRM }
+			any_country = {
+				limit = {
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				any_owned = {
+					limit = {
+						is_core = HRM
+					}
+					secede_province = THIS
+				}
+				random_owned = {
+					limit = {
+						owner = {
+							is_culture_group = germanic
+							is_culture_group = south_germanic
+							is_culture_group = czecho_slovak_culture_group
+						}
+					}
+					owner = { country_event = { id=11101 days=0 } }
+				}
+			}
 			
 			CRO = {all_core={add_core=THIS}}
 			BOH = {all_core={add_core=THIS}}

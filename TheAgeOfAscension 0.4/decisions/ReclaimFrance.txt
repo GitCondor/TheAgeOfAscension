@@ -58,7 +58,7 @@ political_decisions = {
 			prestige = 20
 		inherit = UBD
 		release_vassal = UBD
-		diplomatic_influence = { who = UBD value = 300 level = 5 influence_value = 100}
+		diplomatic_influence = { who = UBD value = 300 }
 			set_global_flag = bbc
 			}
 		}

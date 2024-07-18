@@ -1,6 +1,6 @@
 capital = 2310
-primary_culture = south_andean
-primary_culture = quechua
+primary_culture = patagonian
+primary_culture = native_american_minor
 primary_culture = aimara
 religion = catholic
 government = presidential_dictatorship
@@ -52,8 +52,6 @@ upper_house = {
 }
 
 set_country_flag = new_world_nation
-
-decision = BOL_1836_setup
 
 # Technologies
 #post_napoleonic_thought = 1

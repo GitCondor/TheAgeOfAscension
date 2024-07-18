@@ -1,6 +1,6 @@
 capital = 2313
-primary_culture = south_andean
-culture = quechua
+primary_culture = patagonian
+culture = native_american_minor
 culture = aimara
 religion = catholic
 government = presidential_dictatorship

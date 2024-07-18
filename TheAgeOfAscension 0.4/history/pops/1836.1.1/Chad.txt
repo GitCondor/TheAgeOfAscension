@@ -559,43 +559,43 @@
 	}
 
 	aristocrats = {
-		culture = kanuri
+		culture = bedouin
 		religion = sunni
 		size = 225
 	}
 
 	bureaucrats = {
-		culture = kanuri
+		culture = bedouin
 		religion = sunni
 		size = 25
 	}
 
 	officers = {
-		culture = kanuri
+		culture = bedouin
 		religion = sunni
 		size = 50
 	}
 
 	clergymen = {
-		culture = kanuri
+		culture = bedouin
 		religion = sunni
 		size = 125
 	}
 
 	artisans = {
-		culture = kanuri
+		culture = bedouin
 		religion = sunni
 		size = 600
 	}
 
 	soldiers = {
-		culture = kanuri
+		culture = bedouin
 		religion = sunni
 		size = 125
 	}
 
 	farmers = {
-		culture = kanuri
+		culture = bedouin
 		religion = sunni
 		size = 5850
 	}
@@ -639,31 +639,31 @@
 	}
 
 	aristocrats = {
-		culture = tuareg
+		culture = african_minor
 		religion = sunni
 		size = 25
 	}
 
 	clergymen = {
-		culture = tuareg
+		culture = african_minor
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = tuareg
+		culture = african_minor
 		religion = sunni
 		size = 100
 	}
 
 	soldiers = {
-		culture = tuareg
+		culture = african_minor
 		religion = sunni
 		size = 25
 	}
 
 	farmers = {
-		culture = tuareg
+		culture = african_minor
 		religion = sunni
 		size = 1800
 	}

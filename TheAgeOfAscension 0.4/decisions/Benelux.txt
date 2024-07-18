@@ -70,13 +70,15 @@ political_decisions = {
 	belgiotian_restoration = {
 		potential = {
 			tag = BEN
-			LIB = {in_sphere = THIS}
 		}
 		allow = {
-		LIB = {in_sphere = THIS}
-		LIB = {vassal_of = THIS}
+			OR = {
+				LIB = { all_core = { owned_by = THIS } }
+				LIB = { in_sphere = THIS }
+				LIB = { vassal_of = THIS }
 			}
-		state_n_government = 1
+			state_n_government = 1
+		}
 		
 		effect = {
 			LIB	= {				

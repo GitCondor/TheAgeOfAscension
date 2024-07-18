@@ -13,10 +13,6 @@ caste_privileges = {
 	chance = {
 		base = 5
 		modifier = {
-			factor = 2
-			religious_policy = moralism 
-		}
-		modifier = {
 			factor = 1
 			nationalvalue = nv_order
 		}
@@ -47,10 +43,6 @@ sati_abolished = {
 	chance = {
 		base = 5
 		modifier = {
-			factor = 2
-			religious_policy = moralism 
-		}
-		modifier = {
 			factor = 1
 			nationalvalue = nv_order
 		}
@@ -79,10 +71,6 @@ pig_fat_cartridges = {
 	news = no
 	chance = {
 		base = 5
-		modifier = {
-			factor = 2
-			religious_policy = moralism 
-		}
 		modifier = {
 			factor = 1
 			nationalvalue = nv_order
