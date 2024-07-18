@@ -1,0 +1,6 @@
+owner = POR
+controller = POR
+add_core = POR
+add_core = HND
+trade_goods = tea
+life_rating = 35

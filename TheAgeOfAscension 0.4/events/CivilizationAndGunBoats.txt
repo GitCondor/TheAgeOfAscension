@@ -1622,7 +1622,7 @@ province_event = {
 			}
 			casus_belli = {
 				target = THIS
-				type = humiliate
+				type = demand_reparations
 				months = 12
 			}
 		}
