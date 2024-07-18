@@ -968,21 +968,15 @@ acquire_state_medium = {
 		OR = {
 			AND = {
 				civilized = yes
-				THIS = {
-					civilized = yes
-				}
+				THIS = { civilized = yes }
 			}
 			AND = {
 				civilized = yes
-				THIS = {
-					civilized = no
-				}
+				THIS = { civilized = no }
 			}
 			AND = {
 				civilized = no
-				THIS = {
-					civilized = no
-				}
+				THIS = { civilized = no }
 			}
 		}
 	}
