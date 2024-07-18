@@ -25,7 +25,7 @@ upper_house = {
 	communist = 0
 }
 
-slavery = no_slavery mili = mili_no
+slavery = no_slavery #mili = mili_no
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting

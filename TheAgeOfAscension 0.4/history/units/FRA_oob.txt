@@ -2,17 +2,17 @@
 BRZ = {
 	value = 125		#relation
 	level = 5		#3=cordial, 4 = friendly, 5 sphere
-	fluence_value = 50
+	influence_value = 50
 }
 BEL = {
 	value = 125		#relation
 	level = 3		#3=cordial, 4 = friendly, 5 sphere
-	fluence_value = 25
+	influence_value = 25
 }
 LUX = {
 	value = 125		#relation
 	level = 3		#3=cordial, 4 = friendly, 5 sphere
-	fluence_value = 25
+	influence_value = 25
 }
 NET = {
 	value = -100
@@ -25,27 +25,27 @@ NET = {
 PAP = {
 	value = 125		#relation
 	level = 5		#3=cordial, 4 = friendly, 5 sphere
-	fluence_value = 25
+	influence_value = 25
 }
 SIC = {
 	value = 125		#relation
 	level = 3		#3=cordial, 4 = friendly, 5 sphere
-	fluence_value = 25
+	influence_value = 25
 }
 SWI = {
 	value = 125		#relation
 	level = 3		#3=cordial, 4 = friendly, 5 sphere
-	fluence_value = 25
+	influence_value = 25
 }
 SAR = {
 	value = 125		#relation
 	level = 4		#3=cordial, 4 = friendly, 5 sphere
-	fluence_value = 25
+	influence_value = 25
 }
 GRE = {
 	value = 75	#relation
 	level = 4		#3=cordial, 4 = friendly, 5 sphere
-	fluence_value = 10
+	influence_value = 10
 }
 ENG = {
 	value = 0
@@ -73,7 +73,7 @@ leader = {
 	name = "de la Piconnerie"
 	date = 1836.1.1
 	type = land
-	personality = confident
+	personality = defence_2.1
 	background = attack_4.1
 	prestige = 0.1
 }
@@ -100,7 +100,7 @@ leader = {
 	name = "Comte de Castelanne"
 	date = 1823.1.1
 	type = land
-	personality = defenece_2.43
+	personality = defence_2.43
 	background = attack_2.58
 	prestige = 0.2
 }
@@ -145,7 +145,7 @@ leader = {
 	name = "Comte de Randon"
 	date = 1835.1.1
 	type = land
-	personality = different
+	personality = no_personality
 	background = attack_4.2
 	prestige = 0.1
 }
@@ -163,7 +163,7 @@ leader = {
 	name = "Reille"
 	date = 1836.1.1
 	type = land
-	personality = defense_-2
+	personality = defence_0.2
 	background = attack_2.71
 	prestige = 0.0
 }

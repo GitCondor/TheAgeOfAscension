@@ -9,7 +9,7 @@ literacy = 0.01
 non_state_culture_literacy = 0.01
 
 # Political reforms
-slavery = yes_slavery mili = mili_no
+slavery = yes_slavery #mili = mili_no
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting
@@ -28,12 +28,12 @@ pensions = no_pensions
 school_reforms = no_schools
 
 #New Reforms
-conscription = no_draft
-debt_law = serfdom
-penal_system = capital_punishment
-child_labor = child_labor_legal
-citizens_rights = culture_voting_only
-border_policy = open_borders
+#conscription = no_draft
+#debt_law = serfdom
+#penal_system = capital_punishment
+#child_labor = child_labor_legal
+#citizens_rights = culture_voting_only
+#border_policy = open_borders
 
 set_country_flag = animist_country
 

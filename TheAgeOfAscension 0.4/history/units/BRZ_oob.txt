@@ -2,7 +2,7 @@ leader = {
 	name = "Pierre Labatut"
 	date = 1824.1.1
 	type = land
-	personality = defence_-2
+	personality = defence_0.2
 	background = attack_1.35
 	prestige = 0.1
 }

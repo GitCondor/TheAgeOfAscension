@@ -6,7 +6,7 @@ leader = {
 	name = "Nunes Vidigal"
 	date = 1808.1.1
 	type = land
-	personality = defence_-2
+	personality = defence_0.2
 	background = attack_4.1
 	prestige = 0.2
 }
@@ -24,7 +24,7 @@ leader = {
 	name = "Vicente de Mesquita"
 	date = 1808.1.1
 	type = land
-	personality = defence_3.11_raider
+	personality = defence_3.11
 	background = attack_2.1
 	prestige = 0.0
 }

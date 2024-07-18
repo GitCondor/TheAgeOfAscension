@@ -114,7 +114,7 @@ oob = "ION_oob.txt"
 	medicine = 1
 
 #Inventions
-	pitts_tHRMshing_machine = yes
+	pitts_threshing_machine = yes
 	northrop_power_loom = yes
 	mechanical_saw = yes
 	mechanized_slaughtering_block = yes

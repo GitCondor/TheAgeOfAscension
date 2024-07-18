@@ -2,13 +2,13 @@
 GRE = {
 	value = 125		#relation
 	level = 5		#3=cordial, 4 = friendly, 5 sphere
-	fluence_value = 50
+	influence_value = 50
 }
 
 SIA = {				#Columbia if released
 	value = 150		#relation
 	level = 4		#3=cordial, 4 = friendly, 5 sphere
-	fluence_value = 5
+	influence_value = 5
 }
 
 leader = {
@@ -33,8 +33,8 @@ leader = {
 	name = "Hugh Gough"
 	date = 1830.1.1
 	type = land
-	personality = defence_3.11_raider
-	background = defence_2.49
+	personality = defence_3.11
+	background = attack_2.49
 	prestige = 0.1
 }
 
@@ -87,7 +87,7 @@ leader = {
 	name = "John Fox Burgoyne"
 	date = 1836.1.1
 	type = land
-	personality = defenece_2.43
+	personality = defence_2.43
 	background = attack_2.37
 	prestige = 0.0
 }
@@ -96,7 +96,7 @@ leader = {
 	name = "Raglan"
 	date = 1836.1.1
 	type = land
-	personality = defence_-2
+	personality = defence_0.2
 	background = attack_2.58
 	prestige = 0.0
 }

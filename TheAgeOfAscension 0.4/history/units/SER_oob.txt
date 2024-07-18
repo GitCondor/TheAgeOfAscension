@@ -2,7 +2,7 @@ leader = {
 	name = "Prce Aleksandar"
 	type = land
 	date="1836.1.1"
-	personality = openmded
+	personality = defence_2.1
 	background = attack_1.61
 }
 

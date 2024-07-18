@@ -2049,4 +2049,3 @@ naval_exercises = {
 		naval_attrition = -0.1
 	}
 }
-

@@ -19,7 +19,7 @@ political_decisions = {
 			}
 		}
 		effect = {
-			infamy = 8
+			badboy = 8
 			set_global_flag = hungritruco
 			ROM = {
 			all_core = {

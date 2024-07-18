@@ -23,14 +23,12 @@ political_decisions = {
 		effect = {
 			set_country_flag = dongs
 			DNG	= {				
-				any_province = {
+				all_core = {
 					limit = { 
 						owned_by = this
 					}
-
-					annex_to = THIS
+					secede_province = THIS
 				}
-				
 			}	
 			prestige = 10			
 		}

@@ -11,7 +11,7 @@ civilized = yes
 prestige = 0
 
 # Political reforms
-slavery = no_slavery mili = mili_no
+slavery = no_slavery #mili = mili_no
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = yes_meeting

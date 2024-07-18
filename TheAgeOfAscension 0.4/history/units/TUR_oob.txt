@@ -13,7 +13,7 @@ leader = {
 	date = 1836.1.1
 	type = land
 	personality = defence_2.2
-	background = cartographer
+	background = attack_4.1
 	prestige = 0.1
 }
 

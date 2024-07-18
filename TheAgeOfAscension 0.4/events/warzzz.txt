@@ -32,7 +32,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {days=0}
-	immediate = {remove_country_modifier = war_exhaustiozzzt}
+	immediate = {remove_country_modifier = war_exhaustiozzz}
 	option = {
 		name = "happy happy happy pipipi"
 	}

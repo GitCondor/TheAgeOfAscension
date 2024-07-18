@@ -29,12 +29,12 @@ pensions = no_pensions
 school_reforms = no_schools
 
 # New Reforms
-conscription = mandatory_service
-debt_law = serfdom
-penal_system = capital_punishment
-child_labor = child_labor_legal
-citizens_rights = culture_voting_only
-border_policy = quota_immigration
+#conscription = mandatory_service
+#debt_law = serfdom
+#penal_system = capital_punishment
+#child_labor = child_labor_legal
+#citizens_rights = culture_voting_only
+#border_policy = quota_immigration
 
 set_country_flag = orthodox_country
 
@@ -68,7 +68,7 @@ introspectionism = 1
 no_standard = 1
 early_classical_theory_and_critique = 1
 guild_based_production = 1
-piston_steam_engine = 1
+
 mechanized_mining = 1
 basic_chemistry = 1
 

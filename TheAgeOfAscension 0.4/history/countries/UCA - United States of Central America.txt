@@ -94,7 +94,7 @@ oob = "UCA_oob.txt"
 
 #Inventions
 	jacquard_power_loom = yes
-	pitts_tHRMshing_machine = yes
+	pitts_threshing_machine = yes
 	mechanized_slaughtering_block = yes
 	northrop_power_loom = yes
 	mechanical_precision_saw = yes

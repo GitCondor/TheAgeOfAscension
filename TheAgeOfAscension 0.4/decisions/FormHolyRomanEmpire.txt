@@ -162,11 +162,8 @@ political_decisions = {
 the_true_holy = {
 	    picture = holy_roman_empire
 	    potential = {
-		    #   
-			NOT = {
-				has_global_flag = set_global_flag = the_one_who_knocks
-			}
-			tag = HRM
+		    tag = HRM
+			NOT = { has_global_flag = the_one_who_knocks }
 		}
 		allow = {
 		    prestige = 30

@@ -2,7 +2,7 @@ leader = {
 	name = "Prce Georg"
 	date = 1820.1.1
 	type = land
-	personality = defence_-2
+	personality = defence_0.2
 	background = attack_4.2
 	prestige = 0.2
 }
@@ -11,7 +11,7 @@ leader = {
 	name = "Prce Karl"
 	date = 1836.1.1
 	type = land
-	personality = different
+	personality = no_personality
 	background = attack_2.58
 }
 

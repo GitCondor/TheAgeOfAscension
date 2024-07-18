@@ -5,7 +5,7 @@ leader = {
 	date = 1836.1.1
 	personality = defence_4.1
 	background = attack_2.1
-	background = introverted_philosopher
+	background = no_background
 }
 
 army = {

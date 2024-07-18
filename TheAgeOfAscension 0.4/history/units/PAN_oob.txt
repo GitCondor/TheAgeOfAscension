@@ -11,7 +11,7 @@ leader = {
 	name = "Zorawar Sgh"
 	type = land
 	date = 1834.1.1
-	personality = polite
+	personality = no_personality
 	background = attack_2.50
 	prestige = 0.1
 }
@@ -21,7 +21,7 @@ leader = {
 	type = land
 	date = 1836.1.1
 	personality = soft
-	background = unqualified
+	background = no_background
 }
 
 leader = {
@@ -55,7 +55,7 @@ leader = {
 	name = "Alexander Gardner"
 	type = land
 	date = 1831.1.1
-	personality = defense_-2
+	personality = defence_0.2
 	background = attack_5.1
 	prestige = 0.1
 }

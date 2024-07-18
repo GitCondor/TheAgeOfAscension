@@ -80,12 +80,12 @@ political_decisions = {
 		
 		effect = {
 			LIB	= {				
-				any_province = {
+				all_core = {
 					limit = { 
 						owned_by = this
 					}
 					add_core = BEN
-					annex_to = THIS
+					secede_province = THIS
 				}
 			}	
 		}

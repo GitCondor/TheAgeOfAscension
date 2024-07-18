@@ -2,7 +2,7 @@ leader = {
 	name = "MeHRMb Khan"
 	date = 1836.1.1
 	type = land
-	personality = clever
+	personality = defence_2.1
 	background = attack_2.5
 }
 

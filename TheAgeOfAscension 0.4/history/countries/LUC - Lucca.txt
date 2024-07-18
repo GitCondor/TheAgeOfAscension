@@ -121,7 +121,7 @@ oob = "LUC_oob.txt"
 	
 	sharp_n_roberts_power_loom = yes
 	mechanical_saw = yes
-	pitts_tHRMshing_machine = yes
+	pitts_threshing_machine = yes
 	mechanized_slaughtering_block = yes
 	coke = yes
 	mechanical_precision_saw = yes
