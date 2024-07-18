@@ -8,7 +8,7 @@ political_decisions = {
 		potential = {
 			NOT = { is_canal_enabled = 1 }
 			owns = 369
-			mechanical_production = 1
+			weapon_platforms = 1
 		}
 		allow = {
 			invention = machine_tools
@@ -38,7 +38,7 @@ political_decisions = {
 		picture = suezcanal
 		potential = {
 			NOT = { is_canal_enabled = 2 }
-			mechanical_production = 1
+			weapon_platforms = 1
 		}
 		allow = {
 			OR = {
@@ -75,7 +75,7 @@ political_decisions = {
 		picture = suezcanal
 		potential = {
 			NOT = { is_canal_enabled = 6 }
-			mechanical_production = 1
+			weapon_platforms = 1
 		}
 		allow = {
 			owns = 453		
@@ -105,7 +105,7 @@ political_decisions = {
 		picture = suezcanal
 		potential = {
 			NOT = { is_canal_enabled = 8 }
-			mechanical_production = 1
+			weapon_platforms = 1
 		}
 		allow = {
 			owns = 492		
@@ -136,7 +136,7 @@ political_decisions = {
 		picture = suezcanal
 		potential = {
 			NOT = { is_canal_enabled = 7 }
-			mechanical_production = 1
+			weapon_platforms = 1
 		}
 		allow = {
 				owns = 588		
@@ -166,7 +166,7 @@ political_decisions = {
 		news_desc_short = "panama_canal_NEWS_SHORT"
 		potential = {
 			NOT = { is_canal_enabled = 3 }
-			mechanical_production = 1
+			weapon_platforms = 1
 		}
 		allow = {
 			OR = {
