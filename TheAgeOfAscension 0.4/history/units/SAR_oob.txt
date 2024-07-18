@@ -8,7 +8,7 @@ leader = {
 	name = "Carlo Alberto"
 	date = 1831.1.1
 	type = land
-	personality = openmded
+	personality = defence_2.1
 	background = attack_2.58
 	prestige = 0.5
 }
@@ -44,7 +44,7 @@ leader = {
 	name = "Giuseppe Albi"
 	date = 1836.1.1
 	type = sea
-	personality = different
+	personality = no_personality
 	background = attack_1.175
 	prestige = 0.0
 }
@@ -62,7 +62,7 @@ leader = {
 	name = "Agosto Chiodo"
 	date = 1836.1.1
 	type = land
-	personality = defense_-2
+	personality = defence_0.2
 	background = attack_2.37
 	prestige = 0.0
 }

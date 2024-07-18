@@ -11,7 +11,7 @@ leader = {
 	name = "Ferdand Gottleb"
 	date = 1820.1.1
 	type = land
-	personality = different
+	personality = no_personality
 	background = attack_1.104
 	prestige = 0.2
 }
@@ -20,7 +20,7 @@ leader = {
 	name = "Wilhelm I"
 	date = 1812.1.1
 	type = land
-	personality = defenece_2.43
+	personality = defence_2.43
 	background = attack_2.58
 	prestige = 0.5
 }

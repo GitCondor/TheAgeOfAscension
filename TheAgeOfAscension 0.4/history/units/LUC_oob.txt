@@ -5,7 +5,7 @@ army = {
 		name = "Carlo di Borbone-Parma"
 		date = 1815.1.1
 		type = land
-		personality = polite
+		personality = no_personality
 		background = cursed_luck
 		prestige = 0.5
 	}

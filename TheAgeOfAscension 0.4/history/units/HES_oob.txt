@@ -11,7 +11,7 @@ leader = {
 	name = "Prce Karl"
 	date = 1836.1.1
 	type = land
-	personality = different
+	personality = no_personality
 	background = attack_2.58
 }
 

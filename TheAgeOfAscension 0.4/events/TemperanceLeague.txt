@@ -325,16 +325,11 @@ country_event = {
 				religion = shiite
 			}
 		}
-		moralism = 10
 		conservative = 20
 	}
 	
 	mean_time_to_happen = {
 		months = 500
-		modifier = {
-			factor = 0.9
-			moralism = 15
-		}
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -349,25 +344,10 @@ country_event = {
 				average_consciousness = 5
 			}
 		}
-		modifier = {
-			factor = 0.9
-			
-		}
 	}
 	
 	option = {
 		name = "EVTOPTA150"
-		random_state = {
-			limit = {
-				is_colonial = no
-			}
-			any_pop = {
-				dominant_issue = {
-					value = moralism
-					factor = 0.5
-				}
-			}
-		}
 	}
 	
 	option = {
@@ -403,10 +383,6 @@ country_event = {
 
 	mean_time_to_happen = {
 		months = 300
-		modifier = {
-			factor = 0.9
-			moralism = 20
-		}
 		modifier = {
 			factor = 0.9
 			conservative = 50

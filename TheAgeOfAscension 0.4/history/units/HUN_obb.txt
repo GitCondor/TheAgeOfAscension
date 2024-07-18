@@ -108,7 +108,7 @@ leader = {
 	name = "Julius von Haynau"
 	date = 1835.1.1
 	type = land
-	personality = wrathful
+	personality = defence_2.1
 	background = attack_3.2
 	prestige = 0.1
 }

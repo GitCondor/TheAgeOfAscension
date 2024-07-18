@@ -299,8 +299,8 @@ leader = {
 	name = "von Grolman"
 	date = 1816.1.1
 	type = land
-	personality = openmded
-	background = warmonger
+	personality = defence_2.1
+	background = attack_2.73
 	prestige = 0.2
 }
 
@@ -335,7 +335,7 @@ leader = {
 	name = "Wilhelm von Neumann-Cosel"
 	date = 1836.1.1
 	type = land
-	personality = defense_-2
+	personality = defence_0.2
 	background = attack_4.2
 	prestige = 0.1
 }
@@ -353,7 +353,7 @@ leader = {
 	name = "von Reyher"
 	date = 1836.1.1
 	type = land
-	personality = defense_-2
+	personality = defence_0.2
 	background = attack_5.1
 	prestige = 0.0
 }
@@ -383,7 +383,7 @@ army = {
 
 	regiment = {
 		name= "I. Pionierbrigade"
-		type = attack_2.37
+		type = infantry
 		home = 577
 	}
 
@@ -436,7 +436,7 @@ army = {
 
 	regiment = {
 		name= "II. Pionierbrigade"
-		type = attack_2.37
+		type = infantry
 		home = 684
 	}
 
@@ -489,7 +489,7 @@ army = {
 
 	regiment = {
 		name= "III. Pionierbrigade"
-		type = attack_2.37
+		type = infantry
 		home = 693
 	}
 
@@ -542,7 +542,7 @@ army = {
 
 	regiment = {
 		name= "IV. Pionierbrigade"
-		type = attack_2.37
+		type = infantry
 		home = 680
 	}
 

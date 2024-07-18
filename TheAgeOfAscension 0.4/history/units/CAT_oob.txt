@@ -56,7 +56,7 @@ leader = {
 	name = "Louis Eva"
 	date = 1831.1.1
 	type = land
-	personality = defenece_2.43
+	personality = defence_2.43
 	background = attack_5.1
 	prestige = 0.1
 }
@@ -83,7 +83,7 @@ leader = {
 	name = "Albert Prisse"
 	date = 1834.1.1
 	type = land
-	personality = smart_p
+	personality = defence_2.1
 	background = attack_2.5
 	prestige = 0.1
 }

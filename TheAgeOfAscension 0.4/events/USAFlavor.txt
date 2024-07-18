@@ -308,12 +308,6 @@ country_event = {
 	option = {
 		name = "EVTOPTA44106" 
 		prestige = 2
-		any_pop = {
-			dominant_issue = { 
-				factor = 0.10
-				value = moralism
-			}
-		}
 	}
 }
 
@@ -812,30 +806,6 @@ country_event = {
 		any_pop = {
 			consciousness = 0.3
 		}
-		farmers = { 
-			dominant_issue = {
-				factor = 0.40
-				value = moralism
-				}
-			}		
-		labourers = { 
-			dominant_issue = {
-				factor = 0.40
-				value = moralism
-				}
-			}		
-		soldiers = { 
-			dominant_issue = {
-				factor = 0.25
-				value = moralism
-				}
-			}		
-		artisans = { 
-			dominant_issue = {
-				factor = 0.30
-				value = moralism
-				}
-		}
 	}
 }
 
@@ -1001,8 +971,7 @@ country_event = {
 	news_desc_short = "EVTDESC44120_NEWS_SHORT"
 
 	trigger = {
-		tag = USA 
-		moralism = 5
+		tag = USA
 		year = 1838
 		NOT = {
 			year = 1930
@@ -1037,14 +1006,6 @@ country_event = {
 				has_pop_religion = protestant
 			}
 			consciousness = 1
-			dominant_issue = {
-				factor = 0.02
-				value = moralism
-			}		
-			dominant_issue = {
-				factor = 0.04
-				value = secularized
-			}
 		}
 	}
 }

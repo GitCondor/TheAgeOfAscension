@@ -39,7 +39,7 @@ leader = {
 	name = "Baltzar von Platen"
 	date = 1834.1.1
 	type = sea
-	personality = defenece_2.43
+	personality = defence_2.43
 	background = attack_1.35
 	prestige = 0.1
 }
@@ -49,7 +49,7 @@ leader = {
 	date = 1824.1.1
 	type = land
 	personality = defence_1.54
-	background = defence_0.2
+	background = attack_0.2
 	prestige = 0.1
 }
 

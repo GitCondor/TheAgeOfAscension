@@ -2,7 +2,7 @@ leader = {
 	name = "§R Cesar"
 	type = land
 	date = 1835.1.1
-	background = defence_4.2
+	background = attack_4.2
 	personality = attack_5.1
 }
 

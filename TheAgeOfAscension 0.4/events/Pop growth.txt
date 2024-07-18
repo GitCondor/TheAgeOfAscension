@@ -1,15 +1,15 @@
-country_event = { 
+country_event = {
        id = 6004
-       title = "pipipipop" 
-       desc = "sexooooo" 
+       title = "pipipipop"
+       desc = "sexooooo"
        picture = "Nile"
 	   trigger = {
-		       OR = { tag = GRE tag = SWE 
+		       OR = { tag = GRE tag = SWE
 			   tag = NPE}
 			   year = 1836
 			   NOT = { has_country_flag = populationamericangrowth }
 	   }
-	   
+
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -28,10 +28,10 @@ option = {
 		}
 	 set_country_flag = populationamericangrowth
 }}
-country_event = { 
+country_event = {
        id = 6005
-       title = "pipipipop" 
-       desc = "sexooooo" 
+       title = "pipipipop"
+       desc = "sexooooo"
        picture = "Nile"
 	   trigger = {
 				or = {
@@ -41,7 +41,7 @@ country_event = {
 			   year = 1836
 			   NOT = { has_country_flag = populationamericangrowth }
 	   }
-	   
+
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -60,17 +60,17 @@ option = {
 		}
 	 set_country_flag = populationamericangrowth
 }}
-country_event = { 
+country_event = {
        id = 6006
-       title = "pipipipop" 
-       desc = "sexooooo" 
+       title = "pipipipop"
+       desc = "sexooooo"
        picture = "Nile"
 	   trigger = {
 		       tag = NPE
 			   year = 1836
 			   NOT = { has_country_flag = populationamericangrowth }
 	   }
-	   
+
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -89,17 +89,17 @@ option = {
 		}
 	 set_country_flag = populationamericangrowth
 }}
-country_event = { 
+country_event = {
        id = 1241231
-       title = "GREATGAME" 
-       desc = "SACAD A LOS CATALANES DE AQUI" 
+       title = "GREATGAME"
+       desc = "SACAD A LOS CATALANES DE AQUI"
        picture = "Nile"
 	   trigger = {
 		       tag = FRA
 			   year = 1836
 			   NOT = { has_country_flag = frenchgreatwar }
 	   }
-	   
+
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -116,27 +116,25 @@ option = {
 	 set_country_flag = frenchgreatwar
 }}
 
-country_event = { 
-       id = 1241231
-       title = "GREATGAME" 
-       desc = "DEMOB REMOB" 
+country_event = {
+       id = 1241232
+       title = "GREATGAME"
+       desc = "DEMOB REMOB"
+	   fire_only_once = yes
        picture = "turki"
-	   trigger = {
-	   NOT = {GRE = {war_with = SAR}
-	    NOT = {GRE = {war_with = NPE}}
-	   owns = 754	owns = 860 owns = 866}
-				war_with = PER
-				war_with = GRE
-		       tag = TUR
-			   NOT = {has_country_flag = turki}
-	   }
-	   
+		trigger = {
+		NOT = { GRE = { war_with = SAR war_with = NPE } }
+		owns = 754
+		owns = 860
+		owns = 866
+		war_with = PER
+		war_with = GRE
+		tag = TUR
+	}
+
 	mean_time_to_happen = {
 		days = 1
 	}
-    immediate = {
-		set_country_flag = turki
-    }
 
 option = {
      name = "TURKISH WAR OF INDEPENDENCE"
@@ -148,20 +146,19 @@ option = {
 			name = vengador
 			duration = 100
 		}
-	 set_country_flag = turki
 }}
 
-country_event = { 
+country_event = {
        id = 6009
-       title = "pipipipop" 
-       desc = "sexooooo" 
+       title = "pipipipop"
+       desc = "sexooooo"
        picture = "Nile"
 	   trigger = {
 		       OR = { tag = PON tag = PER tag = CAL }
 			   year = 1836
 			   NOT = { has_country_flag = populationamericangrowth }
 	   }
-	   
+
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -181,16 +178,16 @@ option = {
 	 set_country_flag = populationamericangrowth
 }}
 
-country_event = { 
+country_event = {
        id = 1245613
-       title = "La banca polaca" 
-       desc = "" 
+       title = "La banca polaca"
+       desc = ""
        picture = "Nile"
 	   trigger = {
 		       tag = POL
 			   not = {has_country_flag = polishmoney}
 	   }
-	   
+
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -207,17 +204,17 @@ option = {
 	 set_country_flag = polishmoney
 }}
 
-country_event = { 
+country_event = {
        id = 6004534
-       title = "pipipipop" 
-       desc = "sexooooo" 
+       title = "pipipipop"
+       desc = "sexooooo"
        picture = "Nile"
 	   trigger = {
 		       OR = { tag = CHI tag = GXI}
 			   year = 1836
 			   NOT = { has_country_flag = populationamericangrowth }
 	   }
-	   
+
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -230,7 +227,7 @@ option = {
      any_pop = {
             reduce_pop = 0.4
 			consciousness = 8.0
-				militancy = 8.0	
+				militancy = 8.0
      }
 	 set_country_flag = populationamericangrowth
 }}

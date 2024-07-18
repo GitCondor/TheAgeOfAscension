@@ -54,7 +54,7 @@ leader = {
 	name = "Wfield Scott"
 	date = 1836.1.1
 	type = land
-	personality = steadfast
+	personality = defence_5.1
 	background = school_of_firepower
 	prestige = 0.3
 }
@@ -63,7 +63,7 @@ leader = {
 	name = "Zachary Taylor"
 	date = 1836.1.1
 	type = land
-	personality = tuitive
+	personality = defence_2.1
 	background = attack_2.50
 	prestige = 0.1
 }
@@ -72,7 +72,7 @@ leader = {
 	name = "Thomas Jesup"
 	date = 1836.1.1
 	type = land
-	personality = meticulous
+	personality = defence_5.1
 	background = attack_2.3
 	prestige = 0.1
 }
@@ -99,7 +99,7 @@ leader = {
 	name = "Isaac Hull"
 	date = 1810.1.1
 	type = sea
-	personality = skilled
+	personality = defence_1.2
 	background = attack_1.1
 	prestige = 0.2
 }
@@ -126,7 +126,7 @@ leader = {
 	name = "Matthew C. Perry"
 	date = 1836.1.1
 	type = sea
-	personality = openmded
+	personality = defence_2.1
 	background = attack_1.175
 	prestige = 0.1
 }

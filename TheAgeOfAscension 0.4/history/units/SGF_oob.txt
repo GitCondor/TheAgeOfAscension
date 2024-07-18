@@ -2,7 +2,7 @@ leader = {
 	name = "Pappenheim"
 	date = 1815.1.1
 	type = land
-	personality = defense_-2
+	personality = defence_0.2
 	background = attack_1.1
 	prestige = 0.3
 }
@@ -11,7 +11,7 @@ leader = {
 	name = "von Washgton"
 	date = 1825.1.1
 	type = land
-	personality = defense_-2
+	personality = defence_0.2
 	background = attack_1.104
 	prestige = 0.1
 }
@@ -20,7 +20,7 @@ leader = {
 	name = "Karl von Heideck"
 	date = 1832.1.1
 	type = land
-	personality = polite
+	personality = no_personality
 	background = attack_2.5
 	prestige = 0.1
 }

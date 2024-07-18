@@ -2595,14 +2595,6 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 800
-		modifier = {
-			factor = 0.9
-			pro_atheism = 10
-		}
-		modifier = {
-			factor = 1.5
-			moralism = 20
-		}
 	}
 	
 	option = {
@@ -2614,12 +2606,6 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTB4410"
-		any_pop = {
-			dominant_issue = {
-				value = pluralism
-				factor = 0.1
-			}
-		}
 	}
 }
 
@@ -2680,19 +2666,6 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTB4411"
-		random_state = {
-			limit = {
-				NOT = {
-					is_colonial = yes
-				}
-			}
-			any_pop = {
-				scaled_militancy = {
-					issue = secularized
-					factor = 4
-				}
-			}
-		}
 	}
 }
 
@@ -2765,50 +2738,14 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 800
-		modifier = {
-			factor = 0.9
-			moralism = 5
-		}
-		modifier = {
-			factor = 1.1
-			NOT = {
-				moralism = 5
-			}
-		}
 	}
 	
 	option = {
 		name = "EVTOPTA4413"
-		random_state = {
-			limit = {
-				NOT = {
-					is_colonial = yes
-				}
-			}
-			any_pop = {
-				dominant_issue = {
-					value = moralism
-					factor = 0.2
-				}
-			}
-		}
 	}
 	
 	option = {
 		name = "EVTOPTB4413"
-		random_state = {
-			limit = {
-				NOT = {
-					is_colonial = yes
-				}
-			}
-			any_pop = {
-				scaled_militancy = {
-					issue = moralism
-					factor = -2
-				}
-			}
-		}
 	}
 }
 
@@ -2955,7 +2892,6 @@ country_event = {
 		civilized = yes
 		economic_policy = laissez_faire
 		laissez_faire = 10
-		moralism = 10
 		upper_house = {
 			ideology = liberal
 			value = 0.2
@@ -2964,14 +2900,6 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 800
-		modifier = {
-			factor = 0.8
-			moralism = 15
-		}
-		modifier = {
-			factor = 1.2
-			pluralism = 10
-		}
 	}
 	
 	option = {
@@ -2983,10 +2911,6 @@ country_event = {
 				}
 			}
 			any_pop = {
-				scaled_militancy = {
-					issue = moralism
-					factor = -2
-				}
 				dominant_issue = {
 					value = free_trade
 					factor = 0.2
@@ -2997,19 +2921,6 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTB4416"
-		random_state = {
-			limit = {
-				NOT = {
-					is_colonial = yes
-				}
-			}
-			any_pop = {
-				dominant_issue = {
-					value = moralism
-					factor = 0.1
-				}
-			}
-		}
 		upper_house = {
 			ideology = conservative
 			value = 0.1
@@ -3030,8 +2941,6 @@ country_event = {
 			pro_military = 10
 			jingoism = 10
 		}
-		moralism = 10
-		
 		war_exhaustion = 2
 	}
 	
@@ -3522,20 +3431,10 @@ country_event = {
 		press_rights = free_press
 		average_consciousness = 6
 		literacy = 0.6
-		secularized = 5
 	}
 	
 	mean_time_to_happen = {
 		months = 800
-		
-		modifier = {
-			factor = 0.8
-			moralism = 15
-		}
-		modifier = {
-			factor = 0.8
-			secularized = 15
-		}
 		modifier = {
 			factor = 1.2
 			NOT = {
@@ -3549,10 +3448,6 @@ country_event = {
 		political_reform = censored_press
 		any_pop = {
 			scaled_militancy = {
-				issue = secularized
-				factor = 4
-			}
-			scaled_militancy = {
 				ideology = liberal
 				factor = 2
 			}
@@ -3561,16 +3456,6 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTB4425"
-		any_pop = {
-			scaled_militancy = {
-				issue = moralism
-				factor = 2
-			}
-			scaled_militancy = {
-				ideology = conservative
-				factor = 1
-			}
-		}
 	}
 }
 

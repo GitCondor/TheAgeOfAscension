@@ -33,8 +33,8 @@ leader = {
 	name = "Hugh Gough"
 	date = 1830.1.1
 	type = land
-	personality = defence_3.11_raider
-	background = defence_2.49
+	personality = defence_3.11
+	background = attack_2.49
 	prestige = 0.1
 }
 
@@ -87,7 +87,7 @@ leader = {
 	name = "John Fox Burgoyne"
 	date = 1836.1.1
 	type = land
-	personality = defenece_2.43
+	personality = defence_2.43
 	background = attack_2.37
 	prestige = 0.0
 }
