@@ -1,0 +1,9 @@
+terrorist_cells = {
+	
+
+	local_factory_throughput = -0.15
+	icon = 8	
+	active = yes
+	trigger = {
+	}	
+}

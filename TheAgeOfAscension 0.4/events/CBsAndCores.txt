@@ -222,7 +222,7 @@ country_event = {
 			}
 			add_casus_belli = {
 				target = THIS
-				type = demand_reparations
+				type = humiliate
 				months = 3
 			}
 			relation = {
@@ -553,7 +553,7 @@ country_event = {
 			}
 			add_casus_belli = {
 				target = THIS
-				type = demand_reparations
+				type = humiliate
 				months = 4
 			}
 		}

@@ -486,7 +486,7 @@ country_event = {
 		FROM = {
 			casus_belli = {
 				target = THIS
-				type = demand_reparations
+				type = humiliate
 				months = 12
 			}
 			country_event = { id=19032 days=0 }

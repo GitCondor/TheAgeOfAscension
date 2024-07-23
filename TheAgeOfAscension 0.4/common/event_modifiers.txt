@@ -3,8 +3,11 @@
 ##################################################################################################
 ## NOIMMIGRATION
 noimmigration = {
-	global_immigrant_attract = -1000
-	immigrant_attract = -1000
+	global_immigrant_attract = -100000
+	immigrant_attract = -10000
+	icon = 15
+}
+patate = {
 	icon = 15
 }
 national_confusion = {

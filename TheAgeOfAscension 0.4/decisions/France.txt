@@ -236,7 +236,7 @@ political_decisions = {
 			}
 			casus_belli = {
 				target = PRU
-				type = acquire_core_state_medium
+				type = acquire_state
 				months = 1
 			}
 			prestige = 10

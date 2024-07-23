@@ -11,6 +11,7 @@ country_event = {
 		name = "Okay"
 	}
 }
+
 country_event = {
 	id = 999991123
 	title = "You are the host nation now"

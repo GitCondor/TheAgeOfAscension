@@ -21,5 +21,6 @@ country_event = {
 	option = {
 		name = "EVTOPTA36898"
 		release_vassal = DEN
+		528 = { change_province_name = "KitLand" }
 	}
 }

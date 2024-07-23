@@ -9,7 +9,7 @@ country_event = {
 		NOT = { involved_in_crisis = yes }
 		constructing_cb_progress = 10 #10% progress
 		OR = {
-			constructing_cb_type = acquire_core_state_medium
+			constructing_cb_type = acquire_state
 			constructing_cb_type = conquest
 			constructing_cb_type = demand_concession_casus_belli_medium
 			constructing_cb_type = establish_protectorate_casus_belli
@@ -58,7 +58,7 @@ country_event = {
 		NOT = { involved_in_crisis = yes }
 		constructing_cb_progress = 10 #10% progress
 		OR = {
-			constructing_cb_type = acquire_core_state_medium
+			constructing_cb_type = acquire_state
 			constructing_cb_type = conquest
 			constructing_cb_type = demand_concession_casus_belli_medium
 			constructing_cb_type = establish_protectorate_casus_belli
@@ -360,7 +360,7 @@ country_event = {
 	}
 }
 
-# Cut down/demand_reparations
+# Cut down/Humiliate
 country_event = {
 	id = 90008
 	title = "EVTNAME90008"
@@ -372,7 +372,7 @@ country_event = {
 		constructing_cb_progress = 10 #10% progress
 		OR = {
 			constructing_cb_type = demand_reparations
-			constructing_cb_type = demand_reparations
+			constructing_cb_type = humiliate
 			}
 		NOT = {
 			OR = {	
@@ -407,7 +407,7 @@ country_event = {
 	}
 }
 
-# Cut down/demand_reparations
+# Cut down/Humiliate
 country_event = {
 	id = 90009
 	title = "EVTNAME90009"
@@ -419,7 +419,7 @@ country_event = {
 		constructing_cb_progress = 10 #10% progress
 		OR = {
 			constructing_cb_type = demand_reparations
-			constructing_cb_type = demand_reparations
+			constructing_cb_type = humiliate
 			}
 		NOT = {
 			OR = {	

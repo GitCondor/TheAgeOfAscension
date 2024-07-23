@@ -4,28 +4,28 @@ tier_1_focus =
 	{
 		aristocrats = 0.20 #20% more likeley to become artisans
 		icon = 2
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 	}
 
 	promote_artisans =
 	{
 		artisans = 0.20 #20% more likeley to become this type
 		icon = 3
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 	}
 
 	promote_bureaucrats =
 	{
 		bureaucrats = 0.20 #20% more likeley to become this type
 		icon = 4
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 	}
 
 	promote_capitalists =
 	{
 		capitalists = 0.20 #20% more likeley to become this type
 		icon = 5
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 		limit = { 
 			civilized = yes
 		}
@@ -36,14 +36,14 @@ tier_1_focus =
 	{
 		clergymen = 0.20 #20% more likeley to become this type
 		icon = 6
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 	}
 
 	promote_clerks =
 	{
 		clerks = 0.20 #20% more likeley to become this type
 		icon = 7
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 		limit = { 
 			civilized = yes
 		}
@@ -53,38 +53,35 @@ tier_1_focus =
 	{
 		craftsmen = 0.20 #20% more likeley to become this type
 		icon = 8
-		outliner_show_as_percent = yes
-		limit = { 
-			civilized = yes
-		}
+		outliner_show_as_percent = yes limit = {or = {is_independant = yes NOT = {has_country_flag = soldiers}}}
 	}
 
 	promote_farmers =
 	{
 		farmers = 0.20 #20% more likeley to become this type
 		icon = 9
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 	}
 	
 	promote_labourers =
 	{
 		labourers = 0.20 #20% more likeley to become this type
 		icon = 10
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 	}
 
 	promote_officers =
 	{
 		officers = 0.20 #20% more likeley to become this type
 		icon = 11
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 	}
 
 	promote_soldiers =
 	{
 		soldiers = 0.20 #20% more likeley to become this type
 		icon = 12
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {or = {is_independant = yes NOT = {has_country_flag = craftsmen}}}
 	}
 	
 }	
@@ -101,7 +98,7 @@ tier_2_focus =
 				has_country_flag = tier_2
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 	}
 
 	promote_capitalists_2 =
@@ -113,7 +110,7 @@ tier_2_focus =
 				has_country_flag = tier_2
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 		limit = { 
 			civilized = yes
 		}
@@ -129,7 +126,7 @@ tier_2_focus =
 				has_country_flag = tier_2
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 	}
 
 	promote_clerks_2 =
@@ -141,7 +138,7 @@ tier_2_focus =
 				has_country_flag = tier_2
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 		limit = { 
 			civilized = yes
 		}
@@ -156,7 +153,7 @@ tier_2_focus =
 				has_country_flag = tier_2
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 		limit = { 
 			civilized = yes
 		}
@@ -171,7 +168,7 @@ tier_2_focus =
 				has_country_flag = tier_2
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 	}
 
 	promote_soldiers_2 =
@@ -183,7 +180,7 @@ tier_2_focus =
 				has_country_flag = tier_2
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 	}
 	
 	internal_migration =
@@ -247,7 +244,7 @@ tier_3_focus =
 				has_country_flag = tier_3
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 	}
 
 	promote_capitalists_3 =
@@ -259,7 +256,7 @@ tier_3_focus =
 				has_country_flag = tier_3
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 		limit = { 
 			civilized = yes
 		}
@@ -275,7 +272,7 @@ tier_3_focus =
 				has_country_flag = tier_3
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 	}
 
 	promote_clerks_3 =
@@ -287,7 +284,7 @@ tier_3_focus =
 				has_country_flag = tier_3
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 		limit = { 
 			civilized = yes
 		}
@@ -302,7 +299,7 @@ tier_3_focus =
 				has_country_flag = tier_3
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 		limit = { 
 			civilized = yes
 		}
@@ -317,7 +314,7 @@ tier_3_focus =
 				has_country_flag = tier_3
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 	}
 
 	promote_soldiers_3 =
@@ -329,7 +326,7 @@ tier_3_focus =
 				has_country_flag = tier_3
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 	}
 	
 	factory_input_bonus =
@@ -390,7 +387,7 @@ tier_4_focus =
 				has_country_flag = tier_4
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 	}
 
 	promote_capitalists_4 =
@@ -402,7 +399,7 @@ tier_4_focus =
 				has_country_flag = tier_4
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 		limit = { 
 			civilized = yes
 		}
@@ -418,7 +415,7 @@ tier_4_focus =
 				has_country_flag = tier_4
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 	}
 
 	promote_clerks_4 =
@@ -430,7 +427,7 @@ tier_4_focus =
 				has_country_flag = tier_4
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 		limit = { 
 			civilized = yes
 		}
@@ -445,7 +442,7 @@ tier_4_focus =
 				has_country_flag = tier_4
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 		limit = { 
 			civilized = yes
 		}
@@ -460,7 +457,7 @@ tier_4_focus =
 				has_country_flag = tier_4
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 	}
 
 	promote_soldiers_4 =
@@ -472,7 +469,7 @@ tier_4_focus =
 				has_country_flag = tier_4
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 	}
 	
 	factory_input_output_bonus =
@@ -491,7 +488,7 @@ tier_4_focus =
 	{
 		craftsmen = 0.20
 		assimilation_rate = 2
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 		icon = 43
 		limit = {
 			owner = { 
@@ -504,7 +501,7 @@ tier_4_focus =
 	{
 		soldiers = 0.20
 		assimilation_rate = 2
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 		icon = 44
 		limit = {
 			owner = { 
@@ -518,7 +515,7 @@ tier_4_focus =
 		bureaucrats = 0.20
 		immigrant_attract = 10000
 		immigrant_push = -10000
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 		icon = 45
 		limit = {
 			owner = { 
@@ -541,7 +538,7 @@ tier_5_focus =
 				has_country_flag = tier_5
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 	}
 
 	promote_capitalists_5 =
@@ -553,7 +550,7 @@ tier_5_focus =
 				has_country_flag = tier_5
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 		limit = { 
 			civilized = yes
 		}
@@ -569,7 +566,7 @@ tier_5_focus =
 				has_country_flag = tier_5
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 	}
 
 	promote_clerks_5 =
@@ -581,7 +578,7 @@ tier_5_focus =
 				has_country_flag = tier_5
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 		limit = { 
 			civilized = yes
 		}
@@ -596,7 +593,7 @@ tier_5_focus =
 				has_country_flag = tier_5
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 		limit = { 
 			civilized = yes
 		}
@@ -611,7 +608,7 @@ tier_5_focus =
 				has_country_flag = tier_5
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 	}
 
 	promote_soldiers_5 =
@@ -623,14 +620,14 @@ tier_5_focus =
 				has_country_flag = tier_5
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 	}
 	
 	input_craftsmen =
 	{
 		craftsmen = 0.20
 		local_factory_input = -0.25
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 		icon = 53
 		limit = {
 			owner = { 
@@ -643,7 +640,7 @@ tier_5_focus =
 	{
 		craftsmen = 0.20
 		local_factory_output = 0.5
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 		icon = 54
 		limit = {
 			owner = { 
@@ -656,7 +653,7 @@ tier_5_focus =
 	{
 		clerks = 0.20
 		local_factory_input = -0.25
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 		icon = 55
 		limit = {
 			owner = { 
@@ -669,7 +666,7 @@ tier_5_focus =
 	{
 		clerks = 0.20
 		local_factory_output = 0.5
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 		icon = 56
 		limit = {
 			owner = { 
@@ -692,7 +689,7 @@ tier_6_focus =
 				has_country_flag = tier_6
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 	}
 
 	promote_capitalists_6 =
@@ -704,7 +701,7 @@ tier_6_focus =
 				has_country_flag = tier_6
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 		limit = { 
 			civilized = yes
 		}
@@ -720,7 +717,7 @@ tier_6_focus =
 				has_country_flag = tier_6
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 	}
 
 	promote_clerks_6 =
@@ -732,7 +729,7 @@ tier_6_focus =
 				has_country_flag = tier_6
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 		limit = { 
 			civilized = yes
 		}
@@ -747,7 +744,7 @@ tier_6_focus =
 				has_country_flag = tier_6
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 		limit = { 
 			civilized = yes
 		}
@@ -762,7 +759,7 @@ tier_6_focus =
 				has_country_flag = tier_6
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 	}
 
 	promote_soldiers_6 =
@@ -774,7 +771,7 @@ tier_6_focus =
 				has_country_flag = tier_6
 			}
 		}
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 	}
 	
 	input_output_craftsmen =
@@ -782,7 +779,7 @@ tier_6_focus =
 		craftsmen = 0.20
 		local_factory_input = -0.125
 		local_factory_output = 0.25
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 		icon = 64
 		limit = {
 			owner = { 
@@ -796,7 +793,7 @@ tier_6_focus =
 		clerks = 0.20
 		local_factory_input = -0.125
 		local_factory_output = 0.25
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 		icon = 65
 		limit = {
 			owner = { 
@@ -810,7 +807,7 @@ tier_6_focus =
 		soldiers = 0.20
 		local_factory_input = -0.125
 		local_factory_output = 0.25
-		outliner_show_as_percent = yes
+		outliner_show_as_percent = yes limit = {is_independant = yes}
 		icon = 66
 		limit = {
 			owner = { 

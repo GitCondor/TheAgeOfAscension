@@ -1005,7 +1005,15 @@ basic_chemistry = {
 
 	activate_building = fertilizer_factory 
 	ai_chance = {
-		factor = 100
+		factor = 1.1
+		modifier = {
+			factor = 1.5
+			civilized = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = industrial_tech_school
+		}
 	}
 }
 medicine = {
@@ -1018,6 +1026,18 @@ medicine = {
 	
 	ai_chance = {
 		factor = 100
+		modifier = {
+			factor = 1.5
+			civilized = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = industrial_tech_school
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
 	}
 }
 inorganic_chemistry = {
@@ -1030,6 +1050,30 @@ inorganic_chemistry = {
 	
 	ai_chance = {
 		factor = 100
+		modifier = {
+			factor = 1.02
+			tech_school = industrial_tech_school
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 100
+		}
+		modifier = {
+			factor = 1.1
+			year = 1860
+		}
+		modifier = {
+			factor = 50
+			year = 1870
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 150
+		}
 	}
 }
 organic_chemistry = {
@@ -1042,6 +1086,26 @@ organic_chemistry = {
 	
 	ai_chance = {
 		factor = 100
+		modifier = {
+			factor = 2
+			tech_school = industrial_tech_school
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 400
+		}
+		modifier = {
+			factor = 50
+			year = 1870
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 500
+		}
 	}
 }
 electricity = {
@@ -1051,9 +1115,29 @@ electricity = {
 	
 	supply_limit = 0.50
 	pop_growth = 0.0002
-
+	
 	ai_chance = {
 		factor = 100
+		modifier = {
+			factor = 1.02
+			tech_school = industrial_tech_school
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 50
+			year = 1880
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 500
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 750
+		}
 	}
 
 }
@@ -1064,10 +1148,26 @@ synthetic_polymers = {
 
 	supply_limit = 0.50
 	#activate_building = synthetic_rubber_factory
-	
 	ai_chance = {
 		factor = 100
+		modifier = {
+			factor = 1.02
+			tech_school = industrial_tech_school
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1000
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1500
+		}
 	}
+	
 }
 
 

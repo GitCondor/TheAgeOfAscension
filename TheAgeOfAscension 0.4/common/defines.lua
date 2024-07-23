@@ -691,13 +691,13 @@ pops = {
 ai =
 {
 	COLONY_WEIGHT = 5.0, -- ai weight for colonising
-	ADMINISTRATOR_WEIGHT = 10.0, -- ai weight for new bureaucrat
-	INDUSTRYWORKER_WEIGHT = 10.0, -- ai weight for new industry workers
-	EDUCATOR_WEIGHT = 10.0, -- ai weigth for new clergy
-	SOLDIER_WEIGHT = 30.0, -- ai weight for soldiers
-	SOLDIER_FRACTION = 0.03, -- max amount of population AI wants to be soldiers
-	CAPITALIST_FRACTION = 0.001, -- max amount of population AI wants to be capis
-	PRODUCTION_WEIGHT = 0.05, -- ai weight for new production
+	ADMINISTRATOR_WEIGHT = 1000, -- ai weight for new bureaucrat
+	INDUSTRYWORKER_WEIGHT = 1000, -- ai weight for new industry workers
+	EDUCATOR_WEIGHT = 1000, -- ai weigth for new clergy
+	SOLDIER_WEIGHT = 1000, -- ai weight for soldiers
+	SOLDIER_FRACTION = 1000, -- max amount of population AI wants to be soldiers
+	CAPITALIST_FRACTION = 1000, -- max amount of population AI wants to be capis
+	PRODUCTION_WEIGHT = 1000, -- ai weight for new production
 	SPAM_PENALTY = 10, -- makes certain diplomatic action less common 
 	ONE_SIDE_MAX_WARSCORE = 150, -- don't add too many wargoals to one side in a war
 	POP_PROJECT_INVESTMENT_MAX_BUDGET_FACTOR = 0.25, -- how much % of our current budget can be spend on the pop project investments.
@@ -727,7 +727,7 @@ ai =
 	AGGRESSION_UNCIV_BONUS = 25, -- additional AI civ aggression against uncivs
 	FLEET_SIZE = 30, -- AI will attempt to keep fleets of roughly this size (fewer fleets generally results in more competent naval AI)
 	MIN_FLEETS = 1, -- Minimum amount of main fleets the AI will divide its navy into (does not include specialized fleets such as blockades and naval invasions)
-	MAX_FLEETS = 10, -- Maximal amount of main fleets the AI will divide its navy into (does not include specialized fleets such as blockades and naval invasions)
+	MAX_FLEETS = 1030, -- Maximal amount of main fleets the AI will divide its navy into (does not include specialized fleets such as blockades and naval invasions)
 	MONTHS_BEFORE_DISBAND = 99999, -- Months from start date before AI will disband armies/navies (to avoid disbands because of early economic turmoil)
 },
 

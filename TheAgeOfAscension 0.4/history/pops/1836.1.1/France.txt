@@ -1020,7 +1020,7 @@
 #Evreux (424000/106000 POPS)
 416 = {
 	aristocrats = {
-		culture = french
+		culture = catalan
 		religion = catholic
 		size = 1050
 	}
@@ -3439,43 +3439,43 @@
 #Corsica (210000/52500 POPS)
 473 = {
 	aristocrats = {
-		culture = french
+		culture = catalan
 		religion = catholic
 		size = 550
 	}
 
 	officers = {
-		culture = french
+		culture = catalan
 		religion = catholic
 		size = 50
 	}
 
 	bureaucrats = {
-		culture = french
+		culture = catalan
 		religion = catholic
 		size = 100
 	}
 
 	clergymen = {
-		culture = french
+		culture = catalan
 		religion = catholic
 		size = 500
 	}
 
 	artisans = {
-		culture = french
+		culture = catalan
 		religion = catholic
 		size = 2500
 	}
 
 	soldiers = {
-		culture = french
+		culture = catalan
 		religion = catholic
 		size = 1100
 	}
 
 	farmers = {
-		culture = french
+		culture = catalan
 		religion = catholic
 		size = 47800
 	}
