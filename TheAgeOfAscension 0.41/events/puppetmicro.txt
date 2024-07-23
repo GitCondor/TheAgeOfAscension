@@ -1,0 +1,41 @@
+country_event = {
+    id = 9131231
+    title = "Papet"
+    desc = "what should our puppets focus on?"
+    picture = "greatpowers"
+    is_triggered_only = yes
+    immediate = {
+      any_country = {
+        limit = {vassal_of = THIS}
+        clr_country_flag = soldiers
+        clr_country_flag = craftsmen
+      }
+      any_country = {
+        limit = { vassal_of = THIS ai = yes }
+        any_owned = { secede_province = UTI }
+        inherit = UTI
+      }
+    }
+    option = {
+        name = "SOLDIERS"
+        any_country = {limit = {vassal_of = THIS} set_country_flag = soldiers }
+    }
+    option = {
+        name = "CRAFTSMEN"
+        any_country = {limit = {vassal_of = THIS} set_country_flag = craftsmen }
+    }
+    option = {
+        name = "Let them be"
+    }
+}
+country_event = {
+    id = 914148
+    title = "Papet"
+    desc = "what should our puppets focus on?"
+    picture = "greatpowers"
+    is_triggered_only = yes
+    option = {
+  name = "OK"
+  FROM = { diplomatic_influence = { who = THIS value = 300 } }
+}
+}

@@ -1,0 +1,28 @@
+country_event = {
+	id = 25221
+	title = "EVTNAME25221"
+	desc = "EVTDESC25221"
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+    immediate = {
+		set_country_flag = money1_Start1
+	    small_arms = 100
+	    canned_food = 200
+		artillery = 70
+		luxury_clothes = 50
+		wine = 100
+		liquor = 100
+		ammunition = 100
+		clipper_convoy = 150
+		set_country_flag = money1_Start1
+		machine_parts = 300
+    }
+	
+	option = {
+		name = "ok"
+	}
+}

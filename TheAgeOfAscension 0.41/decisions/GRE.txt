@@ -1,0 +1,144 @@
+political_decisions = {
+	hellenic_parliament = {
+		potential = {
+			tag = GRE
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = voule_ton_ellinon
+			}
+		}
+	
+		allow = {
+			plurality = 3
+			prestige = 1
+		}
+		
+		effect = {
+			set_country_flag = voule_ton_ellinon
+			political_reform = wealth_weighted_voting
+			government = hms_government
+			any_pop = {
+				militancy = -2
+			}
+		}
+	}
+	push_through_the_balkans = {
+	    picture = balkans
+	    potential = {
+		    #   
+			NOT = {has_country_flag = accept_the_balkans}
+			tag = BYZ
+		}
+		allow = {
+		    prestige = 50
+			war = no
+			BUL = {all_core = {owned_by = THIS}}
+		}
+		effect = {
+		    #
+			prestige = 20
+			set_country_flag = accept_the_balkans
+			add_accepted_culture = albanian
+			add_accepted_culture = croat
+			SER = {all_core = {add_core = THIS}}
+			ROM = {all_core = {add_core = THIS}}
+			any_country = {limit = {vassal_of = THIS
+									 capital_scope = { continent = europe }}
+							country_event = { id=11101 days=0 }}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	the_ninth_crusade = {
+	    picture = jerusalen
+	    potential = {
+		    #   
+			NOT = {has_country_flag = castigada}
+			tag = BYZ
+			
+		}
+		allow = {
+		owns = 917
+		GRE = {all_core = {owned_by = THIS}}
+		}
+		effect = {
+		    #
+			prestige = 10
+			add_accepted_culture = mashriqi
+			add_accepted_culture = bedouin
+						
+			set_country_flag = castigada
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	push_through_anatolia = {
+	    picture = become_byznatium
+	    potential = {
+		    #   
+			NOT = {has_country_flag = anatolianbae}
+			tag = GRE
+		}
+		allow = {
+			PON = {OR = {in_sphere = THIS
+						vassal_of = THIS
+						all_core = {owned_by = GRE}}}
+			GRE = {all_core = {owned_by = THIS}}
+					
+		}
+		effect = {
+		    #
+			badboy = 15
+			TUR = {all_core = {add_core = THIS}}
+			PON = {all_core = {add_core = THIS}}
+			PON = {annex_to = THIS}
+			ARM = {all_core = {add_core = THIS}}
+			895 = {add_core = THIS}
+			set_country_flag = anatolianbae
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	The_greeko_italian_empire = {
+	    picture = aragonitaly
+	    potential = {
+		    #   
+			NOT = {has_country_flag = coronamo}
+			tag = BYZ
+		}
+		allow = {
+		    prestige = 50
+			war = no
+			ITA = {all_core = {OR = {owned_by = THIS
+									owner = {OR = {vassal_of = THIS in_sphere = THIS}}}}}
+		}
+		effect = {
+		    #
+			prestige = 20
+			set_country_flag = coronamo
+			add_accepted_culture = north_italian
+			ITA = {all_core = {add_core = THIS}}
+			any_country = {
+				limit = {
+					OR = {
+						primary_culture = north_italian
+						primary_culture = south_italian 
+					}
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

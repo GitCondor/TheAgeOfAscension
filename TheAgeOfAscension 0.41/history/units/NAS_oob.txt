@@ -1,0 +1,10 @@
+army = {
+	name = "Nassauische Heer"
+	location = 565
+	
+	regiment = {
+		name = "1. fanteriebrigade"
+		type = infantry
+		home = 565
+	}
+}

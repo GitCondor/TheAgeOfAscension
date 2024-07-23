@@ -1,0 +1,31 @@
+owner = CAT
+controller = CAT
+add_core = CAT add_core = ARN  add_core = IBE
+add_core = CAT add_core = ARN  add_core = IBE
+trade_goods = iron
+life_rating = 45
+state_building = {
+		level = 2
+		building = canned_food_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 3
+		building = steel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = machine_parts_factory
+		upgrade = yes
+	}
+		state_building = {
+		level = 2
+		building = artillery_factory
+		upgrade = yes
+	}
+		state_building = {
+		level = 2
+		building = ammunition_factory
+		upgrade = yes
+	}

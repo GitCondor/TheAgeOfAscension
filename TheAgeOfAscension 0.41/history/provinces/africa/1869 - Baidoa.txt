@@ -1,0 +1,5 @@
+trade_goods = cotton
+life_rating = 15
+owner = MAJ
+controller = MAJ
+add_core = MAJ

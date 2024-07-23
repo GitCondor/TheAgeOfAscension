@@ -1,0 +1,26 @@
+leader = {
+	name = "Prce Aleksandar"
+	type = land
+	date="1836.1.1"
+	personality = defence_2.1
+	background = attack_1.61
+}
+
+army = {
+	name = "Army of the Prcipality of Serbia"
+	location = 794
+	regiment = {
+		name= "1st Serbian infantry"
+		type = infantry
+		home = 794
+	}
+
+	regiment = {
+		name= "2nd Serbian infantry"
+		type = infantry
+		home = 795
+	}
+
+
+}
+

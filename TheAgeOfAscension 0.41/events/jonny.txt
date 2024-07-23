@@ -1,0 +1,28 @@
+country_event = {
+    id = 600000
+    allow_multiple_instances = yes
+    trigger = {
+    ai = no
+    NOT = {
+            has_leader = "Maluma"
+			or = {tag = SWE tag = BOH tag = PRU tag = CAT}
+    }
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    title = "A New General Arrives"
+    desc = "Our prayers to RNGesus have been answered"
+    immediate = {
+        define_general = {
+            name = "Maluma"
+            #+1 attack, +1 defence. +10% morale
+            personality = defence_4.3
+            #+3 attack, +3 defence
+            background = attack_4.3
+        }
+    }
+    option = {
+        name = "It's about time..."        
+    }
+}

@@ -1,0 +1,108 @@
+#China substates
+substate = {
+	first = CHI
+	second = GXI
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = CHI
+	second = MCK
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = CHI
+	second = XIN
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = CHI
+	second = YNN
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = CHI
+	second = XBI
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = CHI
+	second = MGL
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+vassal = {
+	first = CHI
+	second = TIB
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+#vassal = {
+#	first = CHI
+#	second = KOR
+#	start_date = 1836.1.1
+#	end_date = 1895.5.17 #Treaty of Shimonoseki
+#}
+
+# USA-Liberia
+vassal = {
+	first = NET
+	second = USA
+	start_date = 1822.1.1
+	end_date = 1847.7.26
+}
+vassal = {
+	first = BEL
+	second = LIB
+	start_date = 1822.1.1
+	end_date = 1847.7.26
+}
+
+# BigB
+substate = {
+	first = BOH
+	second = KRA
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = HAN
+	second = DEN
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = FIN
+	second = UBD
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = SPA
+	second = SPC
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+vassal = {
+	first = ING
+	second = NEN
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = NPE
+	second = LBI
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = JAP
+	second = DNG
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}

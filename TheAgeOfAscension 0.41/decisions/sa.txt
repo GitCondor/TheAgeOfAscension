@@ -1,0 +1,419 @@
+political_decisions = {
+	rio_GRANDE_do_SUL = {
+   		 potential = {
+		 	tag = RGS
+		 	NOT = {
+				has_country_flag = grandioso
+				}
+    		}
+
+    		allow = { 
+				war = no
+				RGS = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+    		}
+
+    		effect = {
+			prestige = 15
+			add_country_modifier = {
+				name = research_boost
+				duration = 2000
+			}
+			MAP = {all_core={add_core = THIS}}
+			set_country_flag = grandioso
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+    	}
+		
+		accept_amerikaans = {
+   		 potential = {
+		 	tag = BEN
+		 	NOT = {
+				has_country_flag = grandioso
+				}
+    		}
+
+    		allow = { 
+				war = no
+				USA = {
+				all_core = {
+					OR = {
+						vassal_of = THIS
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+    		}
+
+    		effect = {
+			prestige = 15
+			
+			USA = {all_core={add_core = THIS}}
+			add_accepted_culture = yankee
+			set_country_flag = grandioso
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+    	}
+		
+		ukarnia = {
+   		 potential = {
+		 	tag = UKR
+		 	NOT = {
+				has_country_flag = grandioso
+				}
+    		}
+
+    		allow = { 
+				war = no
+				UKR = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+    		}
+
+    		effect = {
+			prestige = 15
+			CRI = {all_core={add_core = THIS}}
+			GEO = {all_core={add_core = THIS}}
+			set_country_flag = grandioso
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+    	}
+		
+		fino = {
+   		 potential = {
+		 	tag = FIN
+		 	NOT = {
+				has_country_flag = grandioso
+				}
+    		}
+
+    		allow = { 
+				war = no
+			FIN = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			NOV = {vassal_of = THIS}
+    		}
+
+    		effect = {
+			prestige = 15
+			add_accepted_culture = russian
+			inherit = UBD
+			set_country_flag = grandioso
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+    	}
+		
+		Great_Siam = {
+   		 potential = {
+		 	tag = SIA
+		 	NOT = {
+				has_country_flag = grandioso
+				}
+    		}
+
+    		allow = { 
+				war = no
+				SIA = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			BRU = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			ATJ = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			
+    		}
+
+    		effect = {
+			prestige = 15
+			add_country_modifier = {
+				name = research_boost
+				duration = 2000
+			}
+			ATJ = {all_core={add_core = THIS}}
+			BRU = {all_core={add_core = THIS}}
+			PHI = {all_core={add_core = THIS}}
+			add_accepted_culture = khmer
+			add_accepted_culture = khmer
+			add_accepted_culture = khmer
+			add_accepted_culture = khmer
+			add_accepted_culture = burmese
+			add_accepted_culture = malay
+			add_accepted_culture = javan
+			set_country_flag = grandioso
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+    	}
+		
+		
+		the_mexican_confederation = {
+   		 potential = {
+		 	tag = MEX
+		 	NOT = {
+				has_country_flag = grandioso
+				}
+    		}
+
+    		allow = { 
+				war = no
+				MEX = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+    		}
+
+    		effect = {
+			prestige = 15
+			add_country_modifier = {
+				name = research_boost
+				duration = 2000
+			}
+			#USC = { all_core = { add_core = THIS } }
+			add_accepted_culture = yankee
+			add_accepted_culture = dixie
+			set_country_flag = grandioso
+			change_tag = CSA
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+    	}
+		
+		RIOS_GRANDES = {
+   		 potential = {
+		 	tag = RGS
+		 	NOT = {
+				has_country_flag = grandioso
+				}
+    		}
+
+    		allow = { 
+				war = no
+				RGS = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+    		}
+
+    		effect = {
+			prestige = 15
+			add_country_modifier = {
+				name = research_boost
+				duration = 2000
+			}
+			add_accepted_culture = guarani
+			set_country_flag = grandioso
+			BOL = {all_core={add_core = THIS}}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+    	}
+		
+		the_great_confederation = {
+   		 potential = {
+		 	tag = ECU
+		 	NOT = {
+				has_country_flag = grandioso
+				}
+    		}
+
+    		allow = { 
+				war = no
+				ECU = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+    		}
+
+    		effect = {
+			prestige = 15
+			add_country_modifier = {
+				name = research_boost
+				duration = 2000
+			}
+			GCO = {all_core={add_core = THIS}}
+			add_accepted_culture = guarani
+			add_accepted_culture = amazonian
+			add_accepted_culture = native_american_minor
+			set_country_flag = grandioso
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+    	}
+		
+		
+		
+		AMAZONAUX_EMPIRE = {
+   		 potential = {
+		 	tag = BRZ
+		 	NOT = {
+				has_country_flag = grandioso
+				}
+    		}
+
+    		allow = { 
+				war = no
+				BRZ = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+    		}
+
+    		effect = {
+			BOL = {all_core={add_core = THIS}}
+			RGS = {all_core={add_core = THIS}}
+			prestige = 15
+			add_country_modifier = {
+				name = research_boost
+				duration = 2000
+			}
+			add_accepted_culture = guarani
+			set_country_flag = grandioso
+			add_accepted_culture = amazonian
+			
+		}
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+    	}
+		
+		north_expansion = {
+    potential={
+        tag = MAP
+        NOT={
+        has_country_flag = granioso
+        }
+    }
+    allow = {
+
+            all_core={
+                owner = {
+                    tag = THIS
+                    in_sphere = THIS
+                    vassal_of = THIS
+                }
+            }
+        
+		        war = no
+    }
+    effect={
+        prestige=15
+        change_tag = ARG
+        RGS = {all_core={add_core=ARG}}
+        BOL = {all_core={add_core=ARG}}
+        add_accepted_culture=aimara
+        add_accepted_culture=guarani
+        set_country_flag = grandioso
+        add_country_modifier = {
+            name = research_boost
+            duration = 2000
+        }
+        MAP={all_core={add_core=ARG}}
+    }
+    ai_will_do = {
+    factor=1
+    }
+}
+
+}

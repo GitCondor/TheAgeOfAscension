@@ -1,0 +1,41 @@
+political_decisions = {
+	micro_puppet	= {
+	    potential = {
+		    num_of_vassals = 1
+			ai = no
+		}
+		allow = {
+			}
+		    #
+		
+		effect = {
+		    country_event = {id=9131231}
+		}
+	}
+
+	sphere_puppet    = {
+        potential = {
+            num_of_vassals = 1
+            is_greater_power = yes
+            ai = no
+        }
+        allow = {
+          any_neighbor_country = {
+            any_neighbor_country = {
+              vassal_of = THIS
+              NOT = { in_sphere = THIS }
+            }
+          }
+        }
+        effect = {
+          any_country = {
+            limit = {vassal_of = THIS NOT = {in_sphere = THIS}}
+            country_event = 914148
+          }
+		  add_country_modifier = {
+				name = patate
+				duration = 320
+			}
+        }
+    }
+}

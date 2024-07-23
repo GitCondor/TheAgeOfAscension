@@ -1,0 +1,196 @@
+leader = {
+	name = "Carlo Filangieri"
+	date = 1831.1.1
+	type = land
+	personality = defence_1.11
+	background = attack_2.71
+	prestige = 0.2
+}
+
+leader = {
+	name = "Rafaella de Cosa"
+	date = 1836.1.1
+	type = sea
+	personality = defence_0.2
+	background = attack_1.175
+}
+
+leader = {
+	name = "Francesco Mendoza"
+	date = 1830.1.1
+	type = land
+	personality = defence_0.2
+	background = attack_2.58
+	prestige = 0.2
+}
+
+leader = {
+	name = "Leopoldo di Borbone"
+	date = 1809.1.1
+	type = land
+	personality = defence_1.4
+	background = attack_2.58
+	prestige = 0.3
+}
+
+leader = {
+	name = "Paolo Ruffo"
+	date = 1836.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_2.71
+}
+
+leader = {
+	name = "Ferdando II"
+	date = 1820.1.1
+	type = land
+	personality = defence_2.43
+	background = attack_1.61
+	prestige = 0.5
+}
+
+army = {
+	name = "Esercito delle Due Sicilia"
+	location = 754
+	regiment = {
+		name= "1. Fanteria di Lea - Re e Rega"
+		type = infantry
+		home = 754
+	}
+
+	regiment = {
+		name= "2. Fanteria di Lea - Duca di Calabria"
+		type = infantry
+		home = 757
+	}
+
+	regiment = {
+		name= "3. Fanteria di Lea - Duca di Noto"
+		type = infantry
+		home = 755
+	}
+
+	regiment = {
+		name= "4. Fanteria di Lea"
+		type = artillery
+		home = 2567
+	}
+
+	regiment = {
+		name= "1. Cavalleria di Lea"
+		type = cuirassier
+		home = 754
+	}
+
+	regiment = {
+		name= "2. Cavalleria di Lea"
+		type = cuirassier
+		home = 753
+	}
+
+	regiment = {
+		name= "3. Cavalleria di Lea"
+		type = cuirassier
+		home = 756
+	}
+
+}
+
+army = {
+	name = "Guardia Reale"
+	location = 762
+	regiment = {
+		name= "1. Guardia Reale"
+		type = guard
+		home = 762
+	}
+
+	regiment = {
+		name= "2. Guardia Reale"
+		type = guard
+		home = 764
+	}
+
+	regiment = {
+		name= "3. Guardia Reale"
+		type = guard
+		home = 759
+	}
+
+	regiment = {
+		name= "1. Truppe Svizzere"
+		type = infantry
+		home = 760
+	}
+
+	regiment = {
+		name= "2. Truppe Svizzere"
+		type = infantry
+		home = 761
+	}
+
+	regiment = {
+		name= "3. Truppe Svizzere"
+		type = infantry
+		home = 758
+	}
+
+	regiment = {
+		name= "4. Truppe Svizzere"
+		type = artillery
+		home = 763
+	}
+
+}
+
+navy = {
+	name = "Real Mara delle Due Sicilie"
+	location = 754
+	ship = {
+		name= "Ferdando II"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Christa"
+		type = frigate
+	}
+
+	ship = {
+		name= "Rega Isabella"
+		type = frigate
+	}
+
+	ship = {
+		name= "Prcipe Carlo"
+		type = frigate
+	}
+
+	ship = {
+		name= "Partenope"
+		type = frigate
+	}
+
+	ship = {
+		name= "Caracciolo"
+		type = frigate
+	}
+
+	ship = {
+		name= "1a Squadrone Transporti"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Squadrone Transporti"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3a Squadrone Transporti"
+		type = clipper_transport
+	}
+
+}
+
