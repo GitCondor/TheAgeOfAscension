@@ -1,0 +1,233 @@
+army = {
+	name = "Army of Abd el Kader"
+	location = 1707
+	regiment = {
+		name= "1.Askäris"
+		type = artillery
+		home = 1707
+	}
+
+	regiment = {
+		name= "2.Askäris"
+		type = artillery
+		home = 1702
+	}
+
+	regiment = {
+		name= "3.Askäris"
+		type = infantry
+		home = 1705
+	}
+
+	regiment = {
+		name= "1.Spahis"
+		type = cavalry
+		home = 1705
+	}
+
+	regiment = {
+		name= "2.Spahis"
+		type = cavalry
+		home = 1715
+	}
+
+	regiment = {
+		name= "3.Spahis"
+		type = cavalry
+		home = 1713
+	}
+
+}
+
+army = {
+	name = "Army of the Bey of Constante"
+	location = 1713
+	regiment = {
+		name= "4.Askäris"
+		type = infantry
+		home = 1708
+	}
+
+	regiment = {
+		name= "5.Askäris"
+		type = infantry
+		home = 1703
+	}
+
+	regiment = {
+		name= "6.Askäris"
+		type = infantry
+		home = 1702
+	}
+
+	regiment = {
+		name= "7.Askäris"
+		type = infantry
+		home = 1703
+	}
+
+	regiment = {
+		name= "3.Spahis"
+		type = infantry
+		home = 1708
+	}
+
+	regiment = {
+		name= "4.Spahis"
+		type = infantry
+		home = 1710
+	}
+
+}
+
+army = {
+	name = "Army of the Bey of Constante"
+	location = 470
+	regiment = {
+		name= "4.Askäris"
+		type = artillery
+		home = 470
+	}
+
+	regiment = {
+		name= "5.Askäris"
+		type = artillery
+		home = 471
+	}
+
+	regiment = {
+		name= "6.Askäris"
+		type = artillery
+		home = 470
+	}
+
+	regiment = {
+		name= "7.Askäris"
+		type = artillery
+		home = 470
+	}
+
+	regiment = {
+		name= "3.Spahis"
+		type = artillery
+		home = 469
+	}
+
+	regiment = {
+		name= "4.Spahis"
+		type = artillery
+		home = 470
+	}
+
+}
+
+
+navy = {
+	name = "Portugese Royal Navy"
+	location = 1725
+	ship = {
+		name= "Raha de Portugal "
+		type = manowar
+	}
+
+	ship = {
+		name= "Dom João VI "
+		type = manowar
+	}
+
+	ship = {
+		name= "Nossa Senhora da Conceição"
+		type = manowar
+	}
+
+	ship = {
+		name= "São Sebastião"
+		type = manowar
+	}
+
+	ship = {
+		name= "Amazônia"
+		type = manowar
+	}
+
+	ship = {
+		name= "Prcesa Carlota"
+		type = manowar
+	}
+
+	ship = {
+		name= "Teresa"
+		type = manowar
+	}
+
+	ship = {
+		name= "Príncipe do Brasil"
+		type = manowar
+	}
+
+	ship = {
+		name= "1o Navios de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2o Navios de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3o Navios de Transporte"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "Dom João VI "
+		type = manowar
+	}
+
+	ship = {
+		name= "Nossa Senhora da Conceição"
+		type = manowar
+	}
+
+	ship = {
+		name= "São Sebastião"
+		type = manowar
+	}
+
+	ship = {
+		name= "Amazônia"
+		type = manowar
+	}
+
+	ship = {
+		name= "Prcesa Carlota"
+		type = manowar
+	}
+
+	ship = {
+		name= "Teresa"
+		type = manowar
+	}
+
+	ship = {
+		name= "Príncipe do Brasil"
+		type = manowar
+	}
+
+	ship = {
+		name= "1o Navios de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2o Navios de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3o Navios de Transporte"
+		type = clipper_transport
+	}
+
+}

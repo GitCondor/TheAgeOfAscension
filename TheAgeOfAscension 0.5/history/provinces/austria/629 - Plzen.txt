@@ -1,0 +1,7 @@
+owner = BOH
+add_core = BOH
+add_core = BOH
+add_core = SGF add_core = HRM
+add_core = CZH
+trade_goods = coal
+life_rating = 35

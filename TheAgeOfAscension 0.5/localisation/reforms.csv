@@ -1,0 +1,34 @@
+artillery_foreign_weapons;Advanced Weapons;Advanced Weapons;Advanced Weapons;;Armas Avanzadas;;;;;;;;;x
+artillery_foreign_weapons_desc;CABOOM!!;CABOOM!!;CABOOM!!;;CABOOM!!;;;;;;;;;x
+foreign_training3;UnAdvanced Infantry;UnAdvanced Infantry;UnAdvanced Infantry;;Infantería Poca Avanzada;;;;;;;;;x;;;;
+foreign_training4;New Infantry;New Infantry;New Infantry;;Infantería Nueva;;;;;;;;;x;;;;
+foreign_training5;Better Infantry;Better Infantry;Better Infantry;;Infantería Mejorada;;;;;;;;;x;;;;
+foreign_training6;Forts;Forts;Forts;;Fortificaciones;;;;;;;;;x;;;;
+foreign_training7;Western Infantry;Western Infantry;Western Infantry;;Infentería Occidental;;;;;;;;;x;;;;
+foreign_training8;Artillery;Artillery;Artillery;;Artillería;;;;;;;;;x;;;;
+land_reform3;Basic Mining System;Basic Mining System;Basic Mining System;;Sistema de Minería Básica;;;;;;;;;x;;;;
+land_reform4;Basic Farming System;Basic Farming System;Basic Farming System;;Sistema de Cultivos Básico;;;;;;;;;x;;;;
+land_reform5;Better Farming System;Better Farming System;Better Farming System;;Sistema de Cultivos Mejorado;;;;;;;;;x;;;;
+land_reform6;Better Mining System;Better Mining System;Better Mining System;;Sistema de Minería Mejorada;;;;;;;;;x;;;;
+land_reform7;Advanced Farming System;Advanced Farming System;Advanced Farming System;;Sistema de Cultivos Avanzado;;;;;;;;;x;;;;
+land_reform8;Advanced Mining System;Advanced Mining System;Advanced Mining System;;Sistema de Minería Avanzada;;;;;;;;;x;;;;
+military_constructions3;Naval Bases;Naval Bases;Naval Bases;;Bases Navales;;;;;;;;;x;;;;
+military_constructions4;New Naval Organisation;New Naval Organisation;New Naval Organisation;;Nueva Organización Naval;;;;;;;;;x;;;;
+military_constructions5;New Naval System;New Naval System;New Naval System;;Nuevo Sistema Naval;;;;;;;;;x;;;;
+military_constructions6;Advanced Naval Organisation System;Advanced Naval Organisation System;Advanced Naval Organisation System;;Sistema de Organización Naval Avanzada;;;;;;;;;x;;;;
+military_constructions7;Experimental Western Naval Organisation;Experimental Western Naval Organisation;Experimental Western Naval Organisation;;Organización Naval Occidental Experimental;;;;;;;;;x;;;;
+military_constructions8;Western Naval Organisation;Western Naval Organisation;Western Naval Organisation;;Organización Naval Occidental;;;;;;;;;x;;;;
+admin_reform3;Basic Schools;Basic Schools;Basic Schools;;Escuelas Básicas;;;;;;;;;x;;;;
+admin_reform4;Medical Teaching;Medical Teaching;Medical Teaching;;Enseñanza Medicinal;;;;;;;;;x;;;;
+admin_reform5;Experimental Western Schools System;Experimental Western Schools System;Experimental Western Schools System;;Sistema de Escuelas Occidentales Experimentales;;;;;;;;;x;;;;
+admin_reform6;Better Medical Teaching;Better Medical Teaching;Better Medical Teaching;;Enseñanza Medicinal Mejorada;;;;;;;;;x;;;;
+admin_reform7;Western Schools System;Western Schools System;Western Schools System;;Sistema de Escuelas Occidentales;;;;;;;;;x;;;;
+admin_reform8;Occidental Medical System;Occidental Medical System;Occidental Medical System;;Sistema Medicinal Occidental;;;;;;;;;x;;;;
+foreign_training1;Incivilized Army;Incivilized Army;Incivilized Army;;Ejército Incivilizado;;;;;;;;;x;;;;
+foreign_training2;Incivilized Army;Incivilized Army;Incivilized Army;;Ejército Incivilizado;;;;;;;;;x;;;;
+land_reform1;Incivilized Production;Incivilized Production;Incivilized Production;;Producción Incivilizada;;;;;;;;;x;;;;
+land_reform2;Incivilized Production;Incivilized Production;Incivilized Production;;Producción Incivilizada;;;;;;;;;x;;;;
+admin_reform1;Incivilized Society;Incivilized Society;Incivilized Society;;Sociedad Incivilizada;;;;;;;;;x;;;;
+admin_reform2;Incivilized Society;Incivilized Society;Incivilized Society;;Sociedad Incivilizada;;;;;;;;;x;;;;
+military_constructions1;Incivilized Naval;Incivilized Naval;Incivilized Naval;;Naval Incivilizada;;;;;;;;;x;;;;
+military_constructions2;Incivilized Naval;Incivilized Naval;Incivilized Naval;;Naval Incivilizada;;;;;;;;;x;;;;

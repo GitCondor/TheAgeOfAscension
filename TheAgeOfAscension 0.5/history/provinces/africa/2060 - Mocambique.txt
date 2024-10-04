@@ -1,0 +1,7 @@
+owner = ZAN
+controller = ZAN
+add_core = ZAN
+trade_goods = cotton
+life_rating = 35
+
+naval_base = 1

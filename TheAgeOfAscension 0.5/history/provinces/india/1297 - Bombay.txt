@@ -1,0 +1,12 @@
+owner = BER
+controller = BER add_core = BER
+add_core = HND
+trade_goods = grain
+life_rating = 35
+
+fort = 1
+naval_base = 1
+1861.1.1 = { 
+	railroad = 3 
+}
+

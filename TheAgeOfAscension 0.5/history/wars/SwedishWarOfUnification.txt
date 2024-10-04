@@ -1,0 +1,30 @@
+name = "Swedian War of Unification"
+
+1835.10.2 = {
+	add_attacker = SWE
+	add_defender = NOR
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = conquest
+		actor = SWE
+		receiver = NOR
+	}
+	war_goal = {
+		casus_belli = acquire_core_state_medium 
+		actor = NOR
+		receiver = SWE
+		state_province_id = 306
+	}
+	war_goal = {
+		casus_belli = acquire_core_state_medium 
+		actor = NOR
+		receiver = SWE
+		state_province_id = 315
+	}
+	
+}

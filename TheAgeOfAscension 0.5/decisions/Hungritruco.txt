@@ -1,0 +1,81 @@
+political_decisions = {
+	unify_with_the_danish = {
+		potential = {
+			NOT = { has_global_flag = dinaviola }
+			tag = HAN
+			exists = DEN
+		}
+		allow = {
+		DEN = {
+		 all_core = {
+			    owner = {
+							in_sphere = THIS
+							vassal_of = THIS
+					}
+				}
+			}
+			
+		}
+		effect = {
+			DEN = {country_event = { id=11101 days=0 }}
+			add_accepted_culture = danish
+		}
+	}
+	
+
+the_celtic_path = {
+		potential = {
+			tag = CEL
+		}
+		allow = {
+		CEL = {
+		 all_core = {
+			    owner = {
+					    OR = {
+						    tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			badboy = 2
+			#country_event = { id=50006 days=0 }
+		}
+	}
+the_new_members_of_the_union = {
+		potential = {
+			tag = CRO
+		}
+		allow = {
+		BUL = {
+		 all_core = {
+			    owner = {
+					    OR = {
+						    tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		ALB = {
+		 all_core = {
+			    owner = {
+					    OR = {
+						    tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			badboy = 8
+			#country_event = { id=50006 days=0 }
+		}
+	}
+}

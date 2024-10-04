@@ -1,0 +1,199 @@
+political_decisions = {
+####################################################################
+	form_holy = {
+	    picture = holy_roman_empire
+	    potential = {
+		    #   
+			NOT = {
+			    exists = HRM
+				has_global_flag = holy_roman_empirealreadyexists
+			}
+			OR = {tag = SGF
+					has_country_flag = hrm
+			}
+		}
+		allow = {
+		    prestige = 30
+			war = no
+			SGF = {
+			    all_core = {
+				    owner = {
+					    OR = {
+						    tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			SWI = {
+			    all_core = {
+				    owner = {
+					    OR = {
+						    tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		    #
+		}
+		effect = {
+		    #
+			set_global_flag = holy_roman_empirealreadyexists
+			prestige = 25
+			
+			change_tag = HRM
+			add_accepted_culture = north_italian
+			add_accepted_culture = south_german
+			add_accepted_culture = north_german
+			add_accepted_culture = swiss
+			add_accepted_culture = czech
+
+			all_core = { add_core = HRM	}
+			721 = { add_core = HRM }
+			722 = { add_core = HRM }
+			723 = { add_core = HRM }
+			720 = { add_core = HRM }
+			724 = { add_core = HRM }
+			720 = { add_core = HRM }
+			725 = { add_core = HRM }
+			472 = { add_core = HRM }
+			465 = { add_core = HRM }
+			466 = { add_core = HRM }
+			738 = { add_core = HRM }
+			739 = { add_core = HRM }
+			740 = { add_core = HRM }
+			746 = { add_core = HRM }
+			744 = { add_core = HRM }
+			745 = { add_core = HRM }
+			747 = { add_core = HRM }
+			748 = { add_core = HRM }
+			745 = { add_core = HRM }
+			473 = { add_core = HRM }
+			466 = { add_core = HRM }
+			465 = { add_core = HRM }
+			413 = { add_core = HRM }
+			411 = { add_core = HRM }
+			414 = { add_core = HRM }
+			407 = { add_core = HRM }
+			432 = { add_core = HRM }
+			752 = { add_core = HRM }
+			751 = { add_core = HRM }
+			750 = { add_core = HRM }
+			749 = { add_core = HRM }
+			742 = { add_core = HRM }
+			743 = { add_core = HRM }
+			604 = { add_core = HRM }
+			605 = { add_core = HRM }
+			606 = { add_core = HRM }
+			607 = { add_core = HRM }
+			609 = { add_core = HRM }
+			608 = { add_core = HRM }
+			2568 = { add_core = HRM }
+			614 = { add_core = HRM }
+			612 = { add_core = HRM }
+			613 = { add_core = HRM }
+			615 = { add_core = HRM }
+			618 = { add_core = HRM }
+			617 = { add_core = HRM }
+			616 = { add_core = HRM }
+			622 = { add_core = HRM }
+			621 = { add_core = HRM }
+			620 = { add_core = HRM }
+			619 = { add_core = HRM }
+			624 = { add_core = HRM }
+			623 = { add_core = HRM }
+			735 = { add_core = HRM }
+			734 = { add_core = HRM }
+			727 = { add_core = HRM }
+			726 = { add_core = HRM }
+			728 = { add_core = HRM }
+			730 = { add_core = HRM }
+			731 = { add_core = HRM }
+			729 = { add_core = HRM }
+			736 = { add_core = HRM }
+			732 = { add_core = HRM }
+			733 = { add_core = HRM }
+			770 = { add_core = HRM }
+			781 = { add_core = HRM }
+			780 = { add_core = HRM }
+			782 = { add_core = HRM }
+			2582 = { add_core = HRM }
+			741 = { add_core = HRM }
+			611 = { add_core = HRM }
+			603 = { add_core = HRM }
+			737 = { add_core = HRM }
+			778 = { add_core = HRM }
+			769 = { add_core = HRM }
+			768 = { add_core = HRM }
+			767 = { add_core = HRM }
+			any_country = {
+				limit = {
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				any_owned = {
+					limit = {
+						is_core = HRM
+					}
+					secede_province = THIS
+				}
+				random_owned = {
+					limit = {
+						owner = {
+							is_culture_group = germanic
+							is_culture_group = south_germanic
+							is_culture_group = czecho_slovak_culture_group
+						}
+					}
+					owner = { country_event = { id=11101 days=0 } }
+				}
+			}
+			
+			CRO = {all_core={add_core=THIS}}
+			BOH = {all_core={add_core=THIS}}
+			BOH = {all_core={add_core=THIS}}
+		}
+	}
+the_true_holy = {
+	    picture = holy_roman_empire
+	    potential = {
+		    tag = HRM
+			NOT = { has_global_flag = the_one_who_knocks }
+		}
+		allow = {
+		    prestige = 30
+			war = no
+			HRM = {
+			    all_core = {
+				    owner = {
+					    OR = {
+						    tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		    #
+		}
+		effect = {
+		    #
+			set_global_flag = the_one_who_knocks
+			prestige = 25
+			change_tag = HRM
+			add_accepted_culture = czech
+			add_accepted_culture = swiss
+					
+			GER = {all_core={add_core=THIS}}
+			SLO = {all_core={add_core=THIS}}
+			HUN = {all_core={add_core=THIS}}
+			KRA = {all_core={add_core=THIS}}
+			
+		}
+	}	
+}

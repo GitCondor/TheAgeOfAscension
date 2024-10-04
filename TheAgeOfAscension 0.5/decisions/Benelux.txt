@@ -1,0 +1,97 @@
+political_decisions = {
+	form_benelux = {
+    picture = benelux
+	    potential = {
+		    OR = {
+			    tag = NET
+				tag = LUX
+				tag = BEL
+				tag = WLL
+				tag = FLA
+			}
+			NOT = {
+				exists = BEN
+			}
+		}
+		allow = {
+            state_n_government = 1
+			war = no
+			BEN = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		    #
+		}
+		effect = {
+		    #
+			prestige = 15
+			add_accepted_culture = dutch
+			add_accepted_culture = burgundian
+            add_accepted_culture = wallonian
+            add_accepted_culture = boer
+            add_accepted_culture = flemish
+			change_tag = BEN
+			any_country = {
+				limit = {
+					OR = {
+					    in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+			}
+			any_country = {
+			    limit = {
+				    OR = {
+                        accepted_culture = dutch
+                        accepted_culture = wallonian
+                        accepted_culture = flemish
+						##
+                        primary_culture = dutch
+                        primary_culture = wallonian
+                        primary_culture = flemish
+					}
+					OR = {
+					    vassal_of = THIS
+						in_sphere = THIS
+					}
+				}
+				annex_to = THIS
+			}
+		}
+	}
+
+	belgiotian_restoration = {
+		potential = {
+			tag = BEN
+		}
+		allow = {
+			OR = {
+				LIB = { all_core = { owned_by = THIS } }
+				LIB = { in_sphere = THIS }
+				LIB = { vassal_of = THIS }
+			}
+			state_n_government = 1
+		}
+		
+		effect = {
+			LIB	= {				
+				all_core = {
+					limit = { 
+						owned_by = this
+					}
+					add_core = BEN
+					secede_province = THIS
+				}
+			}	
+		}
+	}
+	
+	
+}

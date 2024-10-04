@@ -1,0 +1,160 @@
+# Event to reject
+country_event = {
+	id = 90909090 #The Breakup of China
+	news = yes
+	news_desc_long = "EVTDESC90902_NEWS_LONG"
+	news_desc_medium = "EVTDESC90902_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC90902_NEWS_SHORT"
+	
+	title = "EVTNAME90902"
+	desc = "EVTDESC90902"
+	picture = "Celebration"
+
+	trigger = {
+	
+	NOT = {has_country_flag = zizi}
+		year = 1840
+		or = {tag = CHI tag = GXI}
+		
+	}
+
+	option = {
+		name = "EVTOPTA90902"
+		any_pop = {
+			consciousness = 10.0
+				militancy = 10.0	
+     }
+		
+		release_vassal = GXI
+		release_vassal = MGL
+		SIB = {all_core = {add_core = MGL}}
+		set_country_flag = zizi
+		CHI_1523 = { add_core = TPG }
+			CHI_1516 = { add_core = TPG }
+			CHI_1473 = { add_core = TPG }
+			CHI_1472 = { add_core = TPG }
+			CHI_1550 = { add_core = TPG }
+			CHI_1611 = { add_core = TPG }
+			CHI_1539 = { add_core = TPG }
+			CHI_1476 = { add_core = TPG }
+			CHI_1563 = { add_core = TPG }
+			1582 = { add_core = TPG }
+			1562 = { add_core = TPG }
+			1559 = { add_core = TPG }
+			2062 = { add_core = TPG }
+			1561 = { add_core = TPG }
+			1579 = { add_core = TPG }
+			1575 = { add_core = TPG }
+			1574 = { add_core = TPG }
+			1573 = { add_core = TPG }
+			1572 = { add_core = TPG }
+			1576 = { add_core = TPG }
+			2679 = { add_core = MGL }
+			2608 = { add_core = MGL }
+			1469 = { add_core = MGL }
+			1068 = { add_core = MGL }
+			1468 = { add_core = MGL }
+			1488 = { add_core = MGL }
+			1535 = { add_core = MGL }
+			1599 = { add_core = MGL }
+			2678 = { add_core = MGL }
+			1466 = { add_core = MGL }
+			1465 = { add_core = MGL }
+			2207 = { add_core = MGL }
+			1467 = { add_core = MGL }
+			1494 = { add_core = XIN }
+			1497 = { add_core = XIN }
+			1486 = { add_core = XIN }
+			1484 = { add_core = XIN }
+			1487 = { add_core = XIN }
+			1482 = { add_core = XIN }
+			1482 = { add_core = XIN }
+			2562 = { add_core = XIN }
+			1485 = { add_core = XIN }
+			1489 = { add_core = MGL }
+			1490 = { add_core = MGL }
+			1491 = { add_core = MGL }
+			1492 = { add_core = MGL }
+			1557 = { add_core = MGL }
+			
+			1598 = { add_core = TIB }
+			1594 = { add_core = TIB }
+			1597 = { add_core = TIB }
+			1595 = { add_core = TIB }
+			1596 = { add_core = TIB }
+			1600 = { add_core = TIB }
+			2607 = { add_core = TIB }
+			1591 = { add_core = TIB }
+			1592 = { add_core = TIB }
+			1589 = { add_core = TIB }
+			1590 = { add_core = TIB }
+			1587 = { add_core = TIB }
+			1588 = { add_core = TIB }
+			1558 = { add_core = TIB }
+			1556 = { add_core = TIB }
+			
+			any_owned = {
+			limit = {
+				is_core = TPG
+			}
+			secede_province = TPG
+		}
+		
+			any_owned = {
+			limit = {
+				is_core = TIB
+			}
+			secede_province = TIB
+		}
+		release_vassal = MGL
+		release_vassal = TIB
+		release_vassal = TPG
+		
+			any_owned = {
+			limit = {
+				is_core = XIN
+			}
+			secede_province = XIN
+		}
+			any_owned = {
+			limit = {
+				is_core = MGL
+			}
+			secede_province = MGL
+		}
+		release_vassal = MGL
+		release_vassal = TIB
+		release_vassal = TPG
+		release_vassal = XIN
+	
+}
+}
+#Potato Blight
+country_event = {
+	title = "EVTNAME10100"
+	desc = "EVTDESC10100"
+	id = 54545454
+	picture = "Demonstration"
+	
+	trigger = {
+		or = {tag = CHI tag = GXI tag = TPG}
+		not = {has_country_flag = finalz}
+		CHI = {war = no}
+		year = 1841
+	}
+	option = {
+		name = "EVTOPTA10100"
+		set_country_flag = finalz 
+				
+					add_country_modifier = {
+						name = research_boost
+						duration = 400
+					}
+					any_pop = {
+					reduce_pop = 0.6
+			consciousness = 8.0
+				militancy = 8.0	
+     }
+				}
+	}
+

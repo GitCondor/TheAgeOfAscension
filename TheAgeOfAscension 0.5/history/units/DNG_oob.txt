@@ -1,0 +1,85 @@
+
+leader = {
+	name = "Wang Yangmg"
+	type = land
+	date = 1836.1.1
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+army = {
+	name = "1st Army of the Standard of Qgqiu"
+	location = 84
+	regiment = {
+		name= "1st infantry"
+		type = infantry
+		home = 81
+	}
+
+	regiment = {
+		name= "2nd infantry"
+		type = infantry
+		home = 13
+	}
+
+	regiment = {
+		name= "3rd infantry"
+		type = infantry
+		home = 20
+	}
+
+	regiment = {
+		name= "4th infantry"
+		type = infantry
+		home = 82
+	}
+
+	regiment = {
+		name= "5th infantry"
+		type = infantry
+		home = 85
+	}
+
+	regiment = {
+		name= "1st cavalry"
+		type = cavalry
+		home = 87
+	}
+
+	regiment = {
+		name= "1st artillery"
+		type = artillery
+		home = 78
+	}
+}
+
+navy = {
+	name = "Fleet of Qgqiu"
+	location = 84
+
+
+	ship = {
+		name= "Dong Guo"
+		type = frigate
+	}
+
+	ship = {
+		name= "Shanghai"
+		type = frigate
+	}
+
+	ship = {
+		name= "Mg"
+		type = frigate
+	}
+
+	ship = {
+		name= "Beijg"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Nanjg"
+		type = clipper_transport
+	}
+}

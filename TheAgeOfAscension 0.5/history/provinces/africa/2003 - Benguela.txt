@@ -1,0 +1,10 @@
+owner = AZA
+controller = AZA
+add_core = AZA
+
+trade_goods = grain
+life_rating = 35
+
+1861.1.1 = {
+	naval_base = 1
+}

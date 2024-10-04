@@ -1,0 +1,11 @@
+owner = UKR
+controller = UKR add_core = PLC
+add_core = UKR
+add_core = ROM
+add_core = UBD
+trade_goods = fish
+life_rating = 35
+1861.1.1 = {
+	controller = UBD
+	owner = UBD
+}

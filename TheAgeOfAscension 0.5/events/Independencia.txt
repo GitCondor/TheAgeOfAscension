@@ -1,0 +1,53 @@
+# Rusia
+
+country_event = {
+	id = 132145
+	title = "UNIFICACION RUSA"
+	desc = "we must choose our next step"
+	picture = "ruswar"
+	trigger = {
+	tag = RUS
+	not = {has_country_flag = rusform}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		set_country_flag = rusform
+    }
+	option = {
+		name = "March east and then south" # Por las buenas
+		ai_chance = {
+			factor = 50
+		}
+		add_accepted_culture = manchu
+		add_accepted_culture = azerbaijani
+		add_accepted_culture = turkish
+		add_accepted_culture = turkish
+		add_accepted_culture = turkish
+		MCK = {all_core = {add_core = THIS}}
+		ALD = {all_core = {add_core = THIS}}
+		AZB = {all_core = {add_core = THIS}}
+	}
+	option = {
+		name = "March north" # Por las buenas
+		ai_chance = {
+			factor = 25
+		}
+		add_accepted_culture = finnish
+		add_accepted_culture = estonian
+		EST = {all_core = {add_core = THIS}}
+		FIN = {all_core = {add_core = THIS}}
+	}
+	option = {
+		name = "March WEST" # Por las buenas
+		ai_chance = {
+			factor = 25
+		}
+		add_accepted_culture = ukrainian
+		add_accepted_culture = byelorussian
+		UKR = {all_core = {add_core = THIS}}
+		BYE = {all_core = {add_core = THIS}}
+	}
+}

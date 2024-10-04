@@ -1,0 +1,74 @@
+leader = {
+	name = "von Alten"
+	date = 1810.1.1
+	type = land
+	personality = defence_3.1
+	background = attack_1.61
+	prestige = 0.3
+}
+
+leader = {
+	name = "Victor von Prott"
+	date = 1815.1.1
+	type = land
+	personality = defence_2.1
+	background = attack_2.37
+	prestige = 0.3
+}
+
+leader = {
+	name = "Carl Johan"
+	date = 1825.1.1
+	type = land
+	personality = defence_5.1
+	background = attack_5.1
+	prestige = 0.2
+}
+
+leader = {
+	name = "Hugh Halkett"
+	date = 1834.1.1
+	type = land
+	personality = defence_2.1
+	background = attack_2.50
+	prestige = 0.1
+}
+
+army = {
+	name = "Hannöversche Heer"
+	location = 534
+	regiment = {
+		name= "1. Hannöversche fanteriebrigade"
+		type = infantry
+		home = 534
+	}
+
+	regiment = {
+		name= "2. Hannöversche fanteriebrigade"
+		type = infantry
+		home = 535
+	}
+
+	regiment = {
+		name= "3. Hannöversche fanteriebrigade"
+		type = infantry
+		home = 531
+	}
+
+	regiment = {
+		name= "1. Hannöversche Artilleriebrigade"
+		type = artillery
+		home = 532
+	}
+}
+
+army = {
+	name = "Korps Göttgen"
+	location = 537
+	
+	regiment = {
+		name = "4. Hannöversche fanteriebrigade"
+		type = infantry
+		home = 537
+	}	
+}

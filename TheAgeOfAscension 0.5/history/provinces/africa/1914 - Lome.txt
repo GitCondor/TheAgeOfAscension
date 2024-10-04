@@ -1,0 +1,3 @@
+owner = SWE
+trade_goods = fish
+life_rating = 15

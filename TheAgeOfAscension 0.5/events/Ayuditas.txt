@@ -1,0 +1,103 @@
+country_event = {
+	id = 1
+	trigger = {
+	NOT = {has_country_flag = asimilacion}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "lets enforce our culture"
+	desc = " gogo."
+	immediate = {
+		add_country_modifier = {
+                        name = asimilacion_nueva
+                        duration = -1
+                }
+	}
+	option = {
+		name = "He will be a great asset to our forces"		
+		set_country_flag = asimilacion
+	}
+}
+
+
+country_event = {
+    id = 50008
+    title = "hacia_donde_deberiamos_de_extendernos?"
+    desc = "rapido expandanse"
+
+    is_triggered_only = yes
+
+    mean_time_to_happen = {
+        days = 0
+    }
+
+    option = {
+        name = "Bosnia y Rumania me estan mirando con unos ojitos..."
+	ROM = {
+			all_core = {
+			    add_core = HUN
+				}
+			}
+		CRO = {
+			all_core = {
+			    add_core = HUN
+				}
+			}
+				set_global_flag = rumanos_kill
+						ai_chance = {
+            factor = 1
+        }
+}		
+	option = {
+        name = "Bohemia y Austria deben integrarse."
+       AUS = {
+			all_core = {
+			    add_core = HUN
+				}
+			}
+		BOH = {
+			all_core = {
+			    add_core = HUN
+				}
+			}
+		ai_chance = {
+            factor = 1
+        }
+    }
+	
+}
+country_event = {
+    id = 50009
+    title = "The true German"
+    desc = "Somos la unica alemania causas"
+
+    trigger = {
+	OR = {
+		tag = HAN
+		tag = PRU
+	}
+	OR = {
+		NOT = {exists = PRU}
+		NOT = {exists = HAN}
+		}
+	NOT = { has_global_flag = elpapu }
+	}
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+	option = {
+		name = "a formarse pipipi"
+		prestige = 30
+		add_country_modifier = {
+			name = german_growth
+			duration = 2000
+		}
+		set_global_flag = elpapu
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

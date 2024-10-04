@@ -1,0 +1,198 @@
+political_decisions = {
+	build_kiel_canal = {
+		news = yes
+		news_desc_long = "kiel_canal_NEWS_LONG"
+		news_desc_medium = "kiel_canal_NEWS_MEDIUM"
+		news_desc_short = "kiel_canal_NEWS_SHORT"
+		
+		potential = {
+			NOT = { is_canal_enabled = 1 }
+			owns = 369
+
+		}
+		allow = {
+			invention = machine_tools
+			invention = nitroglycerin
+			weapon_platforms = 1 iron_steamers = 1
+		}
+		effect = {
+			enable_canal = 1
+			369 = { set_province_flag = kiel_canal }
+			prestige = 5
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = yes
+			}
+		}
+	}
+	
+	build_suez_canal = {
+		news = yes
+		news_desc_long = "suez_canal_NEWS_LONG"
+		news_desc_medium = "suez_canal_NEWS_MEDIUM"
+		news_desc_short = "suez_canal_NEWS_SHORT"
+		
+		picture = suezcanal
+		potential = {
+			NOT = { is_canal_enabled = 2 }
+
+		}
+		allow = {
+			OR = {
+				1755 = { OR = { owner = { in_sphere = THIS }
+								owner = { vassal_of = THIS }}}
+				owns = 1755
+			}
+			invention = machine_tools
+			invention = nitroglycerin		
+			weapon_platforms = 1 iron_steamers = 1
+		}
+		effect = {
+			1755 = { secede_province = THIS }
+			enable_canal = 2
+			1755 = { set_province_flag = suez_canal }
+			prestige = 10
+			set_global_flag = suez_canal_built
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = yes
+			}
+		}
+	}
+	
+	build_rhone_canal = {
+		news = yes
+		news_desc_long = "suez_canal_NEWS_LONG"
+		news_desc_medium = "suez_canal_NEWS_MEDIUM"
+		news_desc_short = "suez_canal_NEWS_SHORT"
+		
+		picture = canal
+		potential = {
+			NOT = { is_canal_enabled = 6 }
+owns = 453	
+		}
+		allow = {
+				
+			weapon_platforms = 1 iron_steamers = 1
+		}
+		effect = {
+			enable_canal = 6
+			453 = { set_province_flag = suez_canal }
+			prestige = 10
+			set_global_flag = rhones_canal_built
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = yes
+			}
+		}
+	}
+	
+	expand_la_ria = {
+		news = yes
+		news_desc_long = "suez_canal_NEWS_LONG"
+		news_desc_medium = "suez_canal_NEWS_MEDIUM"
+		news_desc_short = "suez_canal_NEWS_SHORT"
+		
+		picture = canal
+		potential = {
+			NOT = { is_canal_enabled = 8 }
+			owns = 492
+
+		}
+		allow = {		
+			weapon_platforms = 1 iron_steamers = 1
+		}
+		effect = {
+			enable_canal = 8
+			492 = { set_province_flag = suez_canal }
+			prestige = 10
+			set_global_flag = la_ria_built
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = yes
+			}
+		}
+	}
+	
+	
+	Konstanz_canal = {
+		news = yes
+		news_desc_long = "suez_canal_NEWS_LONG"
+		news_desc_medium = "suez_canal_NEWS_MEDIUM"
+		news_desc_short = "suez_canal_NEWS_SHORT"
+		
+		picture = canal
+		potential = {
+			NOT = { is_canal_enabled = 7 }
+				owns = 588	
+
+		}
+		allow = {	
+			weapon_platforms = 1 iron_steamers = 1
+			
+		}
+		effect = {
+			enable_canal = 7
+			588 = { set_province_flag = panama_canal }
+			prestige = 10
+			set_global_flag = konztanzs_canal_built
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = yes
+			}
+		}
+	}
+	
+
+	build_panama_canal = {
+		news = yes
+		news_desc_long = "panama_canal_NEWS_LONG"
+		news_desc_medium = "panama_canal_NEWS_MEDIUM"
+		news_desc_short = "panama_canal_NEWS_SHORT"
+		
+		picture = canal
+		potential = {
+			NOT = { is_canal_enabled = 3 }
+
+				owns = 1723
+		}
+		allow = {
+			OR = {
+				1723 = { owner = { in_sphere = THIS }
+								owner = { vassal_of = THIS }}
+			}
+			invention = machine_tools
+			invention = nitroglycerin
+			weapon_platforms = 1 iron_steamers = 1
+			invention = prophylaxis_against_malaria
+		}
+		effect = {
+			1723 = { secede_province = THIS }
+			enable_canal = 3
+			1723 = { set_province_flag = panama_canal }
+			prestige = 10
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = yes
+			}
+		}
+	}	
+}

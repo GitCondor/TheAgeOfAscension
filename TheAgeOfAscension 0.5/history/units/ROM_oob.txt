@@ -1,0 +1,40 @@
+army = {
+	name = "Army of the Prcipality of Wallachia"
+	location = 669
+	regiment = {
+		name= "1st Wallachia infantry"
+		type = infantry
+		home = 664
+	}
+
+	regiment = {
+		name= "2nd Wallachia infantry"
+		type = infantry
+		home = 668
+	}
+
+	regiment = {
+		name= "3rd Wallachia infantry"
+		type = infantry
+		home = 669
+	}
+	regiment = {
+		name= "1st Wallachia infantry"
+		type = infantry
+		home = 664
+	}
+
+	regiment = {
+		name= "2nd Wallachia infantry"
+		type = infantry
+		home = 668
+	}
+
+	regiment = {
+		name= "3rd Wallachia infantry"
+		type = hussar
+		home = 669
+	}
+
+}
+

@@ -1,0 +1,5 @@
+owner = CAL
+controller = CAL add_core = NEN
+add_core = USA add_core = SPC add_core = CAL
+trade_goods = coal
+life_rating = 35

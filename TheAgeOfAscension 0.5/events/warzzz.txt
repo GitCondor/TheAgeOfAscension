@@ -1,0 +1,39 @@
+country_event = {
+	id = 999999
+	title = "RIP"
+	desc = "ya valio"
+	
+	trigger = {
+	war_exhaustion = 75
+	ai = no
+	NOT = {has_country_modifier = war_exhaustiozzz}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		add_country_modifier = {
+			name = war_exhaustiozzz
+			duration = -1
+		}}
+	option = {
+		name = "Oh, que pene"
+	}
+}
+country_event = {
+	id = 999998
+	title = "Termino"
+	desc = "Porfin termino..."
+	
+	trigger = {
+	    NOT={war_exhaustion = 75}
+			has_country_modifier = war_exhaustiozzz
+	}
+	
+	mean_time_to_happen = {days=0}
+	immediate = {remove_country_modifier = war_exhaustiozzz}
+	option = {
+		name = "happy happy happy pipipi"
+	}
+}

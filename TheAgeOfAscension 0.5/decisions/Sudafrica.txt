@@ -1,0 +1,284 @@
+
+political_decisions = {
+
+	form_sudafrica = {
+	    picture = sudafrica
+	    potential = {
+		    #   
+			NOT = {
+			    exists = SAF
+			}
+			OR = {
+			    tag = TRN
+				tag = ZUL
+				tag = ORA
+			}
+			
+		}
+		allow = {
+		    prestige = 50
+			war = no
+			TRN = {
+			    all_core = {
+				    owned_by = THIS
+				}
+			}
+			ZUL = {
+			    all_core = {
+				    owned_by = THIS
+				}
+			}
+			ORA = {
+			    all_core = {
+				    owned_by = THIS
+				}
+			}
+		    #
+		}
+		effect = {
+		    #
+			prestige = 40
+			change_tag = SAF
+			add_accepted_culture = boer
+			add_accepted_culture = zulu
+			add_accepted_culture = zulu
+			add_accepted_culture = african_minor
+			TRN = {
+			    all_core = {
+				    add_core = SAF
+				}
+			}
+			ZUL = {
+			    all_core = {
+				    add_core = SAF
+				}
+			}
+			ORA = {
+			    all_core = {
+				    add_core = SAF
+				}
+			}
+			any_country = {
+				limit = {
+					OR = {
+					    in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				any_owned = {
+					limit = {
+						is_core = SAF
+					}
+					secede_province = THIS
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	accept_the_nativas_saf = {
+	    picture = native_protection_act
+	    potential = {
+		    #   
+			tag = SAF
+			NOT={has_global_flag=acceptnatives3}
+		}
+		allow = {
+		    prestige = 50
+			ruling_party_ideology = socialist
+			war = no
+		    #
+		}
+		effect = {
+		    #
+			prestige = 20
+			add_accepted_culture = west_african
+			add_accepted_culture = yoruba
+			add_accepted_culture = zulu
+			add_accepted_culture = unyamwezi
+			add_accepted_culture = african_minor
+			set_global_flag=acceptnatives3
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	saf_reorganization = {
+   		 potential = {
+		 	or = {
+			tag = ENG
+			tag = BEN
+			}
+		 	NOT = {
+				has_global_flag = safed
+				}
+    		}
+
+    		allow = { 
+				war = no
+				SAF = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			positivism = 1
+    		}
+
+    		effect = {
+			prestige = 15
+			add_accepted_culture = african_minor
+			SAF = {all_core={add_core = THIS}}
+			set_global_flag = safed
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+    	}
+		
+	ceylon_conquer = {
+   		 potential = {
+		 	is_greater_power = yes
+		 	NOT = {
+				has_global_flag = indid
+				}
+    		}
+
+    		allow = { 
+			war = no
+			owns = 3251
+			positivism = 1
+    		}
+
+    		effect = {
+			1323 = {secede_province = THIS}
+			1321 = {secede_province = THIS}
+			1324 = {secede_province = THIS}
+			1322 = {secede_province = THIS}
+			prestige = 5
+			set_global_flag = indid
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+    }
+	
+	take_over_molucas = {
+   		 potential = {
+		 	NOT = {
+				has_global_flag = molusco
+				}
+    		}
+
+    		allow = { 
+			war = no
+			owns = 1433
+			owns = 1448
+			biologism = 1
+    		}
+
+    		effect = {
+			1430 = {secede_province = THIS}
+			1431 = {secede_province = THIS}
+			1432 = {secede_province = THIS}
+			1433 = {secede_province = THIS}
+			1434 = {secede_province = THIS}
+			1435 = {secede_province = THIS}
+			1436 = {secede_province = THIS}
+			1437 = {secede_province = THIS}
+			1447 = {secede_province = THIS}
+			1449 = {secede_province = THIS}
+			1450 = {secede_province = THIS}
+			prestige = 5
+			set_global_flag = molusco
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+    }
+	
+	borneo_conquer = {
+   		 potential = {
+		 	NOT = {
+				has_global_flag = borde
+				}
+    		}
+
+    		allow = { 
+			war = no
+			owns = 1393
+			biologism = 1
+    		}
+
+    		effect = {
+			1422 = {secede_province = THIS}
+			1429 = {secede_province = THIS}
+			1425 = {secede_province = THIS}
+			1397 = {secede_province = THIS}
+			prestige = 5
+			set_global_flag = borde
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+    }
+
+
+
+BELGIOTIAN_EMPIRE = {
+	    picture = native_protection_act
+	    potential = {
+		    #   
+			tag = LIB
+			NOT={has_global_flag=greatbel}
+		}
+		allow = {
+		    prestige = 50
+			war = no
+			LIB = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		    #
+		}
+		effect = {
+		    #
+			prestige = 20
+			add_accepted_culture = african_minor
+			add_accepted_culture = african_minor
+			add_accepted_culture = african_minor
+			add_accepted_culture = african_minor
+			add_accepted_culture = asian_minor
+			add_accepted_culture = african_minor
+			add_accepted_culture = asian_minor
+			add_accepted_culture = african_minor
+			add_country_modifier = {
+				name = research_boost
+				duration = -1
+			}
+			set_global_flag=greatbel
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+}
