@@ -1,9 +1,0 @@
-army = {
-	name = "Megenische Landwehr"
-	location = 563
-	regiment = {
-		name= "1. Lienfanteriebrigade"
-		type = irregular
-		home = 563
-	}
-}

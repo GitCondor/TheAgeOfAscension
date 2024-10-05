@@ -1,4 +1,0 @@
-owner = BRU
-controller = BRU
-trade_goods = sulphur
-life_rating = 15

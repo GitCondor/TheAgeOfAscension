@@ -1,8 +1,0 @@
-owner = SER 
-controller = SER
-add_core = CRO
-add_core = CRO
-add_core = HUN
-add_core = CRO
-trade_goods = grain
-life_rating = 35

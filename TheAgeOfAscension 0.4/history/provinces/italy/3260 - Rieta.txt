@@ -1,8 +1,0 @@
-owner = SAR add_core = SAR
-controller = SAR
-add_core = ITA
-add_core = ITA
-
-trade_goods = fruit
-life_rating = 35
-

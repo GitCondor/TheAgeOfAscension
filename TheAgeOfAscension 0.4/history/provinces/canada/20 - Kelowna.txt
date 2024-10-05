@@ -1,9 +1,0 @@
-add_core = DNG controller = DNG owner = DNG
-add_core = COL
-trade_goods = grain
-life_rating = 35
-1861.1.1 = {
-	owner = ING
-	controller = ING
-	colonial = 2
-}

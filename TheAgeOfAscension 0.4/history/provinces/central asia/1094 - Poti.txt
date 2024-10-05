@@ -1,6 +1,0 @@
-owner = GEO
-controller = GEO
-add_core = GEO add_core = SIB
-add_core = GEO add_core = SIB
-trade_goods = tea
-life_rating = 35

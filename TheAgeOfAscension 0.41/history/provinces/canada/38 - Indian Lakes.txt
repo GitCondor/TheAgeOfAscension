@@ -1,9 +1,0 @@
-add_core = NEN
-add_core = MTC
-trade_goods = timber
-life_rating = 35
-1861.1.1 = {
-	owner = ING
-	controller = ING
-	colonial = 2
-}

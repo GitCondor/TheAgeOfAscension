@@ -1,5 +1,0 @@
-owner = NPE
-controller = NPE
-add_core = NPE
-trade_goods = fish
-life_rating = 35

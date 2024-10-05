@@ -1,7 +1,0 @@
-owner = NOR
-controller = NOR
-add_core = NOR  add_core = CEL
-add_core = SCO add_core = ENG 
-trade_goods = fish
-life_rating = 35
-1861.1.1 = { railroad = 3 }

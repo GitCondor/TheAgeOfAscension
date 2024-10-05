@@ -1,7 +1,0 @@
-owner = SGF
-controller = SGF
-add_core = SGF add_core = HRM
-trade_goods = coal
-life_rating = 35
-1861.1.1 = { railroad = 2 }
-add_core = SGF add_core = HRM
